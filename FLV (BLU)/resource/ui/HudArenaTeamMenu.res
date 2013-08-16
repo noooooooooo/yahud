@@ -455,7 +455,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"&Q"
+		"labelText"		""
 		"textAlignment"	"center"
 		"Command"		"cancelmenu"
 		"border_default"	""

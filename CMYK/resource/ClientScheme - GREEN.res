@@ -13,7 +13,7 @@ Scheme
 		//"Control Name"     "Red Green Blue Transparency"   //Description or comment
         //
 		//The first 3 numbers are the RGB values, the last one is the transparency
-		//Setting the numbers to "0 255 0 255" would create a solid green color for example
+		//Setting the numbers to "0 227 81 255"would create a solid green color for example
         //
         //
         //CHOOSING COLORS
@@ -33,7 +33,7 @@ Scheme
         
         //CMYK - main color
 
-        "Flavor"               "225 0 122 255"      //Main color
+        "Flavor"               "0 227 81 255"     //Main color
                                                     //used for selection in menus
         
         //You can replace it with one of these
@@ -59,17 +59,17 @@ Scheme
         //// COLOR OPTIONS ////
         
         "Damage"              "236 236 41 255"      //Damage numbers
-        "Crosshair"           "236 236 41 255"      //Crosshair color
-        "CrosshairDamage"      "225 0 122 255"      //Crosshair damage flash color
+        "Crosshair"           "0 227 81 255"        //Crosshair color
+        "CrosshairDamage"     "225 0 122 255"       //Crosshair damage flash color
                                                     //Make this the same as "Crosshair" to disable the flash
         //Crosshairs can be activated in /scripts/hudlayout.res      
         
         "Ammo"               "227 227 227 255"      //Current clip
-		"AmmoReserve"        "0 157 224 255"        //Reserve clip
+		"AmmoReserve"        "0 227 81 255"         //Reserve clip
         "AmmoLow"             "225 0 122 255"       //Low ammo count
         
         "Health"             "227 227 227 255"      //Normal health color
-        "Positive"           "0 157 224 255"        //Buffed HP    
+        "Positive"           "0 227 81 255"       //Buffed HP    
         "Negative"           "225 0 122 255"        //Low HP    
         
         "ChargingUber"        "225 0 122 255"       //Percentage color when charging
@@ -84,7 +84,7 @@ Scheme
         
         "Red" 			   "225 0 122 255"     //red team  
 		"Blue"			    "0 157 224 255"    //blue team
-        "Green"				"0 157 224 255"    //health pickup etc
+        "Green"				"0 227 81 255"   //health pickup etc
                                                //not green here
         
 		//// HUD COLORS////
