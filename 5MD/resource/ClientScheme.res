@@ -5,20 +5,30 @@ Scheme
 	Colors
 	{
 		/////////////////////////////////////////////////////////////////////////////////////
-		//Custom Colors & HUD Elements
-		/////////////////////////////////////////////////////////////////////////////////////
+		//COLORS & OPTIONAL HUD ELEMENTS
 		//You can customize the look and feel of the HUD here.
 		//
-		//the first 3 numbers are the RGB values, the last one is the transparency
+        //HOW IT WORKS
         //
-		//This is a decent site for finding the color you would like
+		//"Control Name"     "Red Green Blue Transparency"   //Description or comment
+        //
+		//The first 3 numbers are the RGB values, the last one is the transparency
+		//Setting the numbers to "0 255 0 255" would create a solid green color for example
+        //
+        //
+        //CHOOSING COLORS
+        //
+        //This is a decent site for finding colors
 		//https://kuler.adobe.com/create/color-wheel/
+        //Set it to "custom" unless you want a specific scheme.
+        //
+        //You can other schemes here: kuler.adobe.com/explore
 		//
 		//You will need to restart TF2 for any changes to take effect.
-		//
-		//"Control Name"     "R   G   B   Transparency"   //Description
-		//
-		//Setting the numbers to "0 255 0 255" would create a solid green color for example
+        //
+        //PS: You can learn more about this by googling "RGB" or 
+        //by taking a look at the various hud tutorials that are out there.
+        //Some are linked in the FAQ.
 		/////////////////////////////////////////////////////////////////////////////////////
 		
         //// OPTIONAL ELEMENTS ////
@@ -40,6 +50,8 @@ Scheme
         "Damage"                "227 227 227 255"     //Damage numbers
         "Crosshair"             "227 227 227 255"     //Crosshair color
         "CrosshairDamage"       "255 0 0 255"         //Crosshair damage flash color
+                                                      //Make this the same as "Crosshair" to disable the flash
+        //Crosshairs can be activated in /scripts/hudlayout.res  
       
         "Ammo"                 "227 227 227 255"      //Current clip
 		"AmmoReserve"          "227 227 227 255"      //Reserve clip
@@ -53,7 +65,7 @@ Scheme
         "Uber"           "22 182 71 255"     //Uber ready color
         "UberMeter"      "22 182 71 255"     //Uber meter color
         
-        "Time"          "227 227 227 255"     //Timer color
+        "Time"          "227 227 227 255"    //Timer color
        
         
         //// BASE COLORS ////
@@ -63,7 +75,6 @@ Scheme
         "Green"			    "22 182 71 255"         //HP pickup
         
 		//// HUD COLORS////
-        
 		
 		"ButtonBG"              "107 107 107 255"        //Standard button color
 		"ButtonArmed"		    "54 54 54 255"		     //Armed color
@@ -75,11 +86,7 @@ Scheme
         "DarkGray"          "36 36 36 188"
         "DarkGraySolid"     "36 36 36 255"
         "Gray"              "154 142 142 255"
-        "BrightGray"        "210 200 200 255"  
-        
-		"Red" 			    "250 54 54 255"  
-		"Blue"			    "18 132 220 255"  
-        "Green"				"22 182 71 255"
+        "BrightGray"        "210 200 200 255"
 
 		"GrayBG"               "74 74 74 255"   //Game menu colors
 		"GrayBGDark"           "57 57 57 255"				

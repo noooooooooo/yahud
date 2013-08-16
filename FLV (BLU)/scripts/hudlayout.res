@@ -1,94 +1,21 @@
 "Resource/HudLayout.res"
 { 
-    "flvCrosshairdisplay"
-		{
-        "controlname"	"CExLabel"
-		"fieldname"	"flvCrosshairdisplay"      //Color is changed via the clientscheme
-		"fgcolor"	"Black"         //in the "/resource/" folder
-        "textAlignment"	"north-west"
-        "wrap"      "1"
-		"visible"	"0"			        //"1" to enable
-		"enabled"	"1"
-		"xpos"		"5"
-		"ypos"		"5"
-		"zpos"		"2"
-		"wide"		"f0"
-		"tall"		"480"
-        
-		"labeltext"	"a A b B c C d D e E f F g G" // k K n N q Q t T v V x X"             
-        
-        "font"		"CrosshairAA"
-	}
-     "flvCrosshairdisplay2"
-		{
-        "controlname"	"CExLabel"
-		"fieldname"	"flvCrosshairdisplay2"      //Color is changed via the clientscheme
-		"fgcolor"	"Black"         //in the "/resource/" folder
-        "textAlignment"	"north-west"
-        "wrap"      "1"
-		"visible"	"0"			        //"1" to enable
-		"enabled"	"1"
-		"xpos"		"5"
-		"ypos"		"65"
-		"zpos"		"2"
-		"wide"		"f0"
-		"tall"		"480"
-        
-		"labeltext"	"k K n N q Q t T v V x X"             
-        
-        "font"		"CrosshairAA"
-	}
-    "bg"
-	{
-		"controlName"	"ImagePanel"
-		"fieldName"		"bg"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-111"
-		"wide"			"f0"
-		"tall"			"480"
-		"fillcolor"		"227 227 227 255"
-		"visible"			"0"
-		"enabled"			"1"
-	}
-	"Layout1"
-	{
-		"controlName"	"ImagePanel"
-		"fieldName"		"Layout1"
-		"xpos"			"0"
-		"ypos"			"352"
-		"zpos"			"-111"
-		"wide"			"f0"
-		"tall"			"2"
-		"fillcolor"		"255 0 255 255"
-		"visible"			"0"
-		"enabled"			"1"
-	}
-    
-    
-    
-    
-    
-    
-    
-    
-    
     /////////////////////////////////////////////////////////////////////////////
 	//  CUSTOMIZATION START   ///////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////
 
     /////////////////////////////////////////////////////////////////////////////
-	//FLV Crosshair
+	//whayay's Crosshair
     //
     //You can change the xpos and ypos if these are not centered.
     //Use the in-game crosshair for guidance. 
     //You can refresh the crosshair with the command "hud_reloadscheme"
 	/////////////////////////////////////////////////////////////////////////////
 
-	"flvCrosshair"
+	"Crosshair"
 		{
         "controlname"	"CExLabel"
-		"fieldname"	"flvCrosshair"
+		"fieldname"	"Crosshair"
         "textAlignment"	"center"
 		"xpos"		"0"
 		"ypos"		"0"
@@ -97,9 +24,9 @@
 		"tall"		"480"
         "enabled"	"1"
         
-        "visible"	"1"			     //"1" to enable
+        "visible"	"0"			     //"1" to enable
         
-		"labeltext"	"b"              //Change this to use a different crosshair
+		"labeltext"	"t"              //Change this to use a different crosshair
                                      //You can see the list of crosshairs in yacrosshairs.png
         
         "font"		"CrosshairOL"    //Use "CrosshairOL" for a crosshair with an outline
@@ -112,10 +39,10 @@
                                      //in the "/resource/" folder
 	}
     
-    "flvBonusOutline"
+    "BonusOutline"
 		{
         "controlname"	"CExLabel"
-		"fieldname"	    "flvOutline"      
+		"fieldname"	    "Outline"      
 		"fgcolor"	    "Black"
 		"enabled"	    "1"
 		"xpos"		    "c-20"
@@ -125,7 +52,7 @@
 		"tall"		    "43"
 		"labeltext"	    "O"
         "textAlignment"	"center"        
-        
+                                        //Circle around crosshair
         "visible"	"0"			        //"1" to enable
         
         "fgcolor"	"Black"             //Color
@@ -215,7 +142,6 @@
 	/////////////////////////////////////////////////////////////////////////////
 	//Fog's Crosshair
 	/////////////////////////////////////////////////////////////////////////////
-
 
 	"fogCrosshair"
 		{

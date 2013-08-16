@@ -24,7 +24,6 @@ Scheme
         //
         //You can other schemes here: kuler.adobe.com/explore
 		//
-        //
 		//You will need to restart TF2 for any changes to take effect.
         //
         //PS: You can learn more about this by googling "RGB" or 
@@ -59,11 +58,12 @@ Scheme
         
         //// COLOR OPTIONS ////
         
-      
         "Damage"              "236 236 41 255"      //Damage numbers
         "Crosshair"           "236 236 41 255"      //Crosshair color
         "CrosshairDamage"      "225 0 122 255"      //Crosshair damage flash color
-      
+                                                    //Make this the same as "Crosshair" to disable the flash
+        //Crosshairs can be activated in /scripts/hudlayout.res      
+        
         "Ammo"               "227 227 227 255"      //Current clip
 		"AmmoReserve"        "0 157 224 255"        //Reserve clip
         "AmmoLow"             "225 0 122 255"       //Low ammo count
@@ -90,7 +90,7 @@ Scheme
 		//// HUD COLORS////
         
 		"ButtonBG"              "0 0 0 255"        //Standard button color
-		"ButtonArmed"		    "54 54 54 255"		     //Armed color
+		"ButtonArmed"		    "54 54 54 255"	   //Armed color
 		"ButtonSelect"	        "107 107 107 255"
 		
         "White"				"227 227 227 255"
@@ -100,10 +100,6 @@ Scheme
         "DarkGraySolid"     "36 36 36 255"
         "Gray"              "154 142 142 255"
         "BrightGray"        "210 200 200 255"  
-        
-		"Red" 			    "250 54 54 255"  
-		"Blue"			    "18 132 220 255"  
-        "Green"				"22 182 71 255"
 
 		"GrayBG"               "54 54 54 255"   //Game menu colors
 		"GrayBGDark"           "40 40 40 255"				
