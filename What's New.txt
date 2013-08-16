@@ -1,0 +1,49 @@
+What's new?
+
+GENERAL
+
+Added CMYK, FLV & 5MD versions
+
+- Re-designed and tweaked all menus
+    - Added tool-tips to the main menu
+    - Took in "Home Server" from previous alternative menu
+    - 
+    
+- New hud-crosshairs
+    - supports hit animation
+    - won't need re-centering
+    - easier customization
+   (still WIP, please give feedback)
+    
+- New scoreboard (with stats)
+    - ported right side & blank scoreboard
+
+- Improved SpecHUD
+    - better team indicators
+    - easier to see who is alive
+    - moved Uber % closer to medic class image
+    - fixed engineer info being hidden behind SpecHUD
+
+- Tweaked Ammo, Uber% and special counters
+- Re-did charge meters
+- Removed all flashing visuals (readability)
+- Re-did timers, stopwatch mode and ctf pointers
+- Added team-indicator in the bottom right corner
+
+FLV
+
+- Pick your team (red/blue versions)
+- Kept previous yahud HP visuals
+    - alternative CROSS file available
+
+CMYK
+
+- Pick your selection color in the clientscheme
+- Alternative CROSS and BONUSCROSS files for HP
+
+5MD
+
+- Little use of color
+    - colors can be added via the clientscheme
+    
+- Bonus cross effect on buff/low state

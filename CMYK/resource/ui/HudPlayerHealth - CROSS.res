@@ -164,7 +164,7 @@
 		"pinCorner"	"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"DarkGray"
+		"fillcolor"		"0 0 0 255"
 		"PaintBackgroundType""0"
 	}
 	"CrossBackground4"	
@@ -180,7 +180,7 @@
 		"pinCorner"	"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"DarkGray"
+		"fillcolor"		"0 0 0 255"
 		"PaintBackgroundType""0"
 	}
 	"PlayerStatusHealthBonusImage"

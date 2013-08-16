@@ -5,22 +5,46 @@ Scheme
 	Colors
 	{
 		/////////////////////////////////////////////////////////////////////////////////////
-		//Custom Colors & HUD Elements
-		/////////////////////////////////////////////////////////////////////////////////////
+		//COLORS & OPTIONAL HUD ELEMENTS
 		//You can customize the look and feel of the HUD here.
 		//
-		//the first 3 numbers are the RGB values, the last one is the transparency
+        //HOW IT WORKS
         //
-		//This is a decent site for finding the color you would like
+		//"Control Name"     "Red Green Blue Transparency"   //Description or comment
+        //
+		//The first 3 numbers are the RGB values, the last one is the transparency
+		//Setting the numbers to "0 255 0 255" would create a solid green color for example
+        //
+        //
+        //CHOOSING COLORS
+        //
+        //This is a decent site for finding colors
 		//https://kuler.adobe.com/create/color-wheel/
+        //Set it to "custom" unless you want a specific scheme.
+        //
+        //You can other schemes here: kuler.adobe.com/explore
 		//
+        //
 		//You will need to restart TF2 for any changes to take effect.
-		//
-		//"Control Name"     "R   G   B   Transparency"   //Description
-		//
-		//Setting the numbers to "0 157 224 255" would create a solid green color for example
+        //
+        //PS: You can learn more about this by googling "RGB" or 
+        //by taking a look at the various hud tutorials that are out there.
+        //Some are linked in the FAQ.
 		/////////////////////////////////////////////////////////////////////////////////////
-            
+        
+        //CMYK - main color
+
+        "Flavor"               "225 0 122 255"      //Main color
+                                                    //used for selection in menus
+        
+        //You can replace it with one of these
+        
+        //                     "0 157 224 255"    //Blue     
+        //                     "225 0 122 255"    //Magenta           
+        //                     "236 236 41 255"   //Yellow                
+        //                     "142 142 142 255"  /Gray             
+
+        
         //// OPTIONAL ELEMENTS ////
         
         // Set the last value to "255" to enable or "0" to disable these specific feature
@@ -28,14 +52,13 @@ Scheme
         "MeterText"     "142 142 142 255"       //Item charge meter labels
         
         // Set the last value to "188" to enable or "0" to disable these specific feature
-        "HudShadow"     "0 0 0 188"          //Shadow on numbers
-        "NameBG"        "0 0 0 188"          //TargetID background
-                                             //(when looking at somebody)
+        "HudShadow"     "0 0 0 188"             //Shadow on numbers
+        "NameBG"        "0 0 0 188"             //TargetID background
+                                                //(when looking at somebody)
         
         
         //// COLOR OPTIONS ////
         
-        "Flavor"               "225 0 122 255"      //Main color for selecting elements
       
         "Damage"              "236 236 41 255"      //Damage numbers
         "Crosshair"           "236 236 41 255"      //Crosshair color
@@ -47,7 +70,7 @@ Scheme
         
         "Health"             "227 227 227 255"      //Normal health color
         "Positive"           "0 157 224 255"        //Buffed HP    
-        "Negative"            "225 0 122 255"       //Low HP    
+        "Negative"           "225 0 122 255"        //Low HP    
         
         "ChargingUber"        "225 0 122 255"       //Percentage color when charging
         "Uber"                "225 0 122 255"       //Uber ready color
@@ -66,7 +89,6 @@ Scheme
         
 		//// HUD COLORS////
         
-		
 		"ButtonBG"              "0 0 0 255"        //Standard button color
 		"ButtonArmed"		    "54 54 54 255"		     //Armed color
 		"ButtonSelect"	        "107 107 107 255"
@@ -98,9 +120,8 @@ Scheme
         "HudBG"             "0 0 0 0"  
         "MOTDBG"            "5 4 4 255"     
         "MOTDText"          "227 227 227 255"
-        "Buff"              "227 227 227 255"       //Buffed or low color, default white
+        "Buff"              "227 227 227 255"
         "Low"               "227 227 227 255"
-        
         
         "WhiteS"			"225 225 225 255"
         "LightGray"			"212 212 212 255"
@@ -264,11 +285,11 @@ Scheme
 		Econ.Button.DepressedBgColor						"ButtonBG"
 		Econ.Button.DepressedFgColor						"White"
 		
-		Econ.Button.PresetDefaultColorFg					"White"
+		Econ.Button.PresetDefaultColorFg					"Black"
 		Econ.Button.PresetArmedColorFg						"White"
 		Econ.Button.PresetDepressedColorFg					"White"
 		
-		Econ.Button.PresetDefaultColorBg					"ButtonSelect"
+		Econ.Button.PresetDefaultColorBg					"White"
 		Econ.Button.PresetArmedColorBg						"Flavor"
 		Econ.Button.PresetDepressedColorBg					"ButtonBG"
 		

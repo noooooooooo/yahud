@@ -39,7 +39,7 @@
 		"fieldName"		"PlayerStatusHealthValueShadow"
 		"xpos"			"c-239"
 		"ypos"			"336"
-		"zpos"			"-2"
+		"zpos"			"4"
 		"wide"			"200"
 		"tall"			"44"
 		"visible"		"1"
@@ -80,7 +80,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"c-260"
+		"xpos"			"c-234"
 		"ypos"			"3342"
 		"zpos"			"5"
 		"wide"			"43"	
@@ -205,8 +205,8 @@
 		"xpos"			"0"
 		"ypos"			"354"       //180
 		"zpos"			"7"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"16"
+		"tall"			"16"
 		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -420,7 +420,7 @@
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"0"		
 		"ypos"			"0"
-		"zpos"			"2"
+		"zpos"			"-5"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
