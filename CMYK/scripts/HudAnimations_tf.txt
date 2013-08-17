@@ -36,8 +36,8 @@ event DamagedPlayer
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"140"		    Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"220"		    Linear 0.2 0.4
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"200"		    Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"200"		    Linear 0.2 0.4
 
     Animate	PlayerStatusHealthValue 	    FgColor		"Positive"	        Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueCam 	    FgColor		"Positive"	        Accel 0.0 0.0
@@ -50,7 +50,7 @@ event HudHealthBonusPulse
 	Animate	TargetHPBG 	    BgColor		"Blank"	    Accel 0.0 0.0
     Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.0 0.3
 	Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.3 0.6
-    Animate	SpecBG 	        BgColor		"DarkGray"	    Accel 0.0 0.0
+    Animate	SpecBG 	        BgColor		"178 178 178 255"	    Accel 0.0 0.0
     Animate	SpecBG 	        Alpha		"255"		        Accel 0.0 0.3
 	Animate	SpecBG 	        Alpha		"255"		        Accel 0.3 0.6
 
@@ -85,7 +85,7 @@ event HudHealthBonusPulseStop
     Animate	HealthBG 	     Alpha		    "255"		           Accel 0.0 0.0
 	Animate	TargetHPBG 	     BgColor		"Blank"	       Accel 0.0 0.0
     Animate	TargetHPBG 	     Alpha		    "255"		           Accel 0.0 0.0
-    Animate	SpecBG 	         BgColor		"DarkGray"	       Accel 0.0 0.0
+    Animate	SpecBG 	         BgColor		"Blank"	       Accel 0.0 0.0
     Animate	SpecBG 	         Alpha		    "255"		           Accel 0.0 0.0
     
 }
@@ -95,8 +95,8 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"140"		         Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"220"		         Linear 0.125 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		         Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		         Linear 0.125 0.075
 
     Animate	PlayerStatusHealthValue 	    FgColor		"Negative"	        Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueCam 	    FgColor		"Negative"	        Accel 0.0 0.0
@@ -109,7 +109,7 @@ event HudHealthDyingPulse
 	Animate	TargetHPBG 	    BgColor	    "Blank"	    Accel 0.0 0.0
     Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.0 0.3
 	Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.3 0.6
-    Animate	SpecBG 	        BgColor		"DarkGray"	    Accel 0.0 0.0
+    Animate	SpecBG 	        BgColor		"Red"	    Accel 0.0 0.0
     Animate	SpecBG 	        Alpha		"255"		        Accel 0.0 0.3
 	Animate	SpecBG 	        Alpha		"255"		        Accel 0.3 0.6
 
@@ -145,7 +145,7 @@ event HudHealthDyingPulseStop
     Animate	HealthBG 	     Alpha		    "255"		            Accel 0.0 0.0
 	Animate	TargetHPBG 	     BgColor		"Blank"	        Accel 0.0 0.0
     Animate	TargetHPBG 	     Alpha		    "255"		            Accel 0.0 0.0
-    Animate	SpecBG 	         BgColor		"DarkGray"	       Accel 0.0 0.0
+    Animate	SpecBG 	         BgColor		"Blank"	       Accel 0.0 0.0
     Animate	SpecBG 	         Alpha		    "255"		           Accel 0.0 0.0
     
 }
@@ -160,7 +160,7 @@ event LowAmmoPulse
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"		Linear 0.125 0.075
 
     Animate	AmmoInClip		FgColor		"AmmoLow"	         Accel 0.0 0.0
-	Animate	AmmoInReserve	FgColor		"AmmoReserve"            Accel 0.0 0.0
+	Animate	AmmoInReserve	FgColor		"AmmoLow"            Accel 0.0 0.0
 	Animate	AmmoNoClip		FgColor		"AmmoLow"	         Accel 0.0 0.0
     
 	Animate	AmmoBG 	                BgColor		"Blank"	        linear 0.0 0.0

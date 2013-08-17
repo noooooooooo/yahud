@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SpecBG"
-		"xpos"		"116"
+		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"1"
 		"wide"        "160"
@@ -13,7 +13,7 @@
 		"pinCorner"	"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"defaultBgColor_Override"		"DarkGray"
+		"defaultBgColor_Override"		"Blank"
 		"PaintBackgroundType""0"
         "textinsety" "99"
 	}
@@ -62,13 +62,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"	"1008"
-		"ypos"	"8"
+		"xpos"	"0"
+		"ypos"	"-2220"
 		"zpos"			"3"
-		"wide"	"0"
-		"tall"	"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"	"60"
+		"tall"	"60"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
@@ -90,7 +90,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueTour"
-		"xpos"			"118"
+		"xpos"			"0"
 		"ypos"			"-2"
 		"zpos"			"5"
 		"wide"			"28"
@@ -101,5 +101,21 @@
 		"textAlignment"		"center"
 		"fgcolor"			"Health"
 		"font"			"NoveMedium14"
-      }								
+    }
+    "PlayerStatusHealthValueTourShadow"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueTourShadow"
+		"xpos"			"1"
+		"ypos"			"-1"
+		"zpos"			"4"
+		"wide"			"28"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"labeltext"		"%Health%"
+		"textAlignment"		"center"
+		"fgcolor"			"0 0 0 242"
+		"font"			"NoveMedium14"
+      }	
 }

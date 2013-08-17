@@ -341,7 +341,7 @@
 			"image_drawcolor"	"0 0 0 0"
 			"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
             
-            "labeltext" "CMYK HUD version 0.07"
+            "labeltext" "5MD HUD version 0.07"
             "command" "engine con_enable 1; engine toggleconsole; clear; echo Thanks for using this HUD!"
             
             

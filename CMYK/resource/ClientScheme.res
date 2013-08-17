@@ -30,20 +30,7 @@ Scheme
         //by taking a look at the various hud tutorials that are out there.
         //Some are linked in the FAQ.
 		/////////////////////////////////////////////////////////////////////////////////////
-        
-        //CMYK - main color
-
-        "Flavor"               "225 0 122 255"      //Main color
-                                                    //used for selection in menus
-        
-        //You can replace it with one of these
-        
-        //                     "0 157 224 255"    //Blue     
-        //                     "225 0 122 255"    //Magenta           
-        //                     "236 236 41 255"   //Yellow                
-        //                     "142 142 142 255"  //Gray             
-
-        
+		
         //// OPTIONAL ELEMENTS ////
         
         // Set the last value to "255" to enable or "0" to disable these specific feature
@@ -51,62 +38,62 @@ Scheme
         "MeterText"     "142 142 142 255"       //Item charge meter labels
         
         // Set the last value to "188" to enable or "0" to disable these specific feature
-        "HudShadow"     "0 0 0 188"             //Shadow on numbers
-        "NameBG"        "0 0 0 188"             //TargetID background
-                                                //(when looking at somebody)
+        "HudShadow"     "0 0 0 188"          //Shadow on numbers
+        "NameBG"        "36 36 36 188"       //TargetID background
+                                             //(when looking at somebody)
         
         
         //// COLOR OPTIONS ////
         
-        "Damage"              "236 236 41 255"      //Damage numbers
-        "Crosshair"           "236 236 41 255"      //Crosshair color
-        "CrosshairDamage"      "225 0 122 255"      //Crosshair damage flash color
-                                                    //Make this the same as "Crosshair" to disable the flash
-        //Crosshairs can be activated in /scripts/hudlayout.res      
+        "Flavor"                "142 142 142 255"     //Main color for selecting elements
+      
+        "Damage"                "227 227 227 255"     //Damage numbers
+        "Crosshair"             "227 227 227 255"     //Crosshair color
+        "CrosshairDamage"       "255 0 0 255"         //Crosshair damage flash color
+                                                      //Make this the same as "Crosshair" to disable the flash
+        //Crosshairs can be activated in /scripts/hudlayout.res  
+      
+        "Ammo"                 "227 227 227 255"      //Current clip
+		"AmmoReserve"          "227 227 227 255"      //Reserve clip
+        "AmmoLow"              "142 142 142 255"      //Low ammo count
         
-        "Ammo"               "227 227 227 255"      //Current clip
-		"AmmoReserve"        "0 157 224 255"        //Reserve clip
-        "AmmoLow"             "225 0 122 255"       //Low ammo count
+        "Health"               "227 227 227 255"      //Normal health color
+        "Positive"             "255 255 255 255"      //Buffed HP    
+        "Negative"             "255 227 227 255"      //Low HP    
         
-        "Health"             "227 227 227 255"      //Normal health color
-        "Positive"           "0 157 224 255"        //Buffed HP    
-        "Negative"           "225 0 122 255"        //Low HP    
+        "ChargingUber"   "227 227 227 255"   //Percentage color when charging
+        "Uber"           "22 182 71 255"     //Uber ready color
+        "UberMeter"      "22 182 71 255"     //Uber meter color
         
-        "ChargingUber"        "225 0 122 255"       //Percentage color when charging
-        "Uber"                "225 0 122 255"       //Uber ready color
-        "UberMeter"           "225 0 122 255"       //Uber meter color
-        
-        "Time"                "236 236 41 255"      //Timer color
-        "Name"                "227 227 227 255"     //Target name
+        "Time"          "227 227 227 255"    //Timer color
        
         
         //// BASE COLORS ////
         
-        "Red" 			   "225 0 122 255"     //red team  
-		"Blue"			    "0 157 224 255"    //blue team
-        "Green"				"0 157 224 255"    //health pickup etc
-                                               //not green here
+        "Red" 			    "245 54 64 255"         //Red team  
+		"Blue"			    "18 127 220 255"        //Blue team
+        "Green"			    "22 182 71 255"         //HP pickup
         
 		//// HUD COLORS////
-        
-		"ButtonBG"              "0 0 0 255"        //Standard button color
-		"ButtonArmed"		    "54 54 54 255"	   //Armed color
-		"ButtonSelect"	        "107 107 107 255"
+		
+		"ButtonBG"              "107 107 107 255"        //Standard button color
+		"ButtonArmed"		    "54 54 54 255"		     //Armed color
+		"ButtonSelect"	         "27 27 27 255"
 		
         "White"				"227 227 227 255"
         "Black"				"18 17 17 255"
         
-        "DarkGray"          "0 0 0 188"
+        "DarkGray"          "36 36 36 188"
         "DarkGraySolid"     "36 36 36 255"
         "Gray"              "154 142 142 255"
-        "BrightGray"        "210 200 200 255"  
+        "BrightGray"        "210 200 200 255"
 
-		"GrayBG"               "54 54 54 255"   //Game menu colors
-		"GrayBGDark"           "40 40 40 255"				
-		"GrayBGDarkest"        "32 32 32 255"	
-		"GrayText"             "154 154 154 255"			
-		"FrameGray"            "74 74 74 255"
-		"BlackBorder"          "0 0 0 255"
+		"GrayBG"               "74 74 74 255"   //Game menu colors
+		"GrayBGDark"           "57 57 57 255"				
+		"GrayBGDarkest"        "27 27 27 255"	
+		"GrayText"             "127 127 127 255"			
+		"FrameGray"            "170 160 154 255"
+		"BlackBorder"          "27 27 27 255"
         
         //unused, backup & test
 
@@ -116,8 +103,9 @@ Scheme
         "HudBG"             "0 0 0 0"  
         "MOTDBG"            "5 4 4 255"     
         "MOTDText"          "227 227 227 255"
-        "Buff"              "227 227 227 255"
+        "Buff"              "227 227 227 255"       //Buffed or low color, default white
         "Low"               "227 227 227 255"
+        
         
         "WhiteS"			"225 225 225 255"
         "LightGray"			"212 212 212 255"
@@ -262,8 +250,8 @@ Scheme
 	{
 		// vgui_controls color specifications
 		ReplayBrowser.BgColor								"GrayBGDark"
-		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"Red"
-		ReplayBrowser.Button.ArmedBgColor					"Flavor"
+		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"LightRed"
+		ReplayBrowser.Button.ArmedBgColor					"ButtonArmed"
 		ReplayBrowser.Button.DepressedBgColor				"ButtonBG"
 		ReplayBrowser.CollectionTitle.FgColor				"GrayText"
 		ReplayBrowser.Warning.FgColor						"White"
@@ -276,17 +264,17 @@ Scheme
 		Econ.Dialog.BgColor									"Blank"
 		Econ.Button.BgColor									"ButtonBG"
 		Econ.Button.FgColor									"White"
-		Econ.Button.ArmedBgColor							"Flavor"
+		Econ.Button.ArmedBgColor							"ButtonArmed"
 		Econ.Button.ArmedFgColor							"White"
 		Econ.Button.DepressedBgColor						"ButtonBG"
 		Econ.Button.DepressedFgColor						"White"
 		
-		Econ.Button.PresetDefaultColorFg					"Black"
+		Econ.Button.PresetDefaultColorFg					"White"
 		Econ.Button.PresetArmedColorFg						"White"
 		Econ.Button.PresetDepressedColorFg					"White"
 		
-		Econ.Button.PresetDefaultColorBg					"White"
-		Econ.Button.PresetArmedColorBg						"Flavor"
+		Econ.Button.PresetDefaultColorBg					"ButtonSelect"
+		Econ.Button.PresetArmedColorBg						"ButtonArmed"
 		Econ.Button.PresetDepressedColorBg					"ButtonBG"
 		
 		Border.Bright					"Blank"		// the lit side of a control
@@ -296,7 +284,7 @@ Scheme
 		Button.TextColor				"White"
 		Button.BgColor					"ButtonBG"
 		Button.ArmedTextColor			"White"
-		Button.ArmedBgColor				"Flavor"
+		Button.ArmedBgColor				"ButtonArmed"
 		Button.SelectedTextColor		"White"
 		Button.SelectedBgColor			"ButtonSelect"
 		Button.DepressedTextColor		"White"
@@ -420,7 +408,7 @@ Scheme
 		TextEntry.TextColor			"Gray"
 		TextEntry.BgColor			"Blank"
 		TextEntry.CursorColor		"Gray"
-		TextEntry.DisabledTextColor	"GrayText"
+		TextEntry.DisabledTextColor	"Gray"
 		TextEntry.DisabledBgColor	"Blank"
 		TextEntry.SelectedTextColor	"TanLight"
 		TextEntry.SelectedBgColor	"Gray"
@@ -7023,7 +7011,7 @@ Scheme
 		}
         "21" 
 		{
-			"font" "resource/fonts/Novecentowide-Book.ttf"
+			"font" "resource/fonts/Novecentowide-Book.otf"
 			"name" "Novecentowide-Book"  
 		}
         "22" 

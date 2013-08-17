@@ -50,7 +50,7 @@ event HudHealthBonusPulse
 	Animate	TargetHPBG 	    BgColor		"Blank"	    Accel 0.0 0.0
     Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.0 0.3
 	Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.3 0.6
-    Animate	SpecBG 	        BgColor		"DarkGray"	    Accel 0.0 0.0
+    Animate	SpecBG 	        BgColor		"178 178 178 255"	    Accel 0.0 0.0
     Animate	SpecBG 	        Alpha		"255"		        Accel 0.0 0.3
 	Animate	SpecBG 	        Alpha		"255"		        Accel 0.3 0.6
 
@@ -85,7 +85,7 @@ event HudHealthBonusPulseStop
     Animate	HealthBG 	     Alpha		    "255"		           Accel 0.0 0.0
 	Animate	TargetHPBG 	     BgColor		"Blank"	       Accel 0.0 0.0
     Animate	TargetHPBG 	     Alpha		    "255"		           Accel 0.0 0.0
-    Animate	SpecBG 	         BgColor		"DarkGray"	       Accel 0.0 0.0
+    Animate	SpecBG 	         BgColor		"Blank"	       Accel 0.0 0.0
     Animate	SpecBG 	         Alpha		    "255"		           Accel 0.0 0.0
     
 }
@@ -109,7 +109,7 @@ event HudHealthDyingPulse
 	Animate	TargetHPBG 	    BgColor	    "Blank"	    Accel 0.0 0.0
     Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.0 0.3
 	Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.3 0.6
-    Animate	SpecBG 	        BgColor		"DarkGray"	    Accel 0.0 0.0
+    Animate	SpecBG 	        BgColor		"Red"	    Accel 0.0 0.0
     Animate	SpecBG 	        Alpha		"255"		        Accel 0.0 0.3
 	Animate	SpecBG 	        Alpha		"255"		        Accel 0.3 0.6
 
@@ -145,7 +145,7 @@ event HudHealthDyingPulseStop
     Animate	HealthBG 	     Alpha		    "255"		            Accel 0.0 0.0
 	Animate	TargetHPBG 	     BgColor		"Blank"	        Accel 0.0 0.0
     Animate	TargetHPBG 	     Alpha		    "255"		            Accel 0.0 0.0
-    Animate	SpecBG 	         BgColor		"DarkGray"	       Accel 0.0 0.0
+    Animate	SpecBG 	         BgColor		"Blank"	       Accel 0.0 0.0
     Animate	SpecBG 	         Alpha		    "255"		           Accel 0.0 0.0
     
 }

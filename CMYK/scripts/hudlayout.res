@@ -19,7 +19,7 @@
         "textAlignment"	"center"
 		"xpos"		"0"
 		"ypos"		"0"
-		"zpos"		"2"
+		"zpos"		"-200"
 		"wide"		"f0"
 		"tall"		"480"
         "enabled"	"1"
@@ -52,6 +52,7 @@
 		"tall"		    "43"
 		"labeltext"	    "O"
         "textAlignment"	"center"        
+        
                                         //Circle around crosshair
         "visible"	"0"			        //"1" to enable
         
@@ -89,7 +90,7 @@
 		"IconColor"		"White"
 		"LocalPlayerColor"	"Black"
 
-		"BaseBackgroundColor"	"DarkGray"	        //Dark background color        
+		"BaseBackgroundColor"	"36 36 36 214"	        //Dark background color        
 		"LocalBackgroundColor"	"242 242 242 255"	//Background color for you own actions
 	}
     
@@ -885,7 +886,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-170"
-		"ypos"		"272"
+		"ypos"		"270"
 		"wide"	 	"f0"
 		"tall"	 	"50"
 		"priority"	"40"
@@ -897,7 +898,7 @@
 		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos"		"c-120"
-		"ypos"		"303"
+		"ypos"		"300"
 		"wide"	 	"f0"
 		"tall"	 	"50" 
 		"priority"	"40"
@@ -909,7 +910,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-170"
-		"ypos"		"303"
+		"ypos"		"300"
 		"wide"	 	"f0"
 		"tall"	 	"50"
 		"priority"	"35"
