@@ -11,13 +11,13 @@
 		"tall"				"480"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"4"	
-		"delta_item_start_y"	"41"
-		"delta_item_end_y"		"41"
+		"delta_item_x"			"447"	
+		"delta_item_start_y"	"-1"
+		"delta_item_end_y"		"-1"
 		"PositiveColor"			"Green"
 		"NegativeColor"			"Red"
-		"delta_lifetime"		"0"
-		"delta_item_font"		"NoveLight10"
+		"delta_lifetime"		"2.0"
+		"delta_item_font"		"NoveLight20"
 		
         "TimePanelValue"
         {

@@ -19,7 +19,7 @@
         "textAlignment"	"center"
 		"xpos"		"0"
 		"ypos"		"0"
-		"zpos"		"2"
+		"zpos"		"-200"
 		"wide"		"f0"
 		"tall"		"480"
         "enabled"	"1"
