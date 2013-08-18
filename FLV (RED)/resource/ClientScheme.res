@@ -7000,7 +7000,7 @@ Scheme
 		}
         "21" 
 		{
-			"font" "resource/fonts/Novecentowide-Book.otf"
+			"font" "resource/fonts/Novecentowide-Book.ttf"
 			"name" "Novecentowide-Book"  
 		}
         "22" 

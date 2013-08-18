@@ -223,7 +223,7 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"Blank"
+		"fillcolor"		"255 255 255 195"
 	}
 	"WinReasonLabel"
 	{	
@@ -241,7 +241,7 @@
 		"enabled"		"1"
 		"labelText"		"%WinReasonLabel%"
 		"textAlignment"		"Center"
-		"fgcolor"		"White"
+		"fgcolor"		"Black"
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}

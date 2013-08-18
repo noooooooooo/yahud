@@ -223,7 +223,7 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"BrightGray"
+		"fillcolor"		"255 255 255 195"
 	}
 	"WinReasonLabel"
 	{	

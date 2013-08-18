@@ -93,7 +93,7 @@
 		"zpos"			"2"
 		"wide"			"640"
 		"tall"			"14"
-		"fgcolor"		"White"
+		"fgcolor"		"Name"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"

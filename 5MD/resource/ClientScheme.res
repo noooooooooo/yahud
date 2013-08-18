@@ -38,6 +38,7 @@ Scheme
         "MeterText"     "142 142 142 255"       //Item charge meter labels
         
         // Set the last value to "188" to enable or "0" to disable these specific feature
+        "HudShadow"     "0 0 0 188"          //Shadow on numbers
         "NameBG"        "36 36 36 188"       //TargetID background
                                              //(when looking at somebody)
         
@@ -72,8 +73,6 @@ Scheme
         "Red" 			    "245 54 64 255"         //Red team  
 		"Blue"			    "18 127 220 255"        //Blue team
         "Green"			    "22 182 71 255"         //HP pickup
-        
-        "HudShadow"     "0 0 0 255"          //Shadow on numbers
         
 		//// HUD COLORS////
 		
@@ -7012,7 +7011,7 @@ Scheme
 		}
         "21" 
 		{
-			"font" "resource/fonts/Novecentowide-Book.otf"
+			"font" "resource/fonts/Novecentowide-Book.ttf"
 			"name" "Novecentowide-Book"  
 		}
         "22" 

@@ -71,7 +71,7 @@
 		"zpos"			"-4"
 		"wide"			"f0"
 		"tall"			"480"
-		"fillcolor"		"120 120 120 15"
+		"fillcolor"		"0 0 0 15"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -128,9 +128,9 @@
 		"font"			"Heavy18"
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Flavor"
+		"armedFgColor_override" "Blue"
 		"depressedFgColor_override" "White"
-		"SelectedFgColor_override" "Flavor"
+		"SelectedFgColor_override" "Blue"
 	}
     "JoinRedButton"
 	{
@@ -158,9 +158,9 @@
 		"font"			"Heavy18"
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Flavor"
+		"armedFgColor_override" "Red"
 		"depressedFgColor_override" "White"
-		"SelectedFgColor_override" "Flavor"
+		"SelectedFgColor_override" "Red"
 	}
     "AutoShortcut"
 	{
