@@ -920,7 +920,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"Flavor"
+			"fgcolor_override"	"Black"
 		}
 	
 		"Notifications_ShowButtonPanel_SB"

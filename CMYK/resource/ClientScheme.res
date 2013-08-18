@@ -7023,7 +7023,7 @@ Scheme
 		}
         "21" 
 		{
-			"font" "resource/fonts/Novecentowide-Book.ttf"
+			"font" "resource/fonts/Novecentowide-Book.otf"
 			"name" "Novecentowide-Book"  
 		}
         "22" 
