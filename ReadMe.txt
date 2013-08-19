@@ -19,11 +19,13 @@ MAKE IT YOUR OWN
     You can find it in custom/hudname/resource.
     .res files can be opened with text editors such as Notepad++. 
 
-    You will find instructions on how to change colors & enable/disable certain elements in the clientscheme.
+    You can change colors and enable/disable certain elements.
+    Instructions are in the clientscheme itself.
 
     
     //Main Menu
-    You can enter your name for the main menu in /resource/ui/MainMenuOverride.res
+    You can enter your name for the main menu in 
+    /resource/ui/MainMenuOverride.res
 
     The bottom right star button can connect you to your favourite server.
     You'll need to add...
@@ -35,16 +37,21 @@ MAKE IT YOUR OWN
     
     //Crosshairs
     To enable HUD-crosshair navigate to /scripts/hudlayou.res
-    You'll need to locate the crosshair that you want to enable & set its visible value to "1".
+    First you'll need to locate the crosshair that you want to enable.
+    Then you can set its visible value to "1" to enable it.
     
-    The crosshair.png image gives you an overview of the new crosshairs (they're still WIP).
-    The letter in the "labeltext" entry is used to select your crosshair. You can change its color & change or disable the flash color in the clientscheme.
+    The crosshair.png image gives you an overview of the new crosshairs 
+    (they're still WIP).
+    The letter in the "labeltext" entry is used to select your crosshair. 
+    You can change its color & the on-hit flash color in the clientscheme.
     
-    All previous crosshairs are still part of the HUD. This includes fog's, Garm3n's & konr's crosshairs.
+    All previous crosshairs are still part of the HUD. 
+    This includes fog's, Garm3n's & konr's crosshairs.
     
     
     //Alternative files
-    Each version has some alternative files. You can see them in the imgur albums.
+    Each version has some alternative files. 
+    You can see them in the imgur albums.
     You can find these in the /resource/ and/or in the /resource/ui/ folder.
 
 ////////////////////////////////////////////////////////////////////
