@@ -558,7 +558,7 @@ Scheme
         {
 			"1"
 			{
-				"name"		"yacrosshair"
+				"name"		"crosshair"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" 	"1"
