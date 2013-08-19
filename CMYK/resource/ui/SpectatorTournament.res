@@ -361,7 +361,7 @@
 		"xpos"			"r405"	
 		"ypos"			"-1"	
 		"wide"			"400"	
-		"tall"			"22"
+		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -370,8 +370,8 @@
 		"use_proportional_insets" "0"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"east"
-		"font"			"NoveLight24"			
-		"fgcolor_override" "White"
+		"font"			"NoveMedium20"			
+		"fgcolor_override" "Time"
 	}
 	"BuyBackLabel"
 	{
