@@ -66,7 +66,8 @@ Some useful CONSOLE COMMANDS:
 
 Some useful LINKS:
 
-GitHub: 
+GitHub: github.com/whayay/yahud/
+GitHub issue tracker: github.com/whayay/yahud/issues
 SteamGroup: steamcommunity.com/groups/yahud
 TF.TV thread: teamfortress.tv/forum/thread/8336/
 

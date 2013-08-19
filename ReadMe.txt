@@ -8,8 +8,8 @@ GRAB IT
 
     
     //Installing
-    To install navigate to Steam / steamapps / common / team fortress 2 / tf / custom / .
-    Move the 5MD folder from the zip into that folder.
+    Navigate to Steam / steamapps / common / team fortress 2 / tf / custom / .
+    Move the one of the hud folders from the zip into that folder.
 	
 ////////////////////////////////////////////////////////////////////
 MAKE IT YOUR OWN
@@ -62,7 +62,7 @@ USING IT
     * re-download & install the hud
     
     You can submit bug reports, questions and requests with the GitHub issue tracker.
-    >>
+    github.com/whayay/yahud/issues
     This is the best way to let me know.
     
 ////////////////////////////////////////////////////////////////////
