@@ -68,9 +68,9 @@ USING IT
     * verify TF2's game cache on steam
     * re-download & install the hud
     
-    You can submit bug reports, questions and requests with the GitHub issue tracker.
+    You can submit bug reports & questions via the  GitHub issue tracker.
     github.com/whayay/yahud/issues
-    This is the best way to let me know.
+    This is the best way to let me know what's up.
     
 ////////////////////////////////////////////////////////////////////
     
