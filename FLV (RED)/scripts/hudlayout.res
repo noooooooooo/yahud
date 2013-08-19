@@ -72,7 +72,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"	
-		"ypos"	 "24"	
+		"ypos"	 "20"	
 		"wide"	 "636"
 		"tall"	 "468"
 

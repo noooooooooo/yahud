@@ -67,8 +67,8 @@ Some useful CONSOLE COMMANDS:
 Some useful LINKS:
 
 GitHub: 
-SteamGroup: 
-TF.TV thread: 
+SteamGroup: steamcommunity.com/groups/yahud
+TF.TV thread: teamfortress.tv/forum/thread/8336/
 
 Doodle's HUD Tutorial: http://doodlesstuff.com/?tutorial=tf2hud
 Rays's YT Tutorials: http://www.youtube.com/playlist?list=PL5eNrB8RrXXvohogCcKNKyk9SJxa26ltz
