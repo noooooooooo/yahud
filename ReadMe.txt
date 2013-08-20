@@ -36,7 +36,7 @@ MAKE IT YOUR OWN
     
     
     //Crosshairs
-    To enable HUD-crosshair navigate to /scripts/hudlayou.res
+    To enable HUD-crosshair navigate to /scripts/hudlayout.res
     First you'll need to locate the crosshair that you want to enable.
     Then you can set its visible value to "1" to enable it.
     
