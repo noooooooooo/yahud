@@ -738,7 +738,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor_override"	"Flavor"
+					"fgcolor_override"	"Black"
 					"wrap"			"1"
 				}
 			}
@@ -775,7 +775,7 @@
 			"paintbackground"	"1"
 			
 			"defaultFgColor_override" "235 226 202 255"
-			"defaultBgColor_override" "Flavor"
+			"defaultBgColor_override" "Black"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "235 226 202 255"
 		}	
@@ -920,7 +920,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"Flavor"
+			"fgcolor_override"	"Black"
 		}
 	
 		"Notifications_ShowButtonPanel_SB"
