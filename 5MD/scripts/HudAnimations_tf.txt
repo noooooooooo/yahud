@@ -194,7 +194,7 @@ event HudLowAmmoPulseStop
 event HudMedicCharged
 {
 	Animate	MedicBG 	            BgColor		"Blank"		    linear 0.0 0.0
-	Animate	ChargeMeter 	        FgColor		"Uber"		    linear 0.0 0.0
+	Animate	ChargeMeter 	        FgColor		"UberMeter"		    linear 0.0 0.0
     Animate ChargeLabel             FgColor		"Uber"		    linear 0.0 0.0
 
 	RunEvent HudMedicChargedLoop	0.6

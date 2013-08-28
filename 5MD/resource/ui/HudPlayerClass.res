@@ -20,8 +20,8 @@
 		"xpos"			"55"				//c202
 		"ypos"			"414"				//r138
 		"zpos"			"2"
-		"wide"			"28"
-		"tall"			"28"
+		"wide"			"0" //28
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"alpha"		    "0"

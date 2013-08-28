@@ -120,7 +120,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"BoldNumbers54"
-		"fgcolor"		"White"
+		"fgcolor"		"ChargingUber"
 	}
     "ChargeLabelShadow"
 	{
