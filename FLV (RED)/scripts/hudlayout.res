@@ -871,8 +871,8 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"				
-		"ypos"		"r472"				
+		"xpos"		"28"			    //0 	
+		"ypos"		"r456"			    //"r472"	
 		"zpos"		"-1"	
 		"wide"		"248"
 		"tall"		"453"
