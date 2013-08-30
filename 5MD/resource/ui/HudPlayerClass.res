@@ -26,6 +26,7 @@
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"	"1"	
+        "alpha"         "0"
 	}
 	"PlayerStatusSpyImage"
 	{
