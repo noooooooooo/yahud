@@ -1,9 +1,9 @@
 "Resource/UI/HudArenaPlayerCount.res"
 {
-	"Blue"
+	"blueteam"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"Blue"
+		"fieldName"		"blueteam"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
@@ -11,6 +11,13 @@
 		"tall"			"18"
 		"visible"		"1"	
 		
+        "background"
+		{
+			"ControlName"	"CTFImagePanel"
+			"fieldName"		"background"
+			"xpos"			"0"
+			"ypos"			"99999"
+		}
 		"count"
 		{
 			"ControlName"	"CExLabel"
@@ -24,17 +31,31 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"MediumNumbers20"
+			"font"			"NoveMedium20"
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"west"
 			"fgcolor"		"Blue"
-		}	
+		}
+        "countshadow"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"countshadow"
+			"xpos"			"0"
+			"ypos"			"9999"
+		}
+        "playerimage"
+		{
+			"ControlName"	"ImagePanel"		
+			"fieldName"		"playerimage"
+			"xpos"			"0"
+			"ypos"			"9999"
+		}
 	}
 
-	"Red"
+	"redteam"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"Red"
+		"fieldName"		"redteam"
 		"xpos"			"0"
 		"ypos"			"18"
 		"zpos"			"0"
@@ -42,6 +63,13 @@
 		"tall"			"18"
 		"visible"		"1"
 	
+        "background"
+		{
+			"ControlName"	"CTFImagePanel"
+			"fieldName"		"background"
+			"xpos"			"0"
+			"ypos"			"99999"
+		}
 		"count"
 		{
 			"ControlName"	"CExLabel"
@@ -55,11 +83,25 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"MediumNumbers20"
+			"font"			"NoveMedium20"
 			"labelText"		"%red_alive%"
 			"textAlignment"	"west"
 			"fgcolor"		"Red"
-		}	
+		}
+        "countshadow"
+            {
+                "ControlName"		"CExLabel"
+                "fieldName"		"countshadow"
+                "xpos"			"0"
+                "ypos"			"9999"
+            }
+            "playerimage"
+            {
+                "ControlName"	"ImagePanel"		
+                "fieldName"		"playerimage"
+                "xpos"			"0"
+                "ypos"			"9999"
+            }        
 	}
 
 	"PlayerIcon"
@@ -69,10 +111,10 @@
 		"xpos"			"c-4"
 		"ypos"			"2"
 		"zpos"			"3"
-		"wide"			"8"
-		"tall"			"16"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"capture_icon_white"
 		"scaleImage"	"1"
 	}

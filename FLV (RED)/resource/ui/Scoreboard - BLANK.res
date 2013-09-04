@@ -138,7 +138,7 @@
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"	"south-west"
 		"xpos"			"3"
-		"ypos"			"r85"
+		"ypos"			"r93"
 		"zpos"			"4"
 		"wide"			"140"
 		"tall"			"82"
