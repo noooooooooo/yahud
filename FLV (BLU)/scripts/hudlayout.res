@@ -940,6 +940,22 @@
 		"PaintBackgroundType"	"2"
 	}
 
+    HudSpellMenu
+    {
+		"fieldName" "HudSpellMenu"
+		"visible" "1"
+		"enabled" "1"
+		"wide" "f0"
+		"tall" "480"
+		"zpos" "2"
+		"xpos" "0"
+		"ypos" "r70"
+	 
+		"TextFont" "Default"
+		"ItemFont" "Default"
+		"ItemFontPulsing" "Default"
+    }
+	
 	HudMannVsMachineStatus
 	{
 		"fieldName" "HudMannVsMachineStatus"
