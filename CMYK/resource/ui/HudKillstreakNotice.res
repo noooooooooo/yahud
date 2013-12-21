@@ -46,4 +46,5 @@
 		"scaleImage"	"1"	
 		"teambg_2"		"replay/thumbnails/bg_black"
 		"teambg_3"		"replay/thumbnails/bg_black"	
+	}
 }
