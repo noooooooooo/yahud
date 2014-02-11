@@ -7,6 +7,8 @@
 
 	//INSTRUCTIONS:
 	
+	//copy this file to /resource/ui/
+	
 	//copy your preferred crosshair from /script/hudlayout.res in this section
 	
 	//set it up like usual
