@@ -1,32 +1,31 @@
 yahud
 
 ////////////////////////////////////////////////////////////////////
-GRAB IT
+
+    INSTALLING THE HUD
 
     //Download
     To download the HUD press the "ZIP" button on top of the github page.
 
     
     //Installing
-    Navigate to Steam / steamapps / common / team fortress 2 / tf / custom / .
-    Move the one of the hud folders from the zip into that folder.
+    Navigate to ... / Steam / steamapps / common / team fortress 2 / tf / custom / .
+    Move one of the hud folders from the zip into that folder.
 	
 ////////////////////////////////////////////////////////////////////
-MAKE IT YOUR OWN
+
+    CUSTOMIZATION
 
     //Colors & optional elements
     Your first stop for customizing this HUD will be the clientscheme. 
-    You can find it in custom/hudname/resource.
-    .res files can be opened with text editors such as Notepad++. 
+    You can find it in /custom/hudname/resource/ .
+    ".res" files can be opened with text editors such as Notepad++. 
 
-    You can change colors and enable/disable certain elements.
+    You can change colors and enable/disable certain elements there.
     Instructions are in the clientscheme itself.
 
     
     //Main Menu
-    You can enter your name for the main menu in 
-    /resource/ui/MainMenuOverride.res
-
     The bottom right star button can connect you to your favourite server.
     You'll need to add...
    
@@ -49,22 +48,23 @@ MAKE IT YOUR OWN
     This includes fog's, Garm3n's & konr's crosshairs.
     
     
-    //Alternative files
+    //Alternative files (ex. scoreboards)
     Each version has some alternative files. 
     You can see them in the imgur albums.
     You can find these in the /resource/ and/or in the /resource/ui/ folder.
 
 ////////////////////////////////////////////////////////////////////
-USING IT
+
+    LINKS & MORE INFO
 
     //INFO
-    You find some useful links, console commands and other info in the FAQ.
+    You can find some useful links, console commands and other info in the FAQ.
 
     
     //ISSUES AND BUGS
     This can help resolve issues:
     * use the command "hud_reloadscheme" in the console
-    * restart TF2
+    * restart TF2 / Steam
     * verify TF2's game cache on steam
     * re-download & install the hud
     
@@ -75,6 +75,6 @@ USING IT
 ////////////////////////////////////////////////////////////////////
     
 Thanks for using this HUD!
-        - whayay
+ - whayay
         
 Shoutout & thanks to: Garm3n, maxerize, boots, Ell, e-thug & kenneth.

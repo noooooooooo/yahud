@@ -1,65 +1,5 @@
 "Resource/UI/MainMenuOverride.res"
 {
-    "HelloName"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"HelloName"
-        
-		"labelText"		"Hey there. What's up?"  //You can edit this line
-                                                   //Enter your name instead of "there"
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-		"textAlignment"		"east"
-		"xpos"			"r317"
-		"ypos"			"50"
-		"zpos"			"3"
-		"wide"			"300"
-		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-        "fgcolor"       "White"
-        "font"			"HeavyCaps18"
-	}	
 	MainMenuOverride
 	{
 		"fieldName"		"MainMenuOverride"
@@ -302,66 +242,8 @@
 			"fgcolor_override"	"227 227 227 255"
 			"auto_wide_tocontents" "1"
 		}
-	}	
-    
-   
-		"flvhudinfo"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"flvhudinfo"
-			"xpos"			"r167"
-			"ypos"			"64"
-			"wide"			"150"
-			"tall"			"17"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"0"
-            "textinsety"	"-2"
-			"use_proportional_insets" "1"
-			"font"			"NoveMedium10"
-			"textAlignment"	"east"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	""
-			"border_armed"		""
-			"paintbackground"	"0"
-			
-			"FgColor" "White"			
-			"defaultFgColor_override" "White"
-			"armedFgColor_override" "Black"
-			"depressedFgColor_override" "White"
-			
-			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
-            
-            "labeltext" "flvhud version 0.07"
-            "command" "engine con_enable 1; engine toggleconsole; clear; echo Thanks for using this HUD!"
-            
-            
-            
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"8"
-				"ypos"			"6"
-				"zpos"			"2"
-				"wide"			"11"
-				"tall"			"11"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}		
-		}
+	}
 	
-    
 	"CreateServerButton"
 	{
 		"ControlName"	"CExImageButton"
