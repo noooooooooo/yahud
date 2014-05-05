@@ -16,6 +16,7 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
+		
 		"bgcolor_override"	            "MenuBG"
 		"infocus_bgcolor_override"      "MenuBG"
 		"outoffocus_bgcolor_override"   "MenuBG"
@@ -29,7 +30,10 @@
 		{
 			"PaintBackgroundType"	"2"
 			"paintborder"			"1"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"0 0 0 50"
+			
+			"border"				"NoBorder"
+			
 			
 			"model_xpos"	"-125"
 			"model_center_y"	"1"

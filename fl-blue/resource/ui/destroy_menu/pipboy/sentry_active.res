@@ -12,12 +12,12 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
 		"labelText_lodef"		"#TF_Object_Sentry_360"
 		"textAlignment"	"center"
-		"fgcolor"		"0 214 0 255"
+		"fgcolor"		"Black"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
@@ -35,7 +35,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg_outline"
-		"iconColor"		"MenuText"
+		"iconColor"		"Black"
 	}
 	
 	"DestroyIcon"	
@@ -51,7 +51,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_demolish"
-		"iconColor"		"0 214 0 255"
+		"iconColor"		"10 255 10 255"
 	}
 		
 	"BuildingIcon"	
@@ -67,7 +67,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_1"
-		"iconColor"		"MenuText"
+		"iconColor"		"Black"
 	}
 		
 	"NumberBg"	
@@ -83,14 +83,14 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"MenuText"
+		"iconColor"		"Black"
 	}
 	
 	"NumberLabelBG"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"NumberLabelBG"
-		"font"			"CircleBGClass"
+		"font"			"Circle24"
 		"labelText"		"o"
 		"textAlignment"		"center"
 		"xpos"			"80"
@@ -98,7 +98,7 @@
 		"zpos"			"4"
 		"wide"			"40"
 		"tall"			"40"
-		"fgcolor"		"0 214 0 255"
+		"fgcolor"		"Black"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -107,13 +107,13 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Medium12"
-		"fgcolor"		"Black"
+		"font"			"Medium10"
+		"fgcolor"		"White"
 		"xpos"			"0"
-		"ypos"			"r363"
+		"ypos"			"r362"
 		"zpos"			"5"
-		"wide"			"199"
-		"tall"			"16"
+		"wide"			"200"
+		"tall"			"17"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

@@ -12,11 +12,11 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Object_dispenser"
 		"textAlignment"	"center"
-		"fgcolor"	"Black"
+		"fgcolor"		"Black"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
@@ -34,7 +34,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg_outline"
-		"iconColor"		"MenuText"
+		"iconColor"		"27 27 27 255"
 	}
 	
 	"NotBuiltLabel"
@@ -53,7 +53,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_NotBuilt"
 		"textAlignment"	"Center"
-		"fgcolor"		"MenuText"
+		"fgcolor"		"Black"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}	
@@ -79,7 +79,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"Medium14"
-		"fgcolor"		"White"
+		"fgcolor"		"Black"
 		"xpos"			"0"
 		"ypos"			"67"
 		"zpos"			"1"
