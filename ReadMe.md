@@ -2,16 +2,17 @@
 
 ## Installing the HUD
 
-Download
+**Download**
+
 To download the HUD press the "ZIP" button on top of the github page.
 
-*Installing*
+**Installing**
+
 Navigate to ... / Steam / steamapps / common / team fortress 2 / tf / custom / .
 Move one of the hud folders from the zip into that folder.
 
+**Shortcuts**
 
-
-*Shortcuts*
 The HUD has optional shortcuts on Q,E & R for various menus.
 You can also press Enter, Q or click anywhere to get through the map intro screens.
 The regular number shortcuts on team and class selection still work, too.
@@ -20,7 +21,8 @@ The regular number shortcuts on team and class selection still work, too.
 
 ## Customization
 
-*Colors & optional elements*
+**Colors & optional elements**
+
 Your first stop for customizing this HUD will be the clientscheme. 
 You can find it in /custom/hudname/resource/ .
 ".res" files can be opened with text editors such as Notepad++. 
@@ -28,7 +30,8 @@ You can find it in /custom/hudname/resource/ .
 You can change colors and enable/disable certain HUD elements there.
 Instructions are in the clientscheme itself.
 
-*Main Menu*
+**Main Menu**
+
 The bottom right star button can connect you to your favorite server.
 You'll need to add...
 
@@ -37,7 +40,8 @@ alias Home "connect <insert server IP>;password <insert password>"
 ...to your autoexec in order to make the "Favorite Server" button work.
 
 
-*Crosshairs*
+**Crosshairs**
+
 The crosshair.png image gives you an overview of the new crosshairs
 
 To enable the HUD-crosshair navigate to /scripts/hudlayout.res
@@ -50,10 +54,12 @@ I've also included fog's, Garm3n's & konr's crosshairs as legacy options.
 
 ## Link & more info
 
-*Info*
+**Info**
+
 You can find some useful links, console commands and other info in the FAQ.
 
-*Issues and bugs*
+**Issues and bugs**
+
 This can help resolve issues:
 * use the command "hud_reloadscheme" in the console
 * restart TF2 / Steam
