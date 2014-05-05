@@ -1,0 +1,61 @@
+What's new?
+
+INFO
+
+I decided to branch out a bit and created 3 new versions. The old version still works and I will try to maintain the old repo on GitHub. The HUD should stay in a usable state for a while. (There are alternatives as well, check out Garm3n's REX and the Hudas project).
+
+This whole thing has been in the works for a while. I hope you like the result!
+
+
+About the different versions:
+
+The first of the new versions, FLV, is based on a simple concept: You pick your team, which determines the HUD's main color. Red or blue. This is basically the new "main" version. http://imgur.com/a/OBoDr
+
+5MD is sort of the basic version of FLV. It features the bonus-cross health effect, which is used in a variety of other HUDs. Other than the red cross and the green uber color this HUD is kept in grayscale. Its plain-ness is supposed to allow it to be used as a canvas. It will be easy to add your own colors without them clashing with other colors of the HUD. This HUD is still heavily WIP and might turn out completely different in the end. http://imgur.com/a/9mJdY
+
+CMYK is using that 5MD canvas, but goes a bit beyond it with some additional tweaks. It features strong colors (Cyan, Magenta and Yellow) and a stronger contrasts between all elements. Team-indicators haven been adjusted to the color-scheme. http://imgur.com/a/xp4C4
+
+
+Other things that are worth mentioning:
+
+I've used broesel's little trick to get custom materials working with sv_pure. This allows for the team-indicator and certain team-colored elements. This also made the current SpecHUD possible.
+
+The new crosshair should feel familiar to anyone that has used fog's crosshairs before. The different characters of the alphabet match different crosshairs. I'm using the method that Ell (check out his HUD!) has shown me to center them. They should be automatically centered for any resolution. I only recently started messing around with crosshair-fonts in FontForge, so these might take a bit to be polished. 
+All the other crosshairs (fog, Garm3n and konr) are still included.
+
+Customization is still a main feature of this HUD, I'm still testing ways to make it easier for people to use and access various options. The readme has been simplified, too.
+
+
+LOG (sortof)
+
+Added CMYK, FLV & 5MD versions
+
+- Re-designed and tweaked all menus
+    - Added tool-tips to the main menu
+    - Took in "Home Server" from previous alternative menu
+    - New look for notification alerts/buttons
+    - You can tell the HUD your name. Go to resource/ui/MainMenuOverride.res and open it with a text-editor.
+
+    
+- New hud-crosshairs
+    - supports hit animation
+    - won't need re-centering
+    - easier customization
+   (still WIP, please give feedback)
+    
+- New scoreboard (with stats)
+    - also ported right side & blank scoreboard
+
+- Improved SpecHUD
+    - better team indicators
+    - easier to see who is alive
+    - moved Uber % closer to medic class image
+    - fixed engineer info being hidden behind SpecHUD
+
+- Tweaked Ammo, Uber% and special counters
+- Re-did charge meters
+- Removed all flashing visuals (readability)
+- Re-did timers, stopwatch mode and ctf pointers
+- Added team-indicator in the bottom right corner
+- Added custom HP-Cross for alternative HP options (does not work with sv_pure)
+
