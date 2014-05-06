@@ -1,0 +1,7 @@
+To install the HUD navigate to 
+username (home directory)/Library/Application Support/Steam/SteamApps/common/Team Fortress 2/tf/custom
+and drag the HUD you want to install into that folder.
+
+After you've installed the HUD you should then apply the Mac Fonts by dragging the resource folder contained in this folder to the same location, overriding the fonts.
+
+Please drop me a message on GitHub if this is not working correctly.
