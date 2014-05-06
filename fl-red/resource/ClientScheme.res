@@ -954,8 +954,18 @@ Scheme
                 "antialias"    "1"
             }
         }
-       
-        
+		
+       "Respawn20"       
+        {
+            "1"
+            {
+                "name"        "RespawnFont"
+                "tall"        "20"
+                "additive"    "0"
+                "antialias"    "1"
+            }
+        }
+		
         "Circle62"              //for team selection and tournament ready up
         {
             "1"
@@ -5984,6 +5994,11 @@ Scheme
         {
             "font" "resource/fonts/FuturaHeavyNoNumbers.otf"
             "name" "FuturaHeavyNoNumbers"
+        }
+		"23"
+        {
+            "font" "resource/fonts/RespawnFont.otf"
+            "name" "RespawnFont"
         }
     }
 }

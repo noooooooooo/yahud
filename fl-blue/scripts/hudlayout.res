@@ -715,15 +715,13 @@
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	    "0"
+		"xpos"	    "c-47"
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
 		
 		"blue_active_xpos"			"0"
-		"red_active_xpos"			"0"
-        "blue_active_ypos"			"0"
-		"red_active_ypos"			"20"
+		"red_active_xpos"			"47"
        
 	}	
 
