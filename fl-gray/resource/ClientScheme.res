@@ -881,39 +881,7 @@ Scheme
         /////////////////////
         //Shapes and Symbols
         
-        "SymbolNo18"
-        {
-            "1"
-            {
-                "name"            "Entypo"
-                "tall"        "34"
-                "additive"    "0"
-                "antialias"     "1"
-            }
-        }
-        "SymbolYes18"
-        {
-            "1"
-            {
-                "name"            "Entypo"
-                "tall"        "28"
-                "additive"    "0"
-                "antialias"     "1"
-            }
-        }
-        
-        "SymbolL"
-        {
-            "1"
-            {
-                "name"            "Entypo"
-                "tall"        "32"
-                "additive"    "0"
-                "antialias"     "1"
-            }
-        }
-        
-        "SymbolS"
+        "SymbolS"		//Main menu icons
         {
             "1"
             {
@@ -1037,59 +1005,22 @@ Scheme
             }
         }
         
-       
-        
-        //{"CircleBGSmaller"
-        //{     {
-        //{       "1"
-        //{        {
-        //{         "name"        "Paula"
-        //{         "tall"        "34"
-        //{           "weight"    "0"
-        //{         "antialias"    "1"
-        //{     }
-        //{  }
-        //{
-        
-       
-       // "CircleClass"
-        //{
-         //{   "1"
-        //{    {
-         //{       "name"        "Paula"
-        //{        "tall"        "32"
-        //{        "weight"    "0"
-        //{        "antialias"    "1"
-        //{    }
-        //{}
-        
-        /////////////////////
-        //New Definitions
-        
-        
-        "Heavy59"       //main menu font
-        {
-            "1"
-            {
-                "name"        "FuturaStd-Heavy"
-                "tall"        "59"
-                "additive"    "0"
-                "antialias" "1"
-            }
-        }
-        
-        
-        
-        "DataLabelBig"              //Counters, damage and hp pickup
+		//// Fonts
+		
+		
+		"Damage"            
         {
             "1"
             {
                 "name"            "FuturaStd-Medium"
-                "tall"        "20"
-                "additive"    "0"
+                "tall"        	"18"
+                "additive"    	"0"
                 "antialias"     "1"
+                "dropshadow"    "0"
+				"outline"		"1"
             }
         }
+		
         "ItemMeterFont"            
         {
             "1"
@@ -1102,195 +1033,42 @@ Scheme
             }
         }
         
-        /////////////////////
-        //Custom Fonts
-    
-        "BoldNumbers54"             //Used for hp & ammo
+        "HeavyNumbers48"   
         {
             "1"
             {
                 "name"            "FuturaHeavyNumbers"
-                "tall"        "54"
-                "additive"    "0"
-                "antialias"     "1"
-                "dropshadow"    "0"
-            }
-        }
-        "BoldNumbers36"             //Used for hp & ammo in mini version
-        {
-            "1"
-            {
-                "name"            "FuturaStd-Heavy"
-                "tall"        "36"
-                "additive"    "0"
-                "antialias"     "1"
-                "dropshadow"    "0"
-            }
-        }
-        "MediumNumbers32"
-        {
-            "1"
-            {
-                "name"            "FuturaMediumNumbers"
-                "tall"        "32"
-                "additive"    "0"
-                "antialias"     "1"
-                "dropshadow"    "0"
-            }
-        }
-        "MediumNumbers28"
-        {
-            "1"
-            {
-                "name"            "FuturaMediumNumbers"
-                "tall"        "28"
-                "additive"    "0"
-                "antialias"     "1"
-                "dropshadow"    "0"
-            }
-        }
-        "MediumNumbers26"
-        {
-            "1"
-            {
-                "name"            "FuturaMediumNumbers"
-                "tall"        "26"
-                "additive"    "0"
-                "antialias"     "1"
-                "dropshadow"    "0"
-            }
-        }
-        "MediumNumbers20"
-        {
-            "1"
-            {
-                "name"            "FuturaMediumNumbers"
-                "tall"        "20"
-                "additive"    "0"
-                "antialias"     "1"
-                "dropshadow"    "0"
-            }
-        }
-        "MediumNumbers18"
-        {
-            "1"
-            {
-                "name"            "FuturaMediumNumbers"
-                "tall"        "18"
-                "additive"    "0"
-                "antialias"     "1"
-                "dropshadow"    "0"
-            }
-        }
-        "MediumNumbers16"
-        {
-            "1"
-            {
-                "name"            "FuturaMediumNumbers"
-                "tall"        "16"
-                "additive"    "0"
-                "antialias"     "1"
-                "dropshadow"    "0"
-            }
-        }
-        "MediumNumbers14"
-        {
-            "1"
-            {
-                "name"            "FuturaMediumNumbers"
-                "tall"        "14"
-                "additive"    "0"
-                "antialias"     "1"
-                "dropshadow"    "0"
-            }
-        }
-        "MediumNumbers12"
-        {
-            "1"
-            {
-                "name"            "FuturaMediumNumbers"
-                "tall"        "12"
-                "additive"    "0"
-                "antialias"     "1"
-                "dropshadow"    "0"
-            }
-        }
-        "MediumNumbers10"
-        {
-            "1"
-            {
-                "name"            "FuturaStd-Medium"
-                "tall"        "10"
-                "additive"    "0"
-                "antialias"     "1"
-                "dropshadow"    "0"
-            }
-        }
-        "DataLabelSmall"            //TargetID
-        {
-            "1"
-            {
-                "name"            "FuturaStd-Medium"
-                "tall"        "14"
-                "additive"    "0"
-                "antialias"     "1"
-                "dropshadow"    "0"
-            }
-        }
-        "DataLabelSmallest"            //TargetID Data
-        {
-            "1"
-            {
-                "name"            "FuturaStd-Medium"
-                "tall"        "10"
-                "additive"    "0"
-                "antialias"     "1"
-                "dropshadow"    "0"
-            }
-        }
-        "SmallCount"            //Stopwatch Data
-        {
-            "1"
-            {
-                "name"            "FuturaStd-Medium"
-                "tall"        "10"
+                "tall"        "48"
                 "additive"    "0"
                 "antialias"     "1"
                 "dropshadow"    "0"
             }
         }
 		
-        "DeathNotice"
+		
+        "HeavyNoNumbers14"		//used for spectator interface
         {
             "1"
             {
-                "name"        "FuturaStd-Medium"
-                "tall"        "12"
-                "yres"        "480 599"
-                "antialias"     "1"
-            }
-            "2"
-            {
-                "name"        "FuturaStd-Medium"
+                "name"        "FuturaHeavyNoNumbers"
                 "tall"        "14"
-                "yres"    "600 767"
-                "antialias"     "1"
-            }
-            "3"
-            {
-                "name"        "FuturaStd-Heavy"
-                "tall"        "17"
-                "yres"        "768 1023"
-                "antialias"    "1"
-            }
-            "4"
-            {
-                "name"        "FuturaStd-Heavy"
-                "tall"        "11"
+                "additive"        "0"
                 "antialias"    "1"
             }
         }
-
+        
+		
+		"Heavy59"       //main menu font
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "59"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+		
         "Heavy58"
         {
             "1"
@@ -1590,18 +1368,6 @@ Scheme
             }
         }
 
-        "Heavy22Outline"
-        {
-            "1"
-            {
-                "name"        "FuturaStd-Heavy"
-                "tall"        "22"
-                "additive"        "0"
-                "antialias"    "1"
-                "outline" "1"
-            }
-        }
-        
         "Heavy21"
         {
             "1"
@@ -1744,19 +1510,118 @@ Scheme
                 "antialias"    "1"
             }
         }
-
-        "HeavyNoNumbers14"
+		
+		"MediumNumbers32"
         {
             "1"
             {
-                "name"        "FuturaHeavyNoNumbers"
-                "tall"        "14"
-                "additive"        "0"
-                "antialias"    "1"
+                "name"            "FuturaMediumNumbers"
+                "tall"        "32"
+                "additive"    "0"
+                "antialias"     "1"
+                "dropshadow"    "0"
             }
         }
-        
-        
+        "MediumNumbers28"
+        {
+            "1"
+            {
+                "name"            "FuturaMediumNumbers"
+                "tall"        "28"
+                "additive"    "0"
+                "antialias"     "1"
+                "dropshadow"    "0"
+            }
+        }
+        "MediumNumbers26"
+        {
+            "1"
+            {
+                "name"            "FuturaMediumNumbers"
+                "tall"        "26"
+                "additive"    "0"
+                "antialias"     "1"
+                "dropshadow"    "0"
+            }
+        }
+		"MediumNumbers22"
+        {
+            "1"
+            {
+                "name"            "FuturaMediumNumbers"
+                "tall"        "22"
+                "additive"    "0"
+                "antialias"     "1"
+                "dropshadow"    "0"
+            }
+        }
+        "MediumNumbers20"
+        {
+            "1"
+            {
+                "name"            "FuturaMediumNumbers"
+                "tall"        "20"
+                "additive"    "0"
+                "antialias"     "1"
+                "dropshadow"    "0"
+            }
+        }
+        "MediumNumbers18"
+        {
+            "1"
+            {
+                "name"            "FuturaMediumNumbers"
+                "tall"        "18"
+                "additive"    "0"
+                "antialias"     "1"
+                "dropshadow"    "0"
+            }
+        }
+        "MediumNumbers16"
+        {
+            "1"
+            {
+                "name"            "FuturaMediumNumbers"
+                "tall"        "16"
+                "additive"    "0"
+                "antialias"     "1"
+                "dropshadow"    "0"
+            }
+        }
+        "MediumNumbers14"
+        {
+            "1"
+            {
+                "name"            "FuturaMediumNumbers"
+                "tall"        "14"
+                "additive"    "0"
+                "antialias"     "1"
+                "dropshadow"    "0"
+            }
+        }
+        "MediumNumbers12"
+        {
+            "1"
+            {
+                "name"            "FuturaMediumNumbers"
+                "tall"        "12"
+                "additive"    "0"
+                "antialias"     "1"
+                "dropshadow"    "0"
+            }
+        }
+        "MediumNumbers10"
+        {
+            "1"
+            {
+                "name"            "FuturaStd-Medium"
+                "tall"        "10"
+                "additive"    "0"
+                "antialias"     "1"
+                "dropshadow"    "0"
+            }
+        }
+		
         "Bold59"
         {
             "1"
@@ -1867,18 +1732,6 @@ Scheme
             }
         }
 
-        "Bold48Shadow"
-        {
-            "1"
-            {
-                "name"        "FuturaBold"
-                "tall"        "48"
-                "additive"        "0"
-                "antialias"    "1"
-                "dropshadow"    "1"
-            }
-        }
-        
         "Bold47"
         {
             "1"
@@ -2186,7 +2039,7 @@ Scheme
                 "antialias"    "1"
             }
         }
-
+		
         "Medium58"
         {
             "1"

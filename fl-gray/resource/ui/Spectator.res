@@ -16,7 +16,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"c-200"	
-		"ypos"			"40"	
+		"ypos"			"57"	
 		"wide"			"400"	
 		"tall"			"20"
 		"autoResize"		"0"
@@ -30,6 +30,7 @@
 		"font"			"Respawn20"			
 		"fgcolor_override" "Time"
 	}
+	
 	"BuyBackLabel"
 	{
 		"ControlName"		"CExLabel"

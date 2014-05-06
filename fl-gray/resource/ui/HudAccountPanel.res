@@ -5,11 +5,11 @@
 		"delta_item_x"			"76"
 		"delta_item_start_y"	"27"
 		"delta_item_end_y"		"24"
-		"PositiveColor"			"Green"
+		"PositiveColor"			"HealthPickup"
 		"NegativeColor"			"Red"
 		"zpos"			        "-1"
 		"delta_lifetime"		"0.8"
-		"delta_item_font"		"Medium18"
+		"delta_item_font"		"Medium16"
 		"textAlignment"	"east"
 	}
 	
@@ -87,7 +87,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"White"
-		"font"			"DataLabelBig"
+		"font"			"Medium18"
 	}
 	"AccountValueShadow"
 	{
@@ -108,6 +108,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"HudShadow"
-		"font"			"DataLabelBig"
+		"font"			"Medium18"
 	}
 }

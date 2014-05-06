@@ -60,7 +60,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
 		"xpos"			"0"
-		"ypos"			"8"
+		"ypos"			"10"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
@@ -100,7 +100,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"DataLabelBig"
+			"font"			"Medium18"
 			"fgcolor"		"White"
 		}		
 		"NumPipesLabelShadow"
@@ -121,7 +121,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"DataLabelBig"
+			"font"			"Medium18"
 			"fgcolor"		"HudShadow"
 		}		
 	}

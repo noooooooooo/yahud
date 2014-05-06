@@ -76,13 +76,13 @@
 		"wide"	 "636"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "12"
+		"MaxDeathNotices" "6"
 		"IconScale"	      "0.35"
-		"LineHeight"	  "14"
-		"LineSpacing"	  "-1"      //Increase this to around "2" for line spacing in the killfeed
+		"LineHeight"	  "13"
+		"LineSpacing"	  "2"      //Increase this to around "2" for line spacing in the killfeed
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"
-		"TextFont"		"DeathNotice"
+		"TextFont"		"Heavy11"
 		
 		"TeamBlue"		"Blue"	
 		"TeamRed"		"Red"	
