@@ -13,7 +13,7 @@
 		"pinCorner"	"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"defaultBgColor_Override"		"NameHPBG"
+		"defaultBgColor_Override"		"ya_HealthSpecBG"
 		"PaintBackgroundType""0"
         "textinsety" "99"
 	}

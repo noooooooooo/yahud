@@ -47,7 +47,7 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"fgcolor"		"NameSpec"
+				"fgcolor"		"ya_NameSpec"
 
 				if_mvm
 				{
@@ -66,7 +66,22 @@
 				"tall"        "16"
 				"autoResize"		"0"
 				"pinCorner"		"0"
-				"fillcolor"		"NameSpecBG"
+				"fillcolor"		"ya_NameSpecBG"
+				"visible"			"1"
+				"enabled"			"1"
+			}
+			"LongBG"
+			{
+				"ControlName" "ImagePanel"
+				"fieldName"   "LongBG"
+				"xpos"        "42"
+				"ypos"        "0"
+				"zpos"        "-10"
+				"wide"        "94"
+				"tall"        "16"
+				"autoResize"		"0"
+				"pinCorner"		"0"
+				"fillcolor"		"ya_NameSpecLongBG"
 				"visible"			"1"
 				"enabled"			"1"
 			}
@@ -336,7 +351,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				"fgcolor"		"Blank"
+				"fgcolor"		"Respawn"
 			}
 			"specindex"
 			{

@@ -69,14 +69,16 @@ Scheme
         
         //// SPEC ////
         
-        "HealthSpecBG"          "18 18 18 255"       //
-        "PositiveBGSpec"        "18 127 220 255"     //Spectator HUD health effect
-        "NegativeBGSpec"        "245 54 64 255"      //
+        "ya_HealthSpecBG"          "28 28 28 255"       //
+        "ya_PositiveSpecBG"        "18 127 220 255"     //Spectator HUD health effect
+        "ya_NegativeSpecBG"        "245 54 64 255"      //
         
-        "NameSpecBG"            "227 227 227 255"   //Middle BG
-        "NameSpec"              "18 18 18 255"      //Name font color
+        "ya_NameSpecBG"            "227 227 227 255"   //Middle BG
+		"ya_NameSpecLongBG"		"18 18 18 0"		//Mid and right BG
+        "ya_NameSpec"              "18 18 18 255"      //Name font color
+		
         "SpecClassBG"           "28 28 28 255"      //Class background and charge cover
-        
+		"Respawn"				"48 48 48 255"		//BG
         "RespawnFont"           "18 18 18 255" 
         
         //// SCOREBOARD, WINPANEL AND TARGETID ////
@@ -4609,7 +4611,7 @@ Scheme
             "bordertype"            "scalable_image"
             "backgroundtype"        "2"
             
-            "image"                    "replay/thumbnails/spec_dead"
+            "image"                    "replay/thumbnails/bg_blank"
             "src_corner_height"        "23"                // pixels inside the image
             "src_corner_width"        "23"
             "draw_corner_width"        "0"                // screen size of the corners ( and sides ), proportional
