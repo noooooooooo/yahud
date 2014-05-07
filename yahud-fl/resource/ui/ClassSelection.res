@@ -50,7 +50,7 @@
 		"zpos"			"-5"
 		"wide"			"f0"
 		"tall"			"480"
-		"fillcolor"		"BG"
+		"fillcolor"		"ya_MainBG"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -219,9 +219,9 @@
 		
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Select"
+		"armedFgColor_override" "ya_Select"
 		"depressedFgColor_override" "White"
-		"selectedFgColor_override" "Select"
+		"selectedFgColor_override" "ya_Select"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -280,9 +280,9 @@
 		
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Select"
+		"armedFgColor_override" "ya_Select"
 		"depressedFgColor_override" "White"
-		"selectedFgColor_override" "Select"
+		"selectedFgColor_override" "ya_Select"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -341,9 +341,9 @@
 		
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Select"
+		"armedFgColor_override" "ya_Select"
 		"depressedFgColor_override" "White"
-		"selectedFgColor_override" "Select"
+		"selectedFgColor_override" "ya_Select"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -416,9 +416,9 @@
 		
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Select"
+		"armedFgColor_override" "ya_Select"
 		"depressedFgColor_override" "White"
-		"selectedFgColor_override" "Select"
+		"selectedFgColor_override" "ya_Select"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -477,9 +477,9 @@
 		
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Select"
+		"armedFgColor_override" "ya_Select"
 		"depressedFgColor_override" "White"
-		"selectedFgColor_override" "Select"
+		"selectedFgColor_override" "ya_Select"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -538,9 +538,9 @@
 		
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Select"
+		"armedFgColor_override" "ya_Select"
 		"depressedFgColor_override" "White"
-		"selectedFgColor_override" "Select"
+		"selectedFgColor_override" "ya_Select"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -613,9 +613,9 @@
 		
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Select"
+		"armedFgColor_override" "ya_Select"
 		"depressedFgColor_override" "White"
-		"selectedFgColor_override" "Select"
+		"selectedFgColor_override" "ya_Select"
         
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -674,9 +674,9 @@
 		
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Select"
+		"armedFgColor_override" "ya_Select"
 		"depressedFgColor_override" "White"
-		"selectedFgColor_override" "Select"
+		"selectedFgColor_override" "ya_Select"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -735,9 +735,9 @@
 		
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Select"
+		"armedFgColor_override" "ya_Select"
 		"depressedFgColor_override" "White"
-		"selectedFgColor_override" "Select"
+		"selectedFgColor_override" "ya_Select"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

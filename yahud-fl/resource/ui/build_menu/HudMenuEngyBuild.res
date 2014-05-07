@@ -11,7 +11,7 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"NameBG"
+		"fillcolor"		"ya_NameLongBG"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 	}
@@ -26,7 +26,7 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"NameBGRight"
+		"fillcolor"		"ya_NameBG"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 	}
@@ -44,7 +44,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
-		"iconColor"		"Name"
+		"iconColor"		"ya_Name"
 	}
 	
 	"BuildIconShadow"	
@@ -79,7 +79,7 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_menu_build_title"
 		"textAlignment"	"center"
-		"fgcolor"	    "Name"
+		"fgcolor"	    "ya_Name"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
@@ -89,7 +89,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"SpectatorKeyHints"
-		"fgcolor"	    "NameCounter"
+		"fgcolor"	    "ya_NameCounter"
 		"xpos"			"51"
 		"ypos"			"57"
 		"zpos"			"1"

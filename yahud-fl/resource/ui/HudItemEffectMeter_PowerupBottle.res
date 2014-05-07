@@ -10,7 +10,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"MeterFG"		"White"
-		"MeterBG"		"HudBG"
+		"MeterBG"		"ya_HudBG"
 	}
 	
 	"ItemEffectMeterBG"
@@ -100,7 +100,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor"	        	"White"
+		"fgcolor"	        	"ya_Plus"
 		"font"					"MediumNumbers20"
 	}
     "Label"
@@ -109,7 +109,7 @@
 		"fieldName"		"Label"
 		"font"			"Bold20"
 		"labelText"		"!"
-		"fgcolor"		"White"
+		"fgcolor"		"ya_Plus"
 		"textAlignment"	"west"
 		"xpos"			"4"
 		"ypos"			"37"

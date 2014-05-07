@@ -10,7 +10,7 @@
 		"tall"		"480"
 		"visible"	"0"
 		"enabled"	"1"
-		"bgcolor_override"	"MenuBG"
+		"bgcolor_override"	"ya_MenuBG"
 	}
 	"MainBackground"
 	{

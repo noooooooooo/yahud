@@ -57,7 +57,7 @@
 		"zpos"			"-1"
 		"wide"			"140"
 		"tall"			"8"
-		"fillcolor"		"HudBG"
+		"fillcolor"		"ya_HudBG"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

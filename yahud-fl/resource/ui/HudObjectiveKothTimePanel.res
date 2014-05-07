@@ -69,7 +69,7 @@
 		"zpos"				"-1"
 		"wide"				"47"
 		"tall"				"4"
-		"fillcolor"		    "Time"
+		"fillcolor"		    "ya_Time"
 		"visible"			"0"
 		"enabled"			"1"
 	}

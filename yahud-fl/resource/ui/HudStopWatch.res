@@ -57,7 +57,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"MediumNumbers20"
-			"fgcolor"		"Time"
+			"fgcolor"		"ya_Time"
 			"xpos"			"4"
 			"ypos"			"0"
 			"zpos"			"1"

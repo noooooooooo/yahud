@@ -73,7 +73,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"east"	
 		"font"			"Heavy36"
-		"fgcolor"		"Health"
+		"fgcolor"		"ya_Health"
 	}
     "PlayerStatusHealthValueShadow"
 	{
@@ -89,6 +89,6 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"east"	
 		"font"			"Heavy36"
-		"fgcolor"		"HudShadow"
+		"fgcolor"		"ya_Shadow"
 	}	    
 }

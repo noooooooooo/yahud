@@ -89,7 +89,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor"		        "AmmoReserve"
+		"fgcolor"		        "ya_AmmoReserve"
 		"font"				    "Medium18"
 	}
     "ItemEffectMeterCountShadow"
@@ -109,7 +109,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor"		    "HudShadow"
+		"fgcolor"		    "ya_Shadow"
 		"font"				"Medium18"
 	}
 }

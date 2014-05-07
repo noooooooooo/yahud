@@ -50,7 +50,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_sentry_build"
-		"iconColor"		"Green"
+		"iconColor"		"22 182 71 255"
 	}
 	
 	"CantBuildReason"

@@ -35,7 +35,7 @@
                                      //You can add "Small" or "Big" at the end to change the size
                                      //e.g. "CrosshairOLSmall"
         
-        "fgcolor"	"Crosshair"      //Color is changed via the clientscheme
+        "fgcolor"	"ya_Crosshair"      //Color is changed via the clientscheme
                                      //in the "/resource/" folder
 	}
     
@@ -89,7 +89,7 @@
 		"IconColor"		"White"
 		"LocalPlayerColor"	"Black"
 
-		"BaseBackgroundColor"	"HudBG"	        //Dark background color        
+		"BaseBackgroundColor"	"ya_HudBG"	        //Dark background color        
 		"LocalBackgroundColor"	"White"	//Background color for you own actions
 	}
     
@@ -748,7 +748,7 @@
 		"wide"			"118"
 		"tall"			"50"
 		"MeterFG"		"White"
-		"MeterBG"		"HudBG"
+		"MeterBG"		"ya_HudBG"
 	}	
 
 	HudBowCharge
@@ -762,7 +762,7 @@
 		"wide"			"120"
 		"tall"			"40"
 		"MeterFG"		"White"
-		"MeterBG"		"HudBG"
+		"MeterBG"		"ya_HudBG"
 	}
 
 	HudFlameRocketCharge
@@ -776,7 +776,7 @@
 		"wide"			"60"
 		"tall"			"8"
 		"MeterFG"		"White"
-		"MeterBG"		"HudBG"
+		"MeterBG"		"ya_HudBG"
 	}
 
 	HudBossHealth
@@ -790,7 +790,7 @@
 		"wide"			"137"
 		"tall"			"50"
 		"MeterFG"		"Red"
-		"MeterBG"		"HudBG"
+		"MeterBG"		"ya_HudBG"
 	}
 
 	HudWeaponSelection
@@ -805,29 +805,29 @@
 		"RightMargin_lodef" "38"
 		"visible" "1"
 		"enabled" "1"
-		"SmallBoxWide" "72"
-		"SmallBoxTall" "54"
-		"PlusStyleBoxWide" "90"
-		"PlusStyleBoxTall" "63"
+		"SmallBoxWide" "0"
+		"SmallBoxTall" "0"
+		"PlusStyleBoxWide" "0"
+		"PlusStyleBoxTall" "0"
 		"PlusStyleExpandSelected"	"0.3"
-		"LargeBoxWide" "110"
-		"LargeBoxTall" "77"
-		"BoxGap" "4"	
+		"LargeBoxWide" "0"
+		"LargeBoxTall" "0"
+		"BoxGap" "20"	
 		"SelectionNumberXPos" "12"
 		"SelectionNumberYPos" "4"
 		"IconXPos" "8"
 		"IconYPos" "0"
 		"TextYPos" "70"		
 		"ErrorYPos" "48"
-		"TextColor" "SelectionTextFg"
+		"TextColor" "White"
 		"MaxSlots"	"6"
 		"PlaySelectSounds"	"1"
-		"Alpha" "220"
-		"SelectionAlpha" "220"
-		"BoxColor" "0 0 0 220"
-		"SelectedBoxClor" "0 0 0 220"
-		"SelectionNumberFg"	"200 187 161 255"
-		"NumberFont" "HudSelectionText"
+		"Alpha" "255"
+		"SelectionAlpha" "255"
+		"BoxColor" "0 0 0 0"
+		"SelectedBoxClor" "0 0 0 0"
+		"SelectionNumberFg_override"	"Black"
+		"NumberFont" "MediumNumbers20"
 	}	
 	
 	CHudAccountPanel
@@ -875,7 +875,7 @@
 		"ypos"		"r456"			    //"r472"	
 		"zpos"		"-1"	
 		"wide"		"248"
-		"tall"		"453"
+		"tall"		"480"
 	}
 
 	CMainTargetID

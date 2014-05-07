@@ -99,7 +99,7 @@
 		"enabled"		"1"
 		"labeltext"		"%Health%"
 		"textAlignment"		"center"
-		"fgcolor"			"Health"
+		"fgcolor"			"ya_Health"
 		"font"			"MediumNumbers16"
     }	
 	"PlayerStatusHealthValueTourShadow"
@@ -115,7 +115,7 @@
 		"enabled"		"1"
 		"labeltext"		"%Health%"
 		"textAlignment"		"center"
-		"fgcolor"			"HudShadow"
+		"fgcolor"			"ya_Shadow"
 		"font"			"MediumNumbers16"
       }		
 }

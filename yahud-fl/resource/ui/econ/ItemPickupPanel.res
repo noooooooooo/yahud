@@ -17,9 +17,9 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		
-		"bgcolor_override"	            "MenuBG"
-		"infocus_bgcolor_override"      "MenuBG"
-		"outoffocus_bgcolor_override"   "MenuBG"
+		"bgcolor_override"	            "ya_MenuBG"
+		"infocus_bgcolor_override"      "ya_MenuBG"
+		"outoffocus_bgcolor_override"   "ya_MenuBG"
 		
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"

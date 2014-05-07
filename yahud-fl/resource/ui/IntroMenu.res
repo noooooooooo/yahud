@@ -25,7 +25,7 @@
 		"zpos"			"-6"
 		"wide"			"f0"
 		"tall"			"480"
-		"fillcolor"		"BG"
+		"fillcolor"		"ya_MainBG"
 		"visible"		"1"
 		"enabled"		"1"
 	}

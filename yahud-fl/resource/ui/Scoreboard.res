@@ -31,7 +31,7 @@
 		"use_proportional_insets_minmode" "1"
 		"textAlignment"	"west"
 		"textAlignment_minmode"	"west"
-		"fgcolor"			"Time"
+		"fgcolor"			"ya_Time"
 		"xpos"			"4"
 		"ypos"			"0"
 		"ypos_minmode"		"0"
@@ -124,7 +124,7 @@
         "wide_minmode"			"233"
 		"tall"			"223"
 		"tall_minmode"		"188"
-		"fillcolor"		"HudBG"
+		"fillcolor"		"ya_HudBG"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -132,7 +132,7 @@
 
 		if_mvm
 		{
-            "fillcolor"		"HudBG"
+            "fillcolor"		"ya_HudBG"
 			"xpos"			"c-250"
 			"ypos"			"c-55"
 			"wide"			"530"
@@ -148,7 +148,7 @@
         "ypos"			"c103"
         "wide"			"530"
         "tall"			"54"
-		"fillcolor"		"HudBG"
+		"fillcolor"		"ya_HudBG"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -156,7 +156,7 @@
 
 		if_mvm
 		{
-            "fillcolor"		"HudBG"
+            "fillcolor"		"ya_HudBG"
             "visible"		"1"
 		}
 	}
@@ -173,7 +173,7 @@
 		"wide_minmode"			"f0"
 		"tall"			"34"
 		"tall_minmode"			"34"
-		"fillcolor"		"StatsBG"
+		"fillcolor"		"ya_StatsBG"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -741,7 +741,7 @@
             "tall"          "32"
             "visible"       "1"
             "enabled"       "1"
-            "fgcolor"       "StatsFont"
+            "fgcolor"       "ya_Stats"
 
             if_mvm
             {
@@ -785,7 +785,7 @@
 				"tall"			"40"
 				"enabled"		"1"
 				"PaintBackgroundType"	"2"
-				"bgcolor_override"	"StatsBG"
+				"bgcolor_override"	"ya_StatsBG"
 			}
 			"AvatarImage"	
 			{
@@ -806,7 +806,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"StatsFont"
+				"fgcolor"		"ya_Stats"
 				"xpos"			"67"
 				"ypos"			"0"
 				"zpos"			"7"
@@ -831,7 +831,7 @@
 				"tall"			"32"
 				"visible"		"1"
 				"enabled"		"1"
-				"fgcolor"		"StatsFont"
+				"fgcolor"		"ya_Stats"
 				"font"			"Medium18"
 			}
 		}
@@ -878,7 +878,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"StatsFont"
+				"fgcolor"		"ya_Stats"
 				"xpos"			"50"
 				"ypos"			"0"
 				"zpos"			"7"
@@ -903,7 +903,7 @@
 				"tall"			"32"
 				"visible"		"1"
 				"enabled"		"1"
-				"fgcolor"		"StatsFont"
+				"fgcolor"		"ya_Stats"
 				"font"			"Medium18"
 			}
 		}		
@@ -962,13 +962,13 @@
 			"zpos"			"3"
 			"wide"			"50"
 			"tall"			"26"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"visible"		"1"
 			"enabled"		"1"
 
 			if_mvm
 			{
-                "fgcolor"		"StatsFont"
+                "fgcolor"		"ya_Stats"
                 "textAlignment"	"east"
 				"font"		"Medium54"
 				"xpos"		"c-323"
@@ -983,7 +983,7 @@
 			"fieldName"		"DeathsLabel"
 			"font"			"Medium26"
 			"labelText"		":"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"		"west"
 			"xpos"			"c-184"
 			"ypos"			"r33"
@@ -1010,14 +1010,14 @@
 			"zpos"			"3"
 			"wide"			"115"
 			"tall"			"26"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"visible"		"1"
 			"enabled"		"1"
 
 			if_mvm
 			{
                 "textAlignment"		"west"
-                "fgcolor"		"StatsFont"
+                "fgcolor"		"ya_Stats"
 				"font"		"Medium54"
 				"xpos"		"c-176"
 				"ypos"		"r170"
@@ -1030,7 +1030,7 @@
 			"fieldName"		"AssistsLabel"
 			"font"			"Medium9"
 			"labelText"		"Assists:"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"		"east"
 			"xpos"			"c-185"
 			"ypos"			"r31"
@@ -1043,7 +1043,7 @@
 			if_mvm
 			{   
                 "textAlignment"		"west"
-                "fgcolor"		"StatsFont"
+                "fgcolor"		"ya_Stats"
                 "tall"			"15"
 				"font"		"Medium9"
 				"xpos"		"c-70"
@@ -1056,7 +1056,7 @@
 			"fieldName"		"Assists"
 			"font"			"Medium9"
 			"labelText"		"%assists%"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"	"west"
 			"xpos"			"c-103"
 			"ypos"			"r31"
@@ -1069,7 +1069,7 @@
 			if_mvm
 			{
                 "textAlignment"		"east"
-                "fgcolor"		"StatsFont"
+                "fgcolor"		"ya_Stats"
                 "tall"			"15"
 				"font"		"Medium9"
 				"xpos"		"c-61"
@@ -1082,7 +1082,7 @@
 			"fieldName"		"CapturesLabel"
 			"font"			"Medium9"
 			"labelText"		"Caps:"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"		"east"
 			"xpos"			"c-185"
 			"ypos"			"r22"
@@ -1094,7 +1094,7 @@
 
 			if_mvm
 			{
-                "fgcolor"		"StatsFont"
+                "fgcolor"		"ya_Stats"
                 "tall"			"15"
 				"font"		"Medium9"
 				"xpos"		"c-70"
@@ -1107,7 +1107,7 @@
 			"fieldName"		"Captures"
 			"font"			"Medium9"
 			"labelText"		"%captures%"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"	"west"
 			"xpos"			"c-103"
 			"ypos"			"r22"
@@ -1119,7 +1119,7 @@
 
 			if_mvm
 			{
-                "fgcolor"		"StatsFont"
+                "fgcolor"		"ya_Stats"
                 "textAlignment"	"east"
 				"font"		"Medium9"
 				"xpos"		"c-61"
@@ -1133,7 +1133,7 @@
 			"fieldName"		"DefensesLabel"
 			"font"			"Medium9"
 			"labelText"		"Defenses:"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"		"east"
 			"xpos"			"c-185"
 			"ypos"			"r13"
@@ -1156,7 +1156,7 @@
 			"fieldName"		"Defenses"
 			"font"			"Medium9"
 			"labelText"		"%defenses%"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"	"west"
 			"xpos"			"c-103"
 			"ypos"			"r13"
@@ -1179,7 +1179,7 @@
 			"fieldName"		"DominationLabel"
 			"font"			"Medium9"
 			"labelText"		"Dominations:"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"		"east"
 			"xpos"			"c-105"
 			"ypos"			"r22"
@@ -1202,7 +1202,7 @@
 			"fieldName"		"Domination"
 			"font"			"Medium9"
 			"labelText"		"%dominations%"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"	"west"
 			"xpos"			"c-23"
 			"ypos"			"r22"
@@ -1225,7 +1225,7 @@
 			"fieldName"		"RevengeLabel"
 			"font"			"Medium9"
 			"labelText"		"Revenges:"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"		"east"
 			"xpos"			"c-105"
 			"ypos"			"r13"
@@ -1248,7 +1248,7 @@
 			"fieldName"		"Revenge"
 			"font"			"Medium9"
 			"labelText"		"%Revenge%"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"	"west"
 			"xpos"			"c-23"
 			"ypos"			"r13"
@@ -1271,7 +1271,7 @@
 			"fieldName"		"DestructionLabel"
 			"font"			"Medium9"
 			"labelText"		"Destructions:"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"		"east"
 			"xpos"			"c-105"
 			"ypos"			"r31"
@@ -1294,7 +1294,7 @@
 			"fieldName"		"Destruction"
 			"font"			"Medium9"
 			"labelText"		"%destruction%"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"	"west"
 			"xpos"			"c-23"
 			"ypos"			"r31"
@@ -1317,7 +1317,7 @@
 			"fieldName"		"HealingLabel"
 			"font"			"Medium9"
 			"labelText"		"Healing:"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"		"east"
 			"xpos"			"c35"
 			"ypos"			"r31"
@@ -1340,7 +1340,7 @@
 			"fieldName"		"Healing"
 			"font"			"Medium9"
 			"labelText"		"%healing%"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"	"west"
 			"xpos"			"c117"
 			"ypos"			"r31"
@@ -1364,7 +1364,7 @@
 			"fieldName"		"InvulnLabel"
 			"font"			"Medium9"
 			"labelText"		"Ubers:"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"		"east"
 			"xpos"			"c35"
 			"ypos"			"r22"
@@ -1387,7 +1387,7 @@
 			"fieldName"		"Invuln"
 			"font"			"Medium9"
 			"labelText"		"%invulns%"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"	"west"
 			"xpos"			"c117"
 			"ypos"			"r22"
@@ -1411,7 +1411,7 @@
 			"fieldName"		"HeadshotsLabel"
 			"font"			"Medium9"
 			"labelText"		"Headshots:"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"		"east"
 			"xpos"			"c-30"
 			"ypos"			"r22"
@@ -1434,7 +1434,7 @@
 			"fieldName"		"Headshots"
 			"font"			"Medium9"
 			"labelText"		"%headshots%"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"	"west"
 			"xpos"			"c52"
 			"ypos"			"r22"
@@ -1458,7 +1458,7 @@
 			"fieldName"		"BackstabsLabel"
 			"font"			"Medium9"
 			"labelText"		"Backstabs:"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"		"east"
 			"xpos"			"c-30"
 			"ypos"			"r31"
@@ -1481,7 +1481,7 @@
 			"fieldName"		"Backstabs"
 			"font"			"Medium9"
 			"labelText"		"%backstabs%"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"	"west"
 			"xpos"			"c52"
 			"ypos"			"r31"
@@ -1505,7 +1505,7 @@
 			"fieldName"		"TeleportsLabel"
 			"font"			"Medium9"
 			"labelText"		"Teleports:"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"		"east"
 			"xpos"			"c-30"
 			"ypos"			"r13"
@@ -1528,7 +1528,7 @@
 			"fieldName"		"Teleports"
 			"font"			"Medium9"
 			"labelText"		"%teleports%"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"	"west"
 			"xpos"			"c52"
 			"ypos"			"r13"
@@ -1552,7 +1552,7 @@
 			"fieldName"		"BonusLabel"
 			"font"			"Medium9"
 			"labelText"		"Bonus:"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"		"east"
 			"xpos"			"c35"
 			"ypos"			"r13"
@@ -1575,7 +1575,7 @@
 			"fieldName"		"Bonus"
 			"font"			"Medium9"
 			"labelText"		"%bonus%"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 			"textAlignment"	"west"
 			"xpos"			"c117"
 			"ypos"			"r13"
@@ -1609,7 +1609,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 
 			if_mvm
 			{
@@ -1620,7 +1620,7 @@
                 "zpos"          "15"
                 "wide"			"270"
                 "tall"			"18"
-                "fgcolor"		"StatsFont"
+                "fgcolor"		"ya_Stats"
 			}	
 		}
 		"GameType"
@@ -1639,7 +1639,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"StatsFont"
+			"fgcolor"		"ya_Stats"
 		}
 	}
 

@@ -16,7 +16,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Object_dispenser"
 		"textAlignment"	"center"
-		"fgcolor"	"Name"
+		"fgcolor"	"ya_Name"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
@@ -53,7 +53,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_NotBuilt"
 		"textAlignment"	"Center"
-		"fgcolor"		"Name"
+		"fgcolor"		"ya_Name"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}	
@@ -71,7 +71,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"Name"
+		"iconColor"		"ya_Name"
 	}
 	
 	"NumberLabel"
@@ -79,7 +79,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"Medium14"
-		"fgcolor"		"Name"
+		"fgcolor"		"ya_Name"
 		"xpos"			"0"
 		"ypos"			"67"
 		"zpos"			"1"

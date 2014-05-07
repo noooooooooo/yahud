@@ -84,7 +84,7 @@
 		"font"			"CerbeticaBold20"
 		"labelText"		"Your Squadron"
 		"textAlignment"	"center"
-		"fgcolor"		"HudShadow"
+		"fgcolor"		"ya_Shadow"
 	}
 		
 	"changeLabel"

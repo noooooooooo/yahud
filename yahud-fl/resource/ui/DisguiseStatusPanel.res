@@ -44,7 +44,7 @@
         "zpos"          "-4"
 		"wide"			"226"
 		"tall"			"20"
-		"fillcolor"		"NameBG"
+		"fillcolor"		"ya_NameLongBG"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -57,7 +57,7 @@
         "zpos"          "-4"
 		"wide"			"178"
 		"tall"			"19"
-		"fillcolor"		"NameBGRight"
+		"fillcolor"		"ya_NameBG"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -74,7 +74,7 @@
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"Name"
+		"fgcolor"		"ya_Name"
 		"labelText"		"%disguisename%"
 		"textAlignment"	"west"
 	}
@@ -91,7 +91,7 @@
 		"tall"			"11"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"Name"
+		"fgcolor"		"ya_Name"
 		"labelText"		"%weaponname%"
 		"textAlignment"	"west"	
 	}
@@ -119,14 +119,14 @@
 		"xpos"			"24"
 		"ypos"			"420"
 		"wide"			"48"
-		"tall"			"40"
+		"tall"			"480"
 		"visible"			"1"
 		"enabled"			"1"	
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
 		"TFFont"			"HudFontSmall"
-		"HealthDeathWarningColor"	"HUDDeathWarning"
-		"TextColor"		"HudOffWhite"
+		"HealthDeathWarningColor"	"Red"
+		"TextColor"				"Health"
 	}	
 	
 }

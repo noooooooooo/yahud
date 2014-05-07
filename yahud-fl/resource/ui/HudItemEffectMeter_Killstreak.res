@@ -10,7 +10,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"MeterFG"		"White"
-		"MeterBG"		"HudBG"
+		"MeterBG"		"ya_HudBG"
 	}
 	
 	"ItemEffectMeterBG"

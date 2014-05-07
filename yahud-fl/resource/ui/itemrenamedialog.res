@@ -220,7 +220,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override" "MenuBG"
+		"bgcolor_override" "ya_MenuBG"
 		"paintbackgroundtype" "2"
 	}
 	"OldItemNameDescLabel"
@@ -277,7 +277,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override" "MenuBG"
+		"bgcolor_override" "ya_MenuBG"
 		"paintbackgroundtype" "2"
 	}
 	"NewItemNameDescLabel"

@@ -12,7 +12,7 @@
 		"visible"		"0"
         
 		"border"				"NoBorder"
-		"bgcolor_override"		"HudBG"
+		"bgcolor_override"		"ya_HudBG"
         "paintbackground"	"1"
 		"PaintBackgroundType"	"2"
 		

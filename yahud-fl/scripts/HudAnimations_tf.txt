@@ -4,7 +4,7 @@
 
 event DamagedPlayer
 {
-    Animate Crosshair 	FgColor 	"CrosshairDamage" 	Linear 0.0 0.00001
+    Animate Crosshair 	FgColor 	"ya_CrosshairDamage" 	Linear 0.0 0.00001
 	Animate Crosshair 	FgColor 	"Crosshair" 	Linear 0.10 0.10001
 }
 
@@ -14,7 +14,7 @@ event DamagedPlayer
 
 event DamagedPlayer
 {
-	Animate fogCrosshair 	FgColor 	"CrosshairDamage" 	Linear 0.0 0.00001
+	Animate fogCrosshair 	FgColor 	"ya_CrosshairDamage" 	Linear 0.0 0.00001
 	Animate fogCrosshair 	FgColor 	"Crosshair" 	Linear 0.10 0.10001
 	
 	// Set the second line ("255 255 255 255") to whatever color you have changed
@@ -26,7 +26,7 @@ event DamagedPlayer
 	//
 	//You can also look into the clientscheme.res file in /resource/,
 	//there you can find various colors that are already defined for the HUD
-	//such as "Green", "Red" and "Blue"
+	//such as "Red" and "Blue"
 	//
 	//
 }
@@ -39,19 +39,19 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"160"		    Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"160"		        Linear 0.2 0.4
 
-    Animate	PlayerStatusHealthValue 	    FgColor		"PositiveFont"	        Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueCam 	    FgColor		"PositiveFont"	        Accel 0.0 0.0
-    Animate	PlayerStatusHealthValueSpec 	FgColor		"PositiveFont"	        Accel 0.0 0.0  
-	Animate	PlayerStatusHealthValueTour  	FgColor		"PositiveFont"          Accel 0.0 0.0
+    Animate	PlayerStatusHealthValue 	    FgColor		"ya_Positive"	        Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueCam 	    FgColor		"ya_Positive"	        Accel 0.0 0.0
+    Animate	PlayerStatusHealthValueSpec 	FgColor		"ya_Positive"	        Accel 0.0 0.0  
+	Animate	PlayerStatusHealthValueTour  	FgColor		"ya_Positive"          Accel 0.0 0.0
     
-    Animate	HealthBG 	    BgColor		"PositiveBG"        Accel 0.0 0.0
+    Animate	HealthBG 	    BgColor		"ya_PositiveBG"        Accel 0.0 0.0
     Animate	HealthBG 	    Alpha		"255"		        Accel 0.0 0.3
 	Animate	HealthBG 	    Alpha		"255"		        Accel 0.3 0.6
     Animate	HealthBGBox 	    BgColor		"BoxBGPositive"        Accel 0.0 0.0
     Animate	HealthBGbox 	    Alpha		"255"		        Accel 0.0 0.3
 	Animate	HealthBGbox 	    Alpha		"255"		        Accel 0.3 0.6
     
-	Animate	TargetHPBG 	    BgColor		"PositiveBG"        Accel 0.0 0.0
+	Animate	TargetHPBG 	    BgColor		"ya_PositiveBG"        Accel 0.0 0.0
     Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.0 0.3
 	Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.3 0.6
     Animate	TargetHPBGBox 	    BgColor		"BoxBGPositive"        Accel 0.0 0.0
@@ -84,14 +84,14 @@ event HudHealthBonusPulseStop
 	StopEvent PlayerStatusHealthValueSpec 0.0
 	StopEvent PlayerStatusHealthValueTour 0.0
 
-	Animate	PlayerStatusHealthValue 	    FgColor		"Health"	        Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueCam 	    FgColor		"Health"	        Accel 0.0 0.0
-    Animate	PlayerStatusHealthValueSpec 	FgColor		"Health"	        Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueTour  	FgColor		"Health"            Accel 0.0 0.0
+	Animate	PlayerStatusHealthValue 	    FgColor		"ya_Health"	        Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueCam 	    FgColor		"ya_Health"	        Accel 0.0 0.0
+    Animate	PlayerStatusHealthValueSpec 	FgColor		"ya_Health"	        Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueTour  	FgColor		"ya_Health"            Accel 0.0 0.0
     
     Animate	HealthBG 	     BgColor		"Blank"	       Accel 0.0 0.0
     Animate	HealthBG 	     Alpha		    "255"		           Accel 0.0 0.0
-    Animate	HealthBGBox 	     BgColor		"BoxBG"	       Accel 0.0 0.0
+    Animate	HealthBGBox 	     BgColor		"ya_BoxBG"	       Accel 0.0 0.0
     Animate	HealthBGBox 	     Alpha		    "255"		           Accel 0.0 0.0
     
 	Animate	TargetHPBG 	     BgColor		"NameHPBG"	       Accel 0.0 0.0
@@ -112,19 +112,19 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"155"		         Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		         Linear 0.125 0.075
 
-    Animate	PlayerStatusHealthValue 	    FgColor		"NegativeFont"	        Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueCam 	    FgColor		"NegativeFont"	        Accel 0.0 0.0
-    Animate	PlayerStatusHealthValueSpec 	FgColor		"NegativeFont"	        Accel 0.0 0.0  
-	Animate	PlayerStatusHealthValueTour  	FgColor		"NegativeFont"          Accel 0.0 0.0
+    Animate	PlayerStatusHealthValue 	    FgColor		"ya_Negative"	        Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueCam 	    FgColor		"ya_Negative"	        Accel 0.0 0.0
+    Animate	PlayerStatusHealthValueSpec 	FgColor		"ya_Negative"	        Accel 0.0 0.0  
+	Animate	PlayerStatusHealthValueTour  	FgColor		"ya_Negative"          Accel 0.0 0.0
     
-    Animate	HealthBG 	    BgColor		"NegativeBG"	    Accel 0.0 0.0
+    Animate	HealthBG 	    BgColor		"ya_NegativeBG"	    Accel 0.0 0.0
     Animate	HealthBG 	    Alpha		"255"		        Accel 0.0 0.3
 	Animate	HealthBG 	    Alpha		"255"		        Accel 0.3 0.6
     Animate	HealthBGBox 	    BgColor		"BoxBGNegative"	    Accel 0.0 0.0
     Animate	HealthBGBox 	    Alpha		"255"		        Accel 0.0 0.3
 	Animate	HealthBGBox 	    Alpha		"255"		        Accel 0.3 0.6
     
-	Animate	TargetHPBG 	    BgColor	    "NegativeBG"	    Accel 0.0 0.0
+	Animate	TargetHPBG 	    BgColor	    "ya_NegativeBG"	    Accel 0.0 0.0
     Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.0 0.3
 	Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.3 0.6
     Animate	TargetHPBGBox 	    BgColor	    "BoxBGNegative"	    Accel 0.0 0.0
@@ -158,14 +158,14 @@ event HudHealthDyingPulseStop
 	StopEvent PlayerStatusHealthValueTour 0.0
 
 
-	Animate	PlayerStatusHealthValue 	    FgColor		"Health"	         Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueCam 	    FgColor		"Health"	         Accel 0.0 0.0
-    Animate	PlayerStatusHealthValueSpec 	FgColor		"Health"	         Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueTour  	FgColor		"Health"             Accel 0.0 0.0
+	Animate	PlayerStatusHealthValue 	    FgColor		"ya_Health"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueCam 	    FgColor		"ya_Health"	         Accel 0.0 0.0
+    Animate	PlayerStatusHealthValueSpec 	FgColor		"ya_Health"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueTour  	FgColor		"ya_Health"             Accel 0.0 0.0
     
     Animate	HealthBG 	     BgColor		"Blank"	       Accel 0.0 0.0
     Animate	HealthBG 	     Alpha		    "255"		           Accel 0.0 0.0
-    Animate	HealthBGBox 	     BgColor		"BoxBG"	       Accel 0.0 0.0
+    Animate	HealthBGBox 	     BgColor		"ya_BoxBG"	       Accel 0.0 0.0
     Animate	HealthBGBox 	     Alpha		    "255"		           Accel 0.0 0.0
     
 	Animate	TargetHPBG 	     BgColor		"NameHPBG"	       Accel 0.0 0.0
@@ -187,9 +187,9 @@ event LowAmmoPulse
 	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"		Linear 0.125 0.075
 
-    Animate	AmmoInClip		FgColor		"AmmoLow"	         Accel 0.0 0.0
-	Animate	AmmoInReserve	FgColor		"AmmoLow"            Accel 0.0 0.0
-	Animate	AmmoNoClip		FgColor		"AmmoLow"	         Accel 0.0 0.0
+    Animate	AmmoInClip		FgColor		"ya_AmmoLow"	         Accel 0.0 0.0
+	Animate	AmmoInReserve	FgColor		"ya_AmmoLow"            Accel 0.0 0.0
+	Animate	AmmoNoClip		FgColor		"ya_AmmoLow"	         Accel 0.0 0.0
     
 	Animate	AmmoBG 	                BgColor		"Blank"	        linear 0.0 0.0
     
@@ -208,13 +208,13 @@ event HudLowAmmoPulseStop
 	StopEvent LowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
 
-    Animate	AmmoInClip		FgColor		"Ammo"	         Accel 0.0 0.0
-	Animate	AmmoInReserve	FgColor		"AmmoReserve"    Accel 0.0 0.0
-	Animate	AmmoNoClip		FgColor		"Ammo"	         Accel 0.0 0.0
+    Animate	AmmoInClip		FgColor		"ya_Ammo"	         Accel 0.0 0.0
+	Animate	AmmoInReserve	FgColor		"ya_AmmoReserve"    Accel 0.0 0.0
+	Animate	AmmoNoClip		FgColor		"ya_Ammo"	         Accel 0.0 0.0
     
 	Animate	AmmoBG 	                BgColor		"Blank"	        linear 0.0 0.0
     
-    Animate	AmmoBGBox 	                BgColor		"BoxBG"	        linear 0.0 0.0
+    Animate	AmmoBGBox 	                BgColor		"ya_BoxBG"	        linear 0.0 0.0
 }
 
 //===========================================
@@ -225,13 +225,13 @@ event HudLowAmmoPulseStop
 
 event HudMedicCharged
 {
-	Animate	MedicBG 	            BgColor		"UberReadyBG"		linear 0.0 0.0
+	Animate	MedicBG 	            BgColor		"ya_UberReadyBG"		linear 0.0 0.0
     Animate	MedicBGBox 	            BgColor		"BoxBGUber"		linear 0.0 0.0
     
     
-    Animate ChargeLabel             FgColor		"UberReadyFont"		    linear 0.0 0.0
-	Animate	ChargeMeter 	        FgColor		"UberReadyMeter"		Linear 0.0 0.1
-	Animate	ChargeMeter 			FgColor		"UberReadyMeterFlash"		Linear 0.3 0.4
+    Animate ChargeLabel             FgColor		"ya_UberReady"		    linear 0.0 0.0
+	Animate	ChargeMeter 	        FgColor		"ya_UberReadyMeter"		Linear 0.0 0.1
+	Animate	ChargeMeter 			FgColor		"ya_UberReadyMeterFlash"		Linear 0.3 0.4
     
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -252,9 +252,9 @@ event HudMedicChargedStop
 	StopEvent ChargeMeter 0.0
 
     Animate	MedicBG 	            BgColor		"Blank"	       linear 0.0 0.0
-    Animate	MedicBGBox 	            BgColor		"BoxBG"	       linear 0.0 0.0
+    Animate	MedicBGBox 	            BgColor		"ya_BoxBG"	       linear 0.0 0.0
     
-	Animate	ChargeLabel 	        FgColor		"Uber"		   linear 0.0 0.0001
+	Animate	ChargeLabel 	        FgColor		"ya_Uber"		   linear 0.0 0.0001
 	Animate	ChargeMeter 	        FgColor		"White"		   linear 0.0 0.0001
 	
 }

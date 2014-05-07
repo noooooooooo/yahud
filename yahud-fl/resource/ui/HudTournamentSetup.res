@@ -126,8 +126,8 @@
 		"paintbackground"	"0"
 			
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Select"
-		"depressedFgColor_override" "Select"
+		"armedFgColor_override" "ya_Select"
+		"depressedFgColor_override" "ya_Select"
 	}
 	"TournamentReadyButton"
 	{
@@ -156,7 +156,7 @@
 		"paintbackground"	"0"
 			
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Select"
-		"depressedFgColor_override" "Select"
+		"armedFgColor_override" "ya_Select"
+		"depressedFgColor_override" "ya_Select"
 	}
 }

@@ -313,7 +313,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"HudBG"
+		"fillcolor"		"ya_HudBG"
 		"PaintBackgroundType"	"0"
 	}
 	"TopPlayersLabel"

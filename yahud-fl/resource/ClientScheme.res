@@ -33,39 +33,39 @@ Scheme
         
         // Set the last value to "255" to enable or "0" to disable a specific feature
         
-        "MeterText"             "142 142 142 255"     //Item charge meter labels
-        "CrosshairPercentage"   "227 227 227 0"       //Shows Uber % under crosshair
+        "ya_Meter"             "142 142 142 255"     //Item charge meter labels
+        "ya_CrosshairPercentage"   "227 227 227 0"       //Shows Uber % under crosshair
         
-        "StatsBG"               "227 227 227 255"     //Stats background
-        "StatsFont"             "18 18 18 255"        //Stats
+        "ya_StatsBG"               "227 227 227 255"     //Stats background
+        "ya_Stats"             "18 18 18 255"        //Stats
         
         //// CUSTOM COLORS ////
       
-        "Damage"                "240 240 20 255"     //Damage numbers
-        "Crosshair"             "240 240 20 255"     //Crosshair color
-        "CrosshairDamage"       "245 54 64 255"       //Crosshair damage flash color
+        "ya_Damage"                "240 240 20 255"     //Damage numbers
+        "ya_Crosshair"             "240 240 20 255"     //Crosshair color
+        "ya_CrosshairDamage"       "245 54 64 255"       //Crosshair damage flash color
                                                       //Make this the same as "Crosshair" to disable the flash
                                                       //Crosshairs can be activated in /scripts/hudlayout.res                                             
                             
         //// HUD COLORS
                             
-        "Ammo"                  "227 227 227 255"      //Current clip
-		"AmmoReserve"           "227 227 227 255"      //Reserve clip
-        "AmmoLow"               "107 107 107 255"      //Low ammo warning
+        "ya_Ammo"                  "227 227 227 255"      //Current clip
+		"ya_AmmoReserve"           "227 227 227 255"      //Reserve clip
+        "ya_AmmoLow"               "107 107 107 255"      //Low ammo warning
         
-        "Health"                "227 227 227 255"    
-        "PositiveFont"          "227 227 227 255"    //Buffed HP font color   
-        "NegativeFont"          "227 227 227 255"    //Low HP
+        "ya_Health"                "227 227 227 255"    
+        "ya_Positive"          "227 227 227 255"    //Buffed HP font color   
+        "ya_Negative"          "227 227 227 255"    //Low HP
         
-        "Uber"                  "227 227 227 255"   
-        "UberReadyFont"         "227 227 227 255"   //Percentage color when ready
-        "UberReadyMeter"        "22 182 71 255"     //Uber meter ready color
-        "UberReadyMeterFlash"        "22 182 71 255"
+        "ya_Uber"                  "227 227 227 255"   
+        "ya_UberReady"         "227 227 227 255"   //Percentage color when ready
+        "ya_UberReadyMeter"        "22 182 71 255"     //Uber meter ready color
+        "ya_UberReadyMeterFlash"        "22 182 71 255"
 		
         "Red"                   "245 54 64 255"         //Red team  
         "Blue"                  "18 127 220 255"        //Blue team
         
-        "Time"                  "227 227 227 255"            //Timer color
+        "ya_Time"                  "227 227 227 255"            //Timer color
         
         //// SPEC ////
         
@@ -77,29 +77,29 @@ Scheme
 		"ya_NameSpecLongBG"		"18 18 18 0"		//Mid and right BG
         "ya_NameSpec"              "18 18 18 255"      //Name font color
 		
-        "SpecClassBG"           "28 28 28 255"      //Class background and charge cover
-		"Respawn"				"48 48 48 255"		//BG
-        "RespawnFont"           "18 18 18 255" 
+        "ya_ClassBG"           "28 28 28 255"      //Class background and charge cover
+		"ya_RespawnBG"				"48 48 48 255"		//BG
+        "ya_Respawn"           "18 18 18 255" 
         
         //// SCOREBOARD, WINPANEL AND TARGETID ////
         
-        "HudBG"                "28 28 28 234"             //Scoreboard, winpanel, item meters
+        "ya_HudBG"                "28 28 28 234"             //Scoreboard, winpanel, item meters
         
-        "NameBG"                "227 227 227 0"            //TargetID background
-        "NameBGRight"           "227 227 227 255"          //for fl
-        "Name"                  "18 18 18 255"             //TargetID name color
-        "NameCounter"           "227 227 227 255"          //Engineer shortcuts & destroy icon
+        "ya_NameLongBG"                "227 227 227 0"            //TargetID background
+        "ya_NameBG"           "227 227 227 255"          //for fl
+        "ya_Name"                  "18 18 18 255"             //TargetID name color
+        "ya_NameCounter"           "227 227 227 255"          //Engineer shortcuts & destroy icon
         
         //// MENU ////
         
-        "MainFont"              "227 227 227 255"       //Main menu font color
-        "BG"                    "18 18 18 154"          //Fullscreen menu bg color
+        "ya_Main"              "227 227 227 255"       //Main menu font color
+        "ya_MainBG"                    "18 18 18 154"          //Fullscreen menu bg color
         
-        "Select"                "137 137 137 255"          //Regular menu select color
+        "ya_Select"                "137 137 137 255"          //Regular menu select color
         
         //// MISC ////
         
-        "HealthPickup"          "22 182 71 255"
+        "ya_Plus"          "22 182 71 255"
         
         //// fl COLORS /////
         "ya_flBG"                "28 28 28 255"      //Enables background color 
@@ -107,9 +107,9 @@ Scheme
                                                       //Red team -> "245 54 64 255" 
                                                       //Neutral gray  -> "28 28 28 255"
         
-        "PositiveBG"            "18 127 220 255"     //HP effects
-        "NegativeBG"            "245 54 64 255"      //
-        "UberReadyBG"           "22 182 71 255"      //Uber background ready color (only fl)
+        "ya_PositiveBG"            "18 127 220 255"     //HP effects
+        "ya_NegativeBG"            "245 54 64 255"      //
+        "ya_UberReadyBG"           "22 182 71 255"      //Uber background ready color (only fl)
         
         "NameHPBG"              "28 28 28 255"       //TargetID hp bg
         "RespawnCoverHP"        "48 48 48 255"
@@ -117,15 +117,15 @@ Scheme
         
         //// box COLORS ////
         
-        "BoxBG"                "227 227 227 0"   //for HP, main menu bg
+        "ya_BoxBG"                "227 227 227 0"   //for HP, main menu bg
         
-        "BoxBGPositive"         "21 207 100 0"    
+        "BoxBGPositive"         "21 207 100 0"    //maybe use fl effect entries instead?
         "BoxBGNegative"         "200 47 47 0"     
         "BoxBGUber"             "21 207 100 0"
 		
 		//// mx COLORS ////
 		
-		"HudShadow"             "0 0 0 0"			//Shadows under numbers
+		"ya_Shadow"             "0 0 0 0"			//Shadows under numbers
 		
 		//// universal ////
 		
@@ -136,10 +136,10 @@ Scheme
         
         //// GAME MENU COLORS ////
         
-        "MenuFrame"             "48 48 48 255"        //
-        "MenuBG"                "48 48 48 255"          //
-        "MenuHi"                "227 227 227 255"       //Selcted Tab
-        "MenuLo"                "87 87 87 255"       //
+        "ya_MenuFrame"             "48 48 48 255"			//
+        "ya_MenuBG"                "48 48 48 255"			//
+        "ya_MenuHi"                "227 227 227 255"		//Selcted Tab
+        "ya_MenuLo"                "87 87 87 255"			//
         
         "FieldBG"               "25 25 25 255"          //Backpack item bg
         
@@ -151,14 +151,15 @@ Scheme
         "ButtonFontArmed"       "157 157 157 255"       //Highlighted font color
         "ButtonFontSelect"      "247 247 247 255"       //Highlighted font color
         
+		
+		
         ////CORE COLORS////
        
         "White"                "227 227 227 255"
         "Black"                "18 18 18 255"
-        "Green"                "22 182 71 255"
 
-        "GrayBGDark"           "57 57 57 255"                
-        "GrayBGDarkest"        "27 27 27 255"
+        "GrayBGDark"           "57 57 57 255"    	//used for borders in clientscheme, to be replaced            
+        "GrayBGDarkest"        "27 27 27 255"		//
         
         // Base Colors TF2
 
@@ -290,7 +291,7 @@ Scheme
         "LightRed"                                "200 80 60 255"
         "LighterRed"                            "220 100 80 255"
         "LighterDarkBrown"                        "59 54 48 255"
-        "DarkBrown"                                "41 37 38 255"       //should be same as "MenuBG"
+        "DarkBrown"                                "41 37 38 255"       //should be same as "ya_MenuBG"
 
         "UpgradeDefaultFg"        "87 82 74 255"
         "UpgradeDefaultBg"        "111 104 94 255"
@@ -310,7 +311,7 @@ Scheme
     BaseSettings
     {
         // vgui_controls color specifications
-        ReplayBrowser.BgColor                                "MenuBG"
+        ReplayBrowser.BgColor                                "ya_MenuBG"
         ReplayBrowser.Details.TitleEdit.Carat.FgColor        "Blank"
         ReplayBrowser.Button.ArmedBgColor                    "ButtonBGArmed"
         ReplayBrowser.Button.DepressedBgColor                "ButtonBG"
@@ -409,7 +410,7 @@ Scheme
         Menu.ArmedBgColor                "TanLight"
         Menu.TextInset                    "6"
 
-        Chat.TypingText                    "Select"
+        Chat.TypingText                    "White"
 
         Panel.FgColor                    "White"
         Panel.BgColor                    "Blank"
@@ -603,7 +604,7 @@ Scheme
         {
             "1"
             {
-                "name"        "crosshair"
+                "name"        "Crosshair"
                 "tall"        "16"
                 "additive"    "0"
                 "antialias"     "1"
@@ -615,7 +616,7 @@ Scheme
         {
             "1"
             {
-                "name"        "crosshair"
+                "name"        "Crosshair"
                 "tall"        "16"
                 "additive"    "0"
                 "antialias"     "1"
@@ -627,7 +628,7 @@ Scheme
         {
             "1"
             {
-                "name"        "crosshair"
+                "name"        "Crosshair"
                 "tall"        "20"
                 "additive"    "0"
                 "antialias"     "1"
@@ -639,7 +640,7 @@ Scheme
         {
             "1"
             {
-                "name"        "crosshair"
+                "name"        "Crosshair"
                 "tall"        "20"
                 "additive"    "0"
                 "antialias"     "1"
@@ -651,7 +652,7 @@ Scheme
         {
             "1"
             {
-                "name"        "crosshair"
+                "name"        "Crosshair"
                 "tall"        "24"
                 "additive"    "0"
                 "antialias"     "1"
@@ -663,7 +664,7 @@ Scheme
         {
             "1"
             {
-                "name"        "crosshair"
+                "name"        "Crosshair"
                 "tall"        "24"
                 "additive"    "0"
                 "antialias"     "1"
@@ -4400,7 +4401,7 @@ Scheme
         // this is the border used for default buttons (the button that gets pressed when you hit enter)
         ButtonKeyFocusBorder
         {
-            "color" "Green"
+            "color" "22 182 71 255"
             "offset" "0 0"
         }
 
@@ -4669,7 +4670,7 @@ Scheme
             {
                 "1"
                 {
-                    "color" "HudBG"
+                    "color" "ya_HudBG"
                     "offset" "0 1"
                 }
             }
@@ -4678,7 +4679,7 @@ Scheme
             {
                 "1"
                 {
-                    "color" "HudBG"
+                    "color" "ya_HudBG"
                     "offset" "1 0"
                 }
             }
@@ -4687,7 +4688,7 @@ Scheme
             {
                 "1"
                 {
-                    "color" "HudBG"
+                    "color" "ya_HudBG"
                     "offset" "0 0"
                 }
             }
@@ -4696,7 +4697,7 @@ Scheme
             {
                 "1"
                 {
-                    "color" "HudBG"
+                    "color" "ya_HudBG"
                     "offset" "0 0"
                 }
             }
@@ -5816,7 +5817,7 @@ Scheme
         "14" 
         {
             "font" "resource/fonts/crosshair.ttf"
-            "name" "crosshair"  
+            "name" "Crosshair"  
         }
         
         //futura font definitions
@@ -5861,7 +5862,7 @@ Scheme
             "font" "resource/fonts/RespawnFont.otf"
             "name" "RespawnFont"
         }
-		"23"
+		"24"
         {
             "font" "resource/fonts/Backpack.otf"
             "name" "Backpack"

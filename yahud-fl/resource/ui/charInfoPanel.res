@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"MenuBG"
-		"infocus_bgcolor_override"		"MenuBG"
-		"outoffocus_bgcolor_override"	"MenuBG"
+		"bgcolor_override"				"ya_MenuBG"
+		"infocus_bgcolor_override"		"ya_MenuBG"
+		"outoffocus_bgcolor_override"	"ya_MenuBG"
 		
 		"title"			"#CharInfoAndSetup"
 		"title_font"	"HudFontMediumBold"
@@ -25,7 +25,7 @@
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"MenuText"
 		"titlebardisabledfgcolor_override"		"MenuText"
-		"titlebarbgcolor_override"				"MenuBG"
+		"titlebarbgcolor_override"				"ya_MenuBG"
 		
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
@@ -60,7 +60,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"MenuFrame"
+		"bgcolor_override"		"ya_MenuFrame"
 	}
 	"BackgroundFooter"
 	{
@@ -91,7 +91,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"MenuFrame"
+		"bgcolor_override"		"ya_MenuFrame"
 	}				
 	"FooterLine"
 	{
@@ -108,7 +108,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"MenuFrame"
+			"bgcolor_override"		"ya_MenuFrame"
 	}				
 	
 	"Sheet"
@@ -137,7 +137,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"MenuFrame"
+			"bgcolor_override"		"ya_MenuFrame"
 		}				
 		
 		"tabskv"
@@ -145,17 +145,17 @@
 			"textinsetx"		"5"
             "textinsety"		"0"
 			"font"				"Bold24"   //"HudFontMediumBold"
-			"selectedcolor"		            "MenuHi"
-			"unselectedcolor"	            "MenuLo"	
+			"selectedcolor"		            "ya_MenuHi"
+			"unselectedcolor"	            "ya_MenuLo"	
 			"paintbackground"	"1"
             
 			"activeborder_override"	        "NoBorder"
 			"normalborder_override"         "NoBorder"
-			"defaultBgColor_override"		"MenuFrame"
-            "armedBgColor_override"		    "MenuFrame"
-            "SelectedBgColor_override"      "MenuFrame"
-			"unselectedBgColor_override"	"MenuFrame"
-			"depressedBgColor_override"		"MenuFrame"
+			"defaultBgColor_override"		"ya_MenuFrame"
+            "armedBgColor_override"		    "ya_MenuFrame"
+            "SelectedBgColor_override"      "ya_MenuFrame"
+			"unselectedBgColor_override"	"ya_MenuFrame"
+			"depressedBgColor_override"		"ya_MenuFrame"
 		}
 	}
 	
@@ -246,7 +246,7 @@
 		"font"			"Medium16"
 		"fgcolor"		"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Select"
+		"armedFgColor_override" "ya_Select"
 		"depressedFgColor_override" "White"
 	}
     

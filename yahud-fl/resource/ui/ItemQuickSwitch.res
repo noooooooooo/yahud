@@ -57,7 +57,7 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"HudBG"
+		"fillcolor"				"ya_HudBG"
 		"PaintBackgroundType"	"0"
 	}
 	

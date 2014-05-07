@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"MenuBG"
-		"infocus_bgcolor_override"		"MenuBG"
-		"outoffocus_bgcolor_override"	"MenuBG"
+		"bgcolor_override"				"ya_MenuBG"
+		"infocus_bgcolor_override"		"ya_MenuBG"
+		"outoffocus_bgcolor_override"	"ya_MenuBG"
 		
 		"item_controls_xoffset"	"2"
 		"item_controls_yoffset"	"2"
@@ -44,7 +44,7 @@
 
 		"item_backdrop_zpos"				"1"
 		
-		"item_panel_bgcolor"			"MenuBG"
+		"item_panel_bgcolor"			"ya_MenuBG"
 		"item_panel_bgcolor_mouseover"	"125 125 125 255"
 		"item_panel_bgcolor_selected"	"165 165 165 255"
 		

@@ -78,7 +78,7 @@
         "pinCorner"	          "0"
         "visible"		      "1"
         "enabled"		      "1"
-        "defaultBgColor_Override"		"NameBG"
+        "defaultBgColor_Override"		"ya_NameLongBG"
         "PaintBackgroundType""0"
         "textinsety" "99"
 	}
@@ -95,7 +95,7 @@
         "pinCorner"	          "0"
         "visible"		      "1"
         "enabled"		      "1"
-        "defaultBgColor_Override"		"NameBGRight"
+        "defaultBgColor_Override"		"ya_NameBG"
         "PaintBackgroundType""0"
         "textinsety" "99"
 	}
@@ -109,7 +109,7 @@
 		"zpos"			"2"
 		"wide"			"640"
 		"tall"			"14"
-		"fgcolor"		"Name"
+		"fgcolor"		"ya_Name"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -177,7 +177,7 @@
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"Red"
-		"TextColor"		"Health"
+		"TextColor"		"ya_Health"
 	}
 
 	"AmmoIcon"

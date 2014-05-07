@@ -28,7 +28,7 @@
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
 		"font"			"Respawn20"			
-		"fgcolor_override" "Time"
+		"fgcolor_override" "ya_Time"
 	}
 	
 	"BuyBackLabel"
@@ -75,7 +75,7 @@
 		"visible"		"0"
         
         "border"				"NoBorder"
-		"bgcolor_override"		"HudBG"
+		"bgcolor_override"		"ya_HudBG"
         "paintbackground"	"1"
 		"PaintBackgroundType"	"2"
 		

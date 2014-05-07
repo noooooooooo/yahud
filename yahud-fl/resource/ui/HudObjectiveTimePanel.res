@@ -14,7 +14,7 @@
         "labelText"                "%servertimeleft%"
         "textAlignment"                "west"
         "font"                        "MediumNumbers20"
-        "fgcolor"				"Time"
+        "fgcolor"				"ya_Time"
     }
     "ServerTimeLimitLabelBG"
     {

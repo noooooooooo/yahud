@@ -11,7 +11,7 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"NameBG"
+		"fillcolor"		"ya_NameLongBG"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 	}
@@ -26,7 +26,7 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"NameBGRight"
+		"fillcolor"		"ya_NameBG"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 	}

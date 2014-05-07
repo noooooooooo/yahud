@@ -16,7 +16,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Dispenser"
 		"textAlignment"	"center"
-		"fgcolor"	    "Name"
+		"fgcolor"	    "ya_Name"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
@@ -34,7 +34,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg_outline"
-		"iconColor"		"Name"
+		"iconColor"		"ya_Name"
 	}
 	
 	"DestroyIcon"	
@@ -50,7 +50,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_demolish"
-		"iconColor"		"Name"
+		"iconColor"		"ya_Name"
 	}
 		
 	"BuildingIcon"	
@@ -66,7 +66,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_dispenser"
-		"iconColor"		"Name"
+		"iconColor"		"ya_Name"
 	}
 		
 	"NumberBg"	
@@ -82,7 +82,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"Name"
+		"iconColor"		"ya_Name"
 	}
 	
 	"NumberLabel"
@@ -90,7 +90,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"Medium14"
-		"fgcolor"		"NameCounter"
+		"fgcolor"		"ya_NameCounter"
 		"xpos"			"0"
 		"ypos"			"67"
 		"zpos"			"1"

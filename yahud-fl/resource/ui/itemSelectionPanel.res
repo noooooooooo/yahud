@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		"bgcolor_override"	"MenuBG"
+		"bgcolor_override"	"ya_MenuBG"
 		
 		"item_ypos"		"60"
 		"item_ydelta"	"80"

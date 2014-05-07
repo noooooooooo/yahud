@@ -107,7 +107,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"Heavy24"
-		"fgcolor"		"Health"
+		"fgcolor"		"ya_Health"
 	}			
 	"PlayerStatusHealthValueSpecShadow"
 	{
@@ -123,7 +123,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"Heavy24"
-		"fgcolor"		"HudShadow"
+		"fgcolor"		"ya_Shadow"
 	}	
 
 

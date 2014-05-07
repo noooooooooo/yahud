@@ -71,7 +71,7 @@
 		"zpos"			"-5"
 		"wide"			"f0"
 		"tall"			"480"
-		"fillcolor"		"BG"
+		"fillcolor"		"ya_MainBG"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -135,9 +135,9 @@
 		"font"			"Medium16"
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Select"
+		"armedFgColor_override" "ya_Select"
 		"depressedFgColor_override" "White"
-		"SelectedFgColor_override" "Select"
+		"SelectedFgColor_override" "ya_Select"
 	}
     "JoinSpecButton"
 	{
@@ -165,9 +165,9 @@
 		"font"			"Medium16"
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Select"
+		"armedFgColor_override" "ya_Select"
 		"depressedFgColor_override" "White"
-		"SelectedFgColor_override" "Select"
+		"SelectedFgColor_override" "ya_Select"
 	}
     
     "AutoShortcut"
@@ -379,7 +379,7 @@
 		"paintbackground"	"0"
 		"fgcolor"		"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Select"
+		"armedFgColor_override" "ya_Select"
 		"depressedFgColor_override" "White"
 	}
 
@@ -412,7 +412,7 @@
 		"paintbackground"	"0"
 		"fgcolor"		"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Select"
+		"armedFgColor_override" "ya_Select"
 		"depressedFgColor_override" "White"
 	}
 	"ButtonBGQuit"

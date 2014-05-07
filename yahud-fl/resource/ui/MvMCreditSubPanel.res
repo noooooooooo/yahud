@@ -50,7 +50,7 @@
 		"xpos"			"63"
 		"ypos"			"34"
 		"wide"			"30"
-		"fgcolor"		"HealthPickup"
+		"fgcolor"		"ya_Plus"
 	}
 	
 	"CreditMissedTextLabel"
@@ -102,7 +102,7 @@
 		"xpos"			"63"
 		"ypos"			"54"
 		"wide"			"30"
-		"fgcolor"		"HealthPickup"
+		"fgcolor"		"ya_Plus"
 	}
 		
 	"CreditRatingLabelShadow"

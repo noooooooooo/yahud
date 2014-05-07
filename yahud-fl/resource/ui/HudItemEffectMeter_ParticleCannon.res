@@ -10,7 +10,7 @@
 		"wide"			"120"
 		"tall"			"20"
         "MeterFG"		"White"
-		"MeterBG"		"HudBG"
+		"MeterBG"		"ya_HudBG"
 	}
 	
 	"ItemEffectMeterBG"
@@ -40,7 +40,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"			"#TF_Ball"
-		"fgcolor_override" "MeterText"
+		"fgcolor_override" "ya_Meter"
 		"textAlignment"			"center"
 		"font"				"ItemMeterFont"
 	}
@@ -60,7 +60,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"bgcolor_override" "HudBG"
+		"bgcolor_override" "ya_HudBG"
 		"fgcolor_override" "White"
 		"dulltext"		"0"
 		"brighttext"	"0"

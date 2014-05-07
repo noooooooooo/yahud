@@ -30,7 +30,7 @@
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
-		"fgcolor_override" "MeterText"
+		"fgcolor_override" "ya_Meter"
 		"labelText"				"#TF_Charge"
 		"textAlignment"			"center"
 		"font"					"ItemMeterFont"
@@ -50,7 +50,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"bgcolor_override" "HudBG"
+		"bgcolor_override" "ya_HudBG"
 		"fgcolor_override" "White"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -122,7 +122,7 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"Medium18"
-			"fgcolor"		"HudShadow"
+			"fgcolor"		"ya_Shadow"
 		}		
 	}
 	
@@ -195,7 +195,7 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"Regular21"
-			"fgcolor"		"HudShadow"
+			"fgcolor"		"ya_Shadow"
 		}	
 	}				
 }

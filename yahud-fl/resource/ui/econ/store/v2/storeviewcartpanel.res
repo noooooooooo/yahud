@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"MenuBG"
-		"infocus_bgcolor_override"		"MenuBG"
-		"outoffocus_bgcolor_override"	"MenuBG"
+		"bgcolor_override"				"ya_MenuBG"
+		"infocus_bgcolor_override"		"ya_MenuBG"
+		"outoffocus_bgcolor_override"	"ya_MenuBG"
 		
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
@@ -182,7 +182,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"MenuFrame"
+		"bgcolor_override"		"ya_MenuFrame"
 	}
 	"BackgroundFooter"
 	{
@@ -213,7 +213,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"MenuFrame"
+		"bgcolor_override"		"ya_MenuFrame"
 	}				
 	"FooterLine"
 	{
@@ -230,7 +230,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"MenuFrame"
+			"bgcolor_override"		"ya_MenuFrame"
 	}			
 	
 	"ClientArea"
@@ -241,7 +241,7 @@
 		"ypos"			"55"
 		"wide"			"f0"
 		"tall"			"368"
-		"bgcolor_override"				"MenuBG"
+		"bgcolor_override"				"ya_MenuBG"
 		
 		"HeaderLine"
 		{
@@ -496,7 +496,7 @@
 		"armedBgColor_override"		"Blank"
 		"depressedBgColor_override"	"Blank"
 		"defaultFgColor_override"	"White"
-		"armedFgColor_override" 	"Select"
+		"armedFgColor_override" 	"ya_Select"
 		"depressedFgColor_override" "White"
 	}		
 	
@@ -528,7 +528,7 @@
 		"armedBgColor_override"		"Blank"
 		"depressedBgColor_override"	"Blank"
 		"defaultFgColor_override"	"White"
-		"armedFgColor_override" 	"Select"
+		"armedFgColor_override" 	"ya_Select"
 		"depressedFgColor_override" "White"
 	}	
 	

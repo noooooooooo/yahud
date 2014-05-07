@@ -14,9 +14,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	            "MenuBG"
-		"infocus_bgcolor_override"      "MenuBG"
-		"outoffocus_bgcolor_override"   "MenuBG"
+		"bgcolor_override"	            "ya_MenuBG"
+		"infocus_bgcolor_override"      "ya_MenuBG"
+		"outoffocus_bgcolor_override"   "ya_MenuBG"
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
@@ -540,7 +540,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"DefaultFgColor_override"		"White"
-		"ArmedFgColor_override"			"Select"
+		"ArmedFgColor_override"			"ya_Select"
 		"DepressedFgColor_override"		"White"
 		"DefaultBgColor_override"		"Blank"
 		"ArmedBgColor_override"			"Blank"
@@ -572,7 +572,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"DefaultFgColor_override"		"White"
-		"ArmedFgColor_override"			"Select"
+		"ArmedFgColor_override"			"ya_Select"
 		"DepressedFgColor_override"		"White"
 		"DefaultBgColor_override"		"Blank"
 		"ArmedBgColor_override"			"Blank"
@@ -604,7 +604,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"DefaultFgColor_override"		"White"
-		"ArmedFgColor_override"			"Select"
+		"ArmedFgColor_override"			"ya_Select"
 		"DepressedFgColor_override"		"White"
 		"DefaultBgColor_override"		"Blank"
 		"ArmedBgColor_override"			"Blank"
@@ -636,7 +636,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"DefaultFgColor_override"		"White"
-		"ArmedFgColor_override"			"Select"
+		"ArmedFgColor_override"			"ya_Select"
 		"DepressedFgColor_override"		"White"
 		"DefaultBgColor_override"		"Blank"
 		"ArmedBgColor_override"			"Blank"

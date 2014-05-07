@@ -16,9 +16,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	            "MenuBG"
-		"infocus_bgcolor_override"      "MenuBG"
-		"outoffocus_bgcolor_override"   "MenuBG"
+		"bgcolor_override"	            "ya_MenuBG"
+		"infocus_bgcolor_override"      "ya_MenuBG"
+		"outoffocus_bgcolor_override"   "ya_MenuBG"
 
 		"item_ypos"						"85"
 		"output_item_ypos"				"255"		

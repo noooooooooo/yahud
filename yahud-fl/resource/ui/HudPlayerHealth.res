@@ -31,7 +31,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"east"
 		"font"			"HeavyNumbers48"
-		"fgcolor"		"Health"
+		"fgcolor"		"ya_Health"
 	}
 	"PlayerStatusHealthValueShadow"
 	{
@@ -47,7 +47,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"east"
 		"font"			"HeavyNumbers48"
-		"fgcolor"		"HudShadow"
+		"fgcolor"		"ya_Shadow"
 	}
     
   
@@ -141,7 +141,7 @@
 		"pinCorner"	"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"HudBG"
+		"fillcolor"		"ya_HudBG"
 		"PaintBackgroundType""0"
 	}
 	"CrossBackground4"	
@@ -157,7 +157,7 @@
 		"pinCorner"	"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"HudBG"
+		"fillcolor"		"ya_HudBG"
 		"PaintBackgroundType""0"
 	}
 	"PlayerStatusHealthBonusImage"

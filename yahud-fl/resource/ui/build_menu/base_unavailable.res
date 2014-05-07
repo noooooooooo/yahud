@@ -132,7 +132,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"HudMenuNumberFont"
-		"fgcolor"		"Name"
+		"fgcolor"		"ya_Name"
 		"xpos"			"0"
 		"ypos"			"98"
 		"zpos"			"1"

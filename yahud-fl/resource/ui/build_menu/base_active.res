@@ -16,7 +16,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
 		"textAlignment"	"center"
-		"fgcolor"	    "Name"
+		"fgcolor"	    "ya_Name"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
@@ -34,7 +34,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg"
-		"iconColor"		"Name"
+		"iconColor"		"ya_Name"
 	}
 	
 	"BuildingIcon"	
@@ -66,7 +66,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"Name"
+		"iconColor"		"ya_Name"
 	}
 	
 	"CostLabel"
@@ -93,7 +93,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ModeLabel"
 		"font"			"DefaultSmall"
-		"fgcolor"		"Name"
+		"fgcolor"		"ya_Name"
 		"xpos"			"33"
 		"ypos"			"17"
 		"zpos"			"1"
@@ -120,7 +120,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"Name"
+		"iconColor"		"ya_Name"
 	}
 
 	"NumberLabelBG"
@@ -135,7 +135,7 @@
 		"zpos"			"4"
 		"wide"			"40"
 		"tall"			"40"
-		"fgcolor"		"Name"
+		"fgcolor"		"ya_Name"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -145,7 +145,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"Medium10"
-		"fgcolor"		"NameCounter"
+		"fgcolor"		"ya_NameCounter"
 		"xpos"			"0"
 		"ypos"			"r362"
 		"zpos"			"5"

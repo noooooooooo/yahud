@@ -6,8 +6,8 @@
 		"text_x"				"7"
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
-		"PositiveColor"			"HealthPickup"
-		"NegativeColor"			"Damage"
+		"PositiveColor"			"ya_Plus"
+		"NegativeColor"			"ya_Damage"
 		"delta_lifetime"		"3.0"
 		"delta_item_font"		"Damage"		//Change to "Medium18"
 		"delta_item_font_big"	"Damage"		//to disable the outline
@@ -28,7 +28,7 @@
 		"labelText"		"%metal%"
 		"delta_lifetime"		"10.0"
 		"textAlignment"	"west"
-		"fgcolor"		"Damage"
+		"fgcolor"		"ya_Damage"
 		"font"			"Medium18"
 	}
 	"DamageAccountValueShadow"
@@ -45,7 +45,7 @@
 		"labelText"	 		"%metal%"
 		"delta_lifetime"	"10.0"
 		"textAlignment"	 	"west"
-		"fgcolor"	 		"HudShadow"
+		"fgcolor"	 		"ya_Shadow"
 		"font"	 			"Medium18"			
 	}
 }

@@ -14,9 +14,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	            "MenuBG"
-		"infocus_bgcolor_override"      "MenuBG"
-		"outoffocus_bgcolor_override"   "MenuBG"
+		"bgcolor_override"	            "ya_MenuBG"
+		"infocus_bgcolor_override"      "ya_MenuBG"
+		"outoffocus_bgcolor_override"   "ya_MenuBG"
 		
 		"item_xpos_offcenter_a"	"-290"
 		"item_xpos_offcenter_b"	"145"
@@ -277,7 +277,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"		"NoBorder"
-			"bgcolor_override"	"HudBG"
+			"bgcolor_override"	"ya_HudBG"
     	}
 		
 		

@@ -147,16 +147,16 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	"BoxBG"
+	"ya_BoxBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"BoxBG"
+		"fieldName"		"ya_BoxBG"
 		"xpos"			"0"	
 		"ypos"			"0"
 		"zpos"			"-11"
 		"wide"			"225"
 		"tall"			"480"
-		"fillcolor"		"BoxBG"
+		"fillcolor"		"ya_BoxBG"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -169,7 +169,7 @@
 		"zpos"			"-12"
 		"wide"			"f0"
 		"tall"			"480"
-		"fillcolor"		"BG"
+		"fillcolor"		"ya_MainBG"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -303,7 +303,7 @@
 			
 		"FgColor" "White"			
 		"defaultFgColor_override" "White"		
-		"armedFgColor_override" "Select"
+		"armedFgColor_override" "ya_Select"
 		"depressedFgColor_override" "White"
 			
 		"image_drawcolor"	"0 0 0 0"
@@ -365,7 +365,7 @@
 			
             "defaultFgColor_override"   "Black"
 			"defaultBgColor_override"	"White"
-			"armedBgColor_override"		"Select"
+			"armedBgColor_override"		"ya_Select"
 			"armedFgColor_override"		"White"
 			"depressedBgColor_override"	"White"
 			"depressedFgColor_override"	"Black"
@@ -412,7 +412,7 @@
             "zpos"          "8"
             "wide"			"300"
 			"tall"			"24"
-            "fillcolor"		"HudBG"
+            "fillcolor"		"ya_HudBG"
             "visible"		"1"
             "enabled"		"1"
         }
@@ -864,7 +864,7 @@
             
             "defaultFgColor_override"   "Black"
 			"defaultBgColor_override"	"White"
-			"armedBgColor_override"		"Select"
+			"armedBgColor_override"		"ya_Select"
 			"armedFgColor_override"		"White"
 			"depressedBgColor_override"	"White"
 			"depressedFgColor_override"	"Black"
@@ -1085,7 +1085,7 @@
 			
 			"FgColor" "White"		
 			"defaultFgColor_override" "White"	
-			"armedFgColor_override" "Select"
+			"armedFgColor_override" "ya_Select"
 			"depressedFgColor_override" "White"	
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1147,7 +1147,7 @@
 			
 			"FgColor" "White"		
 			"defaultFgColor_override" "White"		
-			"armedFgColor_override" "Select"
+			"armedFgColor_override" "ya_Select"
 			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1209,7 +1209,7 @@
 			
 			"FgColor"  "White"
 			"defaultFgColor_override"  "White"
-			"armedFgColor_override"   "Select"
+			"armedFgColor_override"   "ya_Select"
 			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1272,7 +1272,7 @@
 			
 			"FgColor" "White"	
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "Select"
+			"armedFgColor_override" "ya_Select"
 			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1334,7 +1334,7 @@
 
 			"FgColor" "White"			
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "Select"
+			"armedFgColor_override" "ya_Select"
 			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1459,7 +1459,7 @@
 			
 			"FgColor" "White"		
 			"defaultFgColor_override" "White"	
-			"armedFgColor_override" "Select"
+			"armedFgColor_override" "ya_Select"
 			"depressedFgColor_override" "White"	
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1522,7 +1522,7 @@
 			
 			"FgColor" "White"			
 			"defaultFgColor_override" "White"		
-			"armedFgColor_override" "Select"
+			"armedFgColor_override" "ya_Select"
 			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1761,7 +1761,7 @@
 			
 			"FgColor" "White"		
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "Select"
+			"armedFgColor_override" "ya_Select"
 			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1823,7 +1823,7 @@
 			
 			"FgColor"  "White"	
 			"defaultFgColor_override"  "White"	
-			"armedFgColor_override" "Select"
+			"armedFgColor_override" "ya_Select"
 			"depressedFgColor_override" "White"	
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1885,7 +1885,7 @@
 			
 			"FgColor"  "White"	
 			"defaultFgColor_override"  "White"	
-			"armedFgColor_override" "Select"
+			"armedFgColor_override" "ya_Select"
 			"depressedFgColor_override" "White"	
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1949,7 +1949,7 @@
 			
 			"FgColor" "White"			
 			"defaultFgColor_override" "White"	
-			"armedFgColor_override" "Select"
+			"armedFgColor_override" "ya_Select"
 			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2012,7 +2012,7 @@
 			
 			"FgColor" "White"		
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "Select"
+			"armedFgColor_override" "ya_Select"
 			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2075,7 +2075,7 @@
 			
 			"FgColor" "White"			
 			"defaultFgColor_override" "White"	
-			"armedFgColor_override" "Select"
+			"armedFgColor_override" "ya_Select"
 			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2138,7 +2138,7 @@
 			
 			"FgColor" "White"			
 			"defaultFgColor_override" "White"	
-			"armedFgColor_override" "Select"
+			"armedFgColor_override" "ya_Select"
 			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2200,7 +2200,7 @@
 			
 			"FgColor" "White"			
 			"defaultFgColor_override" "White"	
-			"armedFgColor_override" "Select"
+			"armedFgColor_override" "ya_Select"
 			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2262,7 +2262,7 @@
 			
 			"FgColor"  "White"	
 			"defaultFgColor_override"  "White"	
-			"armedFgColor_override" "Select"
+			"armedFgColor_override" "ya_Select"
 			"depressedFgColor_override" "White"	
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2324,7 +2324,7 @@
 			
 			"FgColor"  "White"	
 			"defaultFgColor_override"  "White"	
-			"armedFgColor_override" "Select"
+			"armedFgColor_override" "ya_Select"
 			"depressedFgColor_override" "White"	
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2521,7 +2521,7 @@
 			
 			"FgColor"  "White"	
 			"defaultFgColor_override"  "White"	
-			"armedFgColor_override" "Select"
+			"armedFgColor_override" "ya_Select"
 			"depressedFgColor_override" "White"	
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2727,7 +2727,7 @@
 			
 			"FgColor"  "White"	
 			"defaultFgColor_override"  "White"	
-			"armedFgColor_override" "Select"
+			"armedFgColor_override" "ya_Select"
 			"depressedFgColor_override" "White"	
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2783,7 +2783,7 @@
 
 		"FgColor" "White"	
 		"defaultFgColor_override" "White"	
-		"armedFgColor_override" "Select"
+		"armedFgColor_override" "ya_Select"
 		"depressedFgColor_override" "White"
 			
 		"image_drawcolor"	"0 0 0 0"

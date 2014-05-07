@@ -5,7 +5,7 @@
 		"delta_item_x"			"76"
 		"delta_item_start_y"	"27"
 		"delta_item_end_y"		"24"
-		"PositiveColor"			"HealthPickup"
+		"PositiveColor"			"ya_Plus"
 		"NegativeColor"			"Red"
 		"zpos"			        "-1"
 		"delta_lifetime"		"0.8"
@@ -44,7 +44,7 @@
 		"pinCorner"	"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fillcolor"		"HudBG"
+		"fillcolor"		"ya_HudBG"
 		"PaintBackgroundType""0"
 
 	}
@@ -107,7 +107,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"HudShadow"
+		"fgcolor"		"ya_Shadow"
 		"font"			"Medium18"
 	}
 }

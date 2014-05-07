@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	            "MenuBG"
-		"infocus_bgcolor_override"      "MenuBG"
-		"outoffocus_bgcolor_override"   "MenuBG"
+		"bgcolor_override"	            "ya_MenuBG"
+		"infocus_bgcolor_override"      "ya_MenuBG"
+		"outoffocus_bgcolor_override"   "ya_MenuBG"
 		
 		"selectlabely_default"		"25"
 		"selectlabely_onchanges"	"15"
@@ -43,7 +43,7 @@
 		"zpos"			"2"
 		"wide"			"30"
 		"tall"			"50"
-		"fillcolor"		"MenuBG"
+		"fillcolor"		"ya_MenuBG"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -302,7 +302,7 @@
 		
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Select"
+		"armedFgColor_override" "ya_Select"
 		"depressedFgColor_override" "White"
 		"selectedFgColor_override" "White"
 	}	
@@ -352,7 +352,7 @@
 		
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Select"
+		"armedFgColor_override" "ya_Select"
 		"depressedFgColor_override" "White"
 		"selectedFgColor_override" "White"
 	}
@@ -401,7 +401,7 @@
 		
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Select"
+		"armedFgColor_override" "ya_Select"
 		"depressedFgColor_override" "White"
 		"selectedFgColor_override" "White"
 	}	
@@ -450,7 +450,7 @@
 		
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Select"
+		"armedFgColor_override" "ya_Select"
 		"depressedFgColor_override" "White"
 		"selectedFgColor_override" "White"
 	}	
