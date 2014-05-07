@@ -887,6 +887,16 @@ Scheme
                 "antialias"     "1"
             }
         }
+		"BackpackS"		//Main menu icons
+        {
+            "1"
+            {
+                "name"            "Backpack"
+                "tall"        	"25"
+                "additive"    	"0"
+                "antialias"     "1"
+            }
+        }
         "Shapes64"
         {
             "1"
@@ -5848,6 +5858,11 @@ Scheme
         {
             "font" "resource/fonts/RespawnFont.otf"
             "name" "RespawnFont"
+        }
+		"23"
+        {
+            "font" "resource/fonts/Backpack.otf"
+            "name" "Backpack"
         }
     }
 }

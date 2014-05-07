@@ -17,8 +17,6 @@ The HUD has optional shortcuts on Q,E & R for various menus.
 You can also press Enter, Q or click anywhere to get through the map intro screens.
 The regular number shortcuts on team and class selection still work, too.
 
-
-
 ## Customization
 
 **Colors & optional elements**
@@ -59,6 +57,8 @@ I've also included fog's, Garm3n's & konr's crosshairs as legacy options.
 You can find some useful links, console commands and other info in the FAQ.
 
 **Issues and bugs**
+
+This HUD may not work with certain localizations of TF2, because of the custom fonts used in the HUD.
 
 This can help resolve issues:
 * use the command "hud_reloadscheme" in the console
