@@ -60,7 +60,8 @@ Scheme
         "Uber"                  "227 227 227 255"   
         "UberReadyFont"         "227 227 227 255"   //Percentage color when ready
         "UberReadyMeter"        "22 182 71 255"     //Uber meter ready color
-        
+        "UberReadyMeterFlash"        "22 182 71 255"
+		
         "Red"                   "245 54 64 255"         //Red team  
         "Blue"                  "18 127 220 255"        //Blue team
         
@@ -122,7 +123,7 @@ Scheme
 		
 		//// mx COLORS ////
 		
-		"HudShadow"             "0 0 0 0"             //Shadows under numbers
+		"HudShadow"             "0 0 0 0"			//Shadows under numbers
 		
 		//// universal ////
 		

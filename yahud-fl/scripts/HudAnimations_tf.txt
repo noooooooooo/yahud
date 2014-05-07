@@ -230,8 +230,8 @@ event HudMedicCharged
     
     
     Animate ChargeLabel             FgColor		"UberReadyFont"		    linear 0.0 0.0
-	Animate	ChargeMeter 	        FgColor		"UberReadyMeter"		    linear 0.0 0.0
-    
+	Animate	ChargeMeter 	        FgColor		"UberReadyMeter"		Linear 0.0 0.1
+	Animate	ChargeMeter 			FgColor		"UberReadyMeterFlash"		Linear 0.3 0.4
     
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -256,6 +256,7 @@ event HudMedicChargedStop
     
 	Animate	ChargeLabel 	        FgColor		"Uber"		   linear 0.0 0.0001
 	Animate	ChargeMeter 	        FgColor		"White"		   linear 0.0 0.0001
+	
 }
 
 //====================================
