@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r50"	[$WIN32]
-		"ypos"			"18"	[$WIN32]
+		"xpos"			"0"	//"r50"	[$WIN32]
+		"ypos"			"0"	//"18"	[$WIN32]
 		"wide"			"f0"
 		"tall"			"480"
 		"MeterFG"		"White"
@@ -22,7 +22,7 @@
 		"zpos"			"0"
 		"wide"			"50"
 		"tall"			"19"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			".replay/thumbnails/bg_black"
 		"scaleImage"	"1"	
@@ -77,19 +77,19 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"0"
-		"ypos"					"r40"
+		"xpos"					"r50"	//"0"
+		"ypos"					"1"	//"r40"
 		"zpos"					"2"
-		"wide"					"50"
-		"tall"					"19"	
+		"wide"					"46"
+		"tall"					"20"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"center"
+		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Medium22"
+		"font"					"MediumNumbers20"
 	}
 }
