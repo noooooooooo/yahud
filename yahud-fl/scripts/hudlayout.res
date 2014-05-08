@@ -884,7 +884,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-170"
-		"ypos"		"266"       /297
+		"ypos"		"266"       //297
 		"wide"	 	"f0"
 		"tall"	 	"51"        //34
 		"priority"	"40"
