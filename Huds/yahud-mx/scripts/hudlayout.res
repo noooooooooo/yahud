@@ -72,7 +72,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-170"
-		"ypos"		"266"	//this changes the position of the regular TargetID
+		"ypos"		"286"	//"266"	//this changes the position of the regular TargetID
 		"wide"	 	"f0"
 		"tall"	 	"51"
 		"priority"	"40"
@@ -84,7 +84,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-170"
-		"ypos"		"297"	//this changes the position of the "healing" TargetID
+		"ypos"		"384"	//"297"	//this changes the position of the "healing" TargetID
 		"wide"	 	"f0"
 		"tall"	 	"51"
 		"priority"	"35"
