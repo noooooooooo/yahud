@@ -105,7 +105,7 @@
 		"fieldName"		"TargetNameLabel"
 		"font"			"Medium14"				//Medium12
 		"xpos"			"53"
-		"ypos"			"16"	
+		"ypos"			"18"	
 		"zpos"			"2"
 		"wide"			"640"
 		"tall"			"14"
