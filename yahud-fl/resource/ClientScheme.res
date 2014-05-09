@@ -33,11 +33,11 @@ Scheme
         
         // Set the last value to "255" to enable or "0" to disable a specific feature
         
-        "ya_Meter"             "142 142 142 255"     //Item charge meter labels
-        "ya_CrosshairPercentage"   "227 227 227 0"       //Shows Uber % under crosshair
+        "ya_Meter"					"142 142 142 255"	//Item charge meter labels
+        "ya_CrosshairPercentage"	"227 227 227 0"		//Shows Uber % under crosshair
         
-        "ya_StatsBG"               "227 227 227 255"     //Stats background
-        "ya_Stats"             "18 18 18 255"        //Stats
+        "ya_StatsBG"				"227 227 227 255"	//Stats background
+        "ya_Stats"             		"18 18 18 255"		//Stats
         
         //// CUSTOM COLORS ////
       
@@ -53,19 +53,22 @@ Scheme
 		"ya_AmmoReserve"           "227 227 227 255"      //Reserve clip
         "ya_AmmoLow"               "107 107 107 255"      //Low ammo warning
         
-        "ya_Health"                "227 227 227 255"    
-        "ya_Positive"          "227 227 227 255"    //Buffed HP font color   
-        "ya_Negative"          "227 227 227 255"    //Low HP
-        
-        "ya_Uber"                  "227 227 227 255"   
-        "ya_UberReady"         "227 227 227 255"   //Percentage color when ready
-        "ya_UberReadyMeter"        "22 182 71 255"     //Uber meter ready color
-        "ya_UberReadyMeterFlash"        "22 182 71 255"
+        "ya_Health"				"227 227 227 255"    
+        "ya_Positive"			"227 227 227 255"    //Buffed HP font color   
+        "ya_Negative"			"227 227 227 255"    //Low HP
+        "ya_PositiveBG"			"18 127 220 255"     //HP effects
+        "ya_NegativeBG"			"245 54 64 255"      //
 		
-        "Red"                   "245 54 64 255"         //Red team  
-        "Blue"                  "18 127 220 255"        //Blue team
-        
+        "ya_Uber"					"227 227 227 255"   
+        "ya_UberReady"         		"227 227 227 255"	//Percentage color when ready
+        "ya_UberReadyMeter"			"22 182 71 255"		//Uber meter ready color
+        "ya_UberReadyMeterFlash"	"22 182 71 255"
+		"ya_UberReadyBG"			"22 182 71 255"		//Uber background ready color (only fl)
+		
         "ya_Time"                  "227 227 227 255"            //Timer color
+		
+		"Red"                   "245 54 64 255"         //Red team  
+        "Blue"                  "18 127 220 255"        //Blue team
         
         //// SPEC ////
         
@@ -77,23 +80,23 @@ Scheme
 		"ya_NameSpecLongBG"		"18 18 18 0"		//Mid and right BG
         "ya_NameSpec" 			"18 18 18 255"      //Name font color
 		
-        "ya_ClassBG"			"28 28 28 255"      	//Class background and charge cover
-		"ya_RespawnBG"			"100 100 100 255"		//BG
+        "ya_ClassBG"			"28 28 28 255"		//Class background and charge cover
+		"ya_RespawnBG"			"100 100 100 255"	//BG
         "ya_Respawn"  			"18 18 18 255" 
         
         //// SCOREBOARD, WINPANEL AND TARGETID ////
         
         "ya_HudBG"                "28 28 28 234"             //Scoreboard, winpanel, item meters
         
-        "ya_NameLongBG"                "227 227 227 0"            //TargetID background
-        "ya_NameBG"           "227 227 227 255"          //for fl
-        "ya_Name"                  "18 18 18 255"             //TargetID name color
-        "ya_NameCounter"           "227 227 227 255"          //Engineer shortcuts & destroy icon
+        "ya_NameLongBG"			"227 227 227 0"            //TargetID background
+        "ya_NameBG"				"227 227 227 255"          //for fl
+        "ya_Name"				"18 18 18 255"             //TargetID name color
+        "ya_NameCounter"		"227 227 227 255"          //Engineer shortcuts & destroy icon
         
         //// MENU ////
         
-        "ya_Main"              "227 227 227 255"       //Main menu font color
-        "ya_MainBG"                    "18 18 18 154"          //Fullscreen menu bg color
+        "ya_Main"				"227 227 227 255"       //Main menu font color
+        "ya_MainBG"				"18 18 18 154"          //Main, intro, map, class team
         
         "ya_Select"                "137 137 137 255"          //Regular menu select color
         
@@ -106,22 +109,15 @@ Scheme
                                                       //Blu team -> "18 127 220 255"
                                                       //Red team -> "245 54 64 255" 
                                                       //Neutral gray  -> "28 28 28 255"
-        
-        "ya_PositiveBG"            "18 127 220 255"     //HP effects
-        "ya_NegativeBG"            "245 54 64 255"      //
-        "ya_UberReadyBG"           "22 182 71 255"      //Uber background ready color (only fl)
-        
+
         "NameHPBG"              "28 28 28 255"       //TargetID hp bg
         "RespawnCoverHP"        "48 48 48 255"
         "RespawnCoverName"      "100 100 100 255"
         
         //// box COLORS ////
         
-        "ya_BoxBG"                "227 227 227 0"   //for HP, main menu bg
-        
-        "BoxBGPositive"         "21 207 100 0"    //maybe use fl effect entries instead?
-        "BoxBGNegative"         "200 47 47 0"     
-        "BoxBGUber"             "21 207 100 0"
+        "ya_BoxBG"				"227 227 227 0"   //for main hud & menu bg
+		"ya_AmmoLowBG"			"0 0 0 0"			
 		
 		//// mx COLORS ////
 		

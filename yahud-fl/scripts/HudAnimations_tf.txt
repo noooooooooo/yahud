@@ -47,16 +47,10 @@ event HudHealthBonusPulse
     Animate	HealthBG 	    BgColor		"ya_PositiveBG"        Accel 0.0 0.0
     Animate	HealthBG 	    Alpha		"255"		        Accel 0.0 0.3
 	Animate	HealthBG 	    Alpha		"255"		        Accel 0.3 0.6
-    Animate	HealthBGBox 	    BgColor		"BoxBGPositive"        Accel 0.0 0.0
-    Animate	HealthBGbox 	    Alpha		"255"		        Accel 0.0 0.3
-	Animate	HealthBGbox 	    Alpha		"255"		        Accel 0.3 0.6
     
 	Animate	TargetHPBG 	    BgColor		"ya_PositiveBG"        Accel 0.0 0.0
     Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.0 0.3
 	Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.3 0.6
-    Animate	TargetHPBGBox 	    BgColor		"BoxBGPositive"        Accel 0.0 0.0
-    Animate	TargetHPBGBox 	    Alpha		"255"		        Accel 0.0 0.3
-	Animate	TargetHPBGBox 	    Alpha		"255"		        Accel 0.3 0.6
     Animate	SpecBG 	        BgColor		"ya_PositiveSpecBG"        Accel 0.0 0.0
     
     Animate	SpecBG 	        Alpha		"255"		        Accel 0.0 0.3
@@ -91,13 +85,9 @@ event HudHealthBonusPulseStop
     
     Animate	HealthBG 	     BgColor		"Blank"	       Accel 0.0 0.0
     Animate	HealthBG 	     Alpha		    "255"		           Accel 0.0 0.0
-    Animate	HealthBGBox 	     BgColor		"ya_BoxBG"	       Accel 0.0 0.0
-    Animate	HealthBGBox 	     Alpha		    "255"		           Accel 0.0 0.0
     
 	Animate	TargetHPBG 	     BgColor		"NameHPBG"	       Accel 0.0 0.0
     Animate	TargetHPBG 	     Alpha		    "255"		           Accel 0.0 0.0
-    Animate	TargetHPBGBox 	     BgColor		"Blank"	       Accel 0.0 0.0
-    Animate	TargetHPBGBox 	     Alpha		    "255"		           Accel 0.0 0.0
     
     Animate	SpecBG 	         BgColor		"ya_HealthSpecBG"	       Accel 0.0 0.0
     Animate	SpecBG 	         Alpha		    "255"		           Accel 0.0 0.0
@@ -120,16 +110,10 @@ event HudHealthDyingPulse
     Animate	HealthBG 	    BgColor		"ya_NegativeBG"	    Accel 0.0 0.0
     Animate	HealthBG 	    Alpha		"255"		        Accel 0.0 0.3
 	Animate	HealthBG 	    Alpha		"255"		        Accel 0.3 0.6
-    Animate	HealthBGBox 	    BgColor		"BoxBGNegative"	    Accel 0.0 0.0
-    Animate	HealthBGBox 	    Alpha		"255"		        Accel 0.0 0.3
-	Animate	HealthBGBox 	    Alpha		"255"		        Accel 0.3 0.6
     
 	Animate	TargetHPBG 	    BgColor	    "ya_NegativeBG"	    Accel 0.0 0.0
     Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.0 0.3
 	Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.3 0.6
-    Animate	TargetHPBGBox 	    BgColor	    "BoxBGNegative"	    Accel 0.0 0.0
-    Animate	TargetHPBGBox 	    Alpha		"255"		        Accel 0.0 0.3
-	Animate	TargetHPBGBox 	    Alpha		"255"		        Accel 0.3 0.6
     
     Animate	SpecBG 	        BgColor		"ya_NegativeSpecBG"	    Accel 0.0 0.0
     Animate	SpecBG 	        Alpha		"255"		        Accel 0.0 0.3
@@ -165,13 +149,9 @@ event HudHealthDyingPulseStop
     
     Animate	HealthBG 	     BgColor		"Blank"	       Accel 0.0 0.0
     Animate	HealthBG 	     Alpha		    "255"		           Accel 0.0 0.0
-    Animate	HealthBGBox 	     BgColor		"ya_BoxBG"	       Accel 0.0 0.0
-    Animate	HealthBGBox 	     Alpha		    "255"		           Accel 0.0 0.0
     
 	Animate	TargetHPBG 	     BgColor		"NameHPBG"	       Accel 0.0 0.0
     Animate	TargetHPBG 	     Alpha		    "255"		           Accel 0.0 0.0
-    Animate	TargetHPBGBox 	     BgColor		"Blank"	       Accel 0.0 0.0
-    Animate	TargetHPBGBox 	     Alpha		    "255"		           Accel 0.0 0.0
     
     Animate	SpecBG 	         BgColor		"ya_HealthSpecBG"	       Accel 0.0 0.0
     Animate	SpecBG 	         Alpha		    "255"		           Accel 0.0 0.0
