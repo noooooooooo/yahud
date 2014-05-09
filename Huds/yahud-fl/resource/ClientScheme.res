@@ -33,17 +33,17 @@ Scheme
         
         // Set the last value to "255" to enable or "0" to disable a specific feature
         
-        "ya_Meter"             "142 142 142 255"     //Item charge meter labels
-        "ya_CrosshairPercentage"   "227 227 227 0"       //Shows Uber % under crosshair
+        "ya_Meter"					"142 142 142 255"	//Item charge meter labels
+        "ya_CrosshairPercentage"	"227 227 227 0"		//Shows Uber % under crosshair
         
-        "ya_StatsBG"               "28 28 28 184"      	//Stats background
-        "ya_Stats"             "227 227 227 255"		//Stats
+        "ya_StatsBG"				"227 227 227 255"	//Stats background
+        "ya_Stats"             		"18 18 18 255"		//Stats
         
         //// CUSTOM COLORS ////
       
-        "ya_Damage"                "227 227 227 255"     //Damage numbers
-        "ya_Crosshair"             "227 227 227 255"     //Crosshair color
-        "ya_CrosshairDamage"       "204 64 67 255"       //Crosshair damage flash color
+        "ya_Damage"                "240 240 20 255"     //Damage numbers
+        "ya_Crosshair"             "240 240 20 255"     //Crosshair color
+        "ya_CrosshairDamage"       "245 54 64 255"       //Crosshair damage flash color
                                                       //Make this the same as "Crosshair" to disable the flash
                                                       //Crosshairs can be activated in /scripts/hudlayout.res                                             
                             
@@ -56,85 +56,85 @@ Scheme
         "ya_Health"				"227 227 227 255"    
         "ya_Positive"			"227 227 227 255"    //Buffed HP font color   
         "ya_Negative"			"227 227 227 255"    //Low HP
-        "ya_PositiveBG"			"18 127 220 0"     //HP effects
-        "ya_NegativeBG"			"245 54 64 0"      //
+        "ya_PositiveBG"			"18 127 220 255"     //HP effects
+        "ya_NegativeBG"			"245 54 64 255"      //
 		
-        "ya_Uber"					"142 142 142 255"   
-        "ya_UberReady"				"227 227 227 0"   	//Percentage color when ready
-        "ya_UberReadyMeter"        	"227 227 227 255"	//Uber meter ready color
-		"ya_UberReadyMeterFlash"	"227 227 227 80"	
-        "ya_UberReadyBG"			"22 182 71 0"      //Uber background ready color (only fl)
+        "ya_Uber"					"227 227 227 255"   
+        "ya_UberReady"         		"227 227 227 255"	//Percentage color when ready
+        "ya_UberReadyMeter"			"22 182 71 255"		//Uber meter ready color
+        "ya_UberReadyMeterFlash"	"22 182 71 255"
+		"ya_UberReadyBG"			"22 182 71 255"		//Uber background ready color (only fl)
 		
         "ya_Time"                  "227 227 227 255"            //Timer color
 		
-        "Red"                  	"204 64 67 255"     //Red team,  "184 60 60 255" for vanilla
-        "Blue"                  "87 121 156 255"	//Blue team, "77 116 139 255" for vanilla
+		"Red"                   "245 54 64 255"         //Red team  
+        "Blue"                  "18 127 220 255"        //Blue team
         
         //// SPEC ////
         
-        "ya_HealthSpecBG" 		"18 18 18 150"			//
-        "ya_PositiveSpecBG"		"255 255 255 175" 	 	//Spectator HUD health effect
-        "ya_NegativeSpecBG"		"204 64 67 200"			//
+        "ya_HealthSpecBG"          "28 28 28 255"       //
+        "ya_PositiveSpecBG"        "18 127 220 255"     //Spectator HUD health effect
+        "ya_NegativeSpecBG"        "245 54 64 255"      //
         
-        "ya_NameSpecBG" 	 	"18 18 18 150"   		//Middle BG
-        "ya_NameSpecLongBG"		"18 18 18 0"			//Mid and right BG
-		"ya_NameSpec"			"227 227 227 255"		//Name font color
+        "ya_NameSpecBG"  		"227 227 227 255"   //Middle BG
+        "ya_NameSpec" 			"18 18 18 255"      //Name font color
 		
-        "ya_ClassBG" 			"28 28 28 255"      //Class background and charge cover
-        "ya_RespawnBG"			"28 28 28 184"		//BG
-        "ya_Respawn" 			"148 148 148 255" 	//
+        "ya_ClassBG"			"28 28 28 255"		//Class background and charge cover
+		"ya_RespawnBG"			"100 100 100 255"	//BG
+        "ya_Respawn"  			"18 18 18 255" 
         
         //// SCOREBOARD, WINPANEL AND TARGETID ////
         
-        "ya_HudBG"                "28 28 28 184"             //Scoreboard, winpanel, item meters
+        "ya_HudBG"                "28 28 28 234"             //Scoreboard, winpanel, item meters
         
-        "ya_NameLongBG"                "28 28 28 184"            //TargetID background
-        "ya_NameBG"           "227 227 227 0"          //for fl
-        "ya_Name"                  "227 227 227 255"             //TargetID name color
-        "ya_NameCounter"           "18 18 18 255"          //Engineer shortcuts & destroy icon
-        
-        "ScoreCounterBG"        "244 244 244 255"          //
-        "ScoreCounterFont"      "18 18 18 255"             //
-        "ScoreCounterFontArmed" "127 127 127 255"        //Used for arena team menu
-        "TeamButtonArmed"       "28 28 28 255"          //Used for team and class menu
+        "ya_NameLongBG"			"227 227 227 0"            //TargetID background
+        "ya_NameBG"				"227 227 227 255"          //for fl
+        "ya_Name"				"18 18 18 255"             //TargetID name color
+        "ya_NameCounter"		"227 227 227 255"          //Engineer shortcuts & destroy icon
         
         //// MENU ////
         
-        "ya_Main" 				"227 227 227 255"       //Main menu font color
-        "ya_MainBG"				"21 21 21 145"          //Main, intro, map, class team
+        "ya_Main"				"227 227 227 255"       //Main menu font color
+        "ya_MainBG"				"18 18 18 154"          //Main, intro, map, class team
         
         "ya_Select"                "137 137 137 255"          //Regular menu select color
-        
         
         //// MISC ////
         
         "ya_Plus"          "22 182 71 255"
         
         //// fl COLORS /////
-        "ya_flBG"                "28 28 28 0"      //Enables background color 
+        "ya_flBG"                "28 28 28 255"      //Enables background color 
                                                       //Blu team -> "18 127 220 255"
                                                       //Red team -> "245 54 64 255" 
                                                       //Neutral gray  -> "28 28 28 255"
+
+        "NameHPBG"              "28 28 28 255"       //TargetID hp bg
+        "RespawnCoverHP"        "48 48 48 255"
+        "RespawnCoverName"      "100 100 100 255"
         
-        "NameHPBG"              "28 28 28 0"       //TargetID hp bg
-        "RespawnCoverHP"        "48 48 48 0"
-        "RespawnCoverName"      "100 100 100 0"
-        
-         //// box COLORS ////
+        //// box COLORS ////
         
         "ya_BoxBG"				"227 227 227 0"   //for main hud & menu bg
-		"ya_AmmoLowBG"			"0 0 0 0"	
-        
+		"ya_AmmoLowBG"			"0 0 0 0"			
+		
 		//// mx COLORS ////
 		
-		"ya_Shadow"             "0 0 0 255"             //Shadows under numbers
+		"ya_Shadow"             "0 0 0 0"			//Shadows under numbers
+		
+		//// universal ////
+		
+		"ScoreCounterBG"        "244 244 244 255"          //
+        "ScoreCounterFont"      "18 18 18 255"             //
+        "ScoreCounterFontArmed" "127 127 127 255"          //Used for arena team menu
+        "TeamButtonArmed"       "28 28 28 255"             //Used for team and class menu
         
         //// GAME MENU COLORS ////
         
-        "ya_MenuFrame"             "48 48 48 255"        //
-        "ya_MenuBG"                "48 48 48 255"          //
-        "ya_MenuHi"                "227 227 227 255"       //Selcted Tab
-        "ya_MenuLo"                "87 87 87 255"       //
+        "ya_MenuFrame"             "48 48 48 255"			//
+        "ya_MenuBG"                "48 48 48 255"			//
+        "ya_MenuHi"                "227 227 227 255"		//Selcted Tab
+        "ya_MenuLo"                "87 87 87 255"			//
         
         "FieldBG"               "25 25 25 255"          //Backpack item bg
         
@@ -146,13 +146,15 @@ Scheme
         "ButtonFontArmed"       "157 157 157 255"       //Highlighted font color
         "ButtonFontSelect"      "247 247 247 255"       //Highlighted font color
         
+		
+		
         ////CORE COLORS////
        
         "White"                "227 227 227 255"
         "Black"                "18 18 18 255"
 
-        "GrayBGDark"           "57 57 57 255"                
-        "GrayBGDarkest"        "27 27 27 255"
+        "GrayBGDark"           "57 57 57 255"    	//used for borders in clientscheme, to be replaced            
+        "GrayBGDarkest"        "27 27 27 255"		//
         
         // Base Colors TF2
 
@@ -247,20 +249,20 @@ Scheme
         "ItemLimitedUse"                        "0 160 0 255"
         "ItemFlags"                                "117 107 94 255"
         
-        "QualityColorNormal"					"178 178 178 255"	//Stock - white -> yellow
-		"QualityColorrarity1"					"77 116 85 255"		//Genuine - dark green
-		"QualityColorrarity2"					"141 131 75 255"	//
-		"QualityColorrarity3"					"112 85 15 255"		//
-		"QualityColorrarity4"					"134 80 172 255"	//
-		"QualityColorVintage"					"71 98 145 255"		//Vintage - dark blue
-		"QualityColorUnique"					"227 227 227 255"		//Normal - yellow -> white
-		"QualityColorCommunity"					"112 176 74 255"	//Community - bright green
-		"QualityColorDeveloper"					"165 15 121 255"	//
-		"QualityColorSelfMade"					"112 176 74 255"	//
-		"QualityColorCustomized"				"71 98 145 255"		//
-		"QualityColorStrange"					"207 106 50 255"	//
-		"QualityColorCompleted"					"134 80 172 255"	//
-		"QualityColorHaunted"					"56 243 171 255"	//
+        "QualityColorNormal"					"178 178 178 255"
+		"QualityColorrarity1"					"77 116 85 255"
+		"QualityColorrarity2"					"141 131 75 255"
+		"QualityColorrarity3"					"112 85 15 255"
+		"QualityColorrarity4"					"134 80 172 255"
+		"QualityColorVintage"					"71 98 145 255"
+		"QualityColorUnique"					"255 215 0 255"
+		"QualityColorCommunity"					"112 176 74 255"
+		"QualityColorDeveloper"					"165 15 121 255"
+		"QualityColorSelfMade"					"112 176 74 255"
+		"QualityColorCustomized"				"71 98 145 255"
+		"QualityColorStrange"					"207 106 50 255"
+		"QualityColorCompleted"					"134 80 172 255"
+		"QualityColorHaunted"					"56 243 171 255"
 		"QualityColorCollectors"				"170 0 0 255"
 
 		"QualityColorNormal_GreyedOut"			"44 44 44 255"
@@ -269,7 +271,7 @@ Scheme
 		"QualityColorrarity3_GreyedOut"			"51 51 62 255"
 		"QualityColorrarity4_GreyedOut"			"36 20 43 255"
 		"QualityColorVintage_GreyedOut"			"18 25 36 255"
-		"QualityColorUnique_GreyedOut"			"64 64 64  255"
+		"QualityColorUnique_GreyedOut"			"64 54 0  255"
 		"QualityColorCommunity_GreyedOut"		"28 44 19 255"
 		"QualityColorDeveloper_GreyedOut"		"41 4  30  255"
 		"QualityColorSelfMade_GreyedOut"		"28 44 74 255"
