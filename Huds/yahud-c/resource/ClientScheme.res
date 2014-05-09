@@ -59,7 +59,7 @@ Scheme
         "ya_PositiveBG"			"18 127 220 0"     //HP effects
         "ya_NegativeBG"			"245 54 64 0"      //
 		
-        "ya_Uber"					"227 227 227 255"   
+        "ya_Uber"					"148 148 148 255"   
         "ya_UberReady"         		"224 11 115 255"	//Percentage color when ready
         "ya_UberReadyMeter"			"224 11 115 255"		//Uber meter ready color
         "ya_UberReadyMeterFlash"	"224 11 115 255"
