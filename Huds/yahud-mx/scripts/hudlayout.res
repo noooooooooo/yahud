@@ -60,6 +60,36 @@
         "font"		"OutlineCircleBig"  //You can add "Small" or "Big" to change the size
 	}
     
+	/////////////////////////////////////////////////////////////////////////////
+	//TARGET ID
+	//
+	//This is what you see when you mouse over a player
+	/////////////////////////////////////////////////////////////////////////////
+	
+	CMainTargetID
+	{
+		"fieldName" 	"CMainTargetID"
+		"visible" 	"0"
+		"enabled" 	"1"
+		"xpos"		"c-170"
+		"ypos"		"266"	//this changes the position of the regular TargetID
+		"wide"	 	"f0"
+		"tall"	 	"51"
+		"priority"	"40"
+	}
+	
+	CSecondaryTargetID
+	{
+		"fieldName" 	"CSecondaryTargetID"
+		"visible" 	"0"
+		"enabled" 	"1"
+		"xpos"		"c-170"
+		"ypos"		"297"	//this changes the position of the "healing" TargetID
+		"wide"	 	"f0"
+		"tall"	 	"51"
+		"priority"	"35"
+	}
+	
     /////////////////////////////////////////////////////////////////////////////
 	//DEATHNOTICE
 	//
@@ -877,18 +907,6 @@
 		"wide"		"248"
 		"tall"		"480"
 	}
-
-	CMainTargetID
-	{
-		"fieldName" 	"CMainTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-170"
-		"ypos"		"266"       //297
-		"wide"	 	"f0"
-		"tall"	 	"51"        //34
-		"priority"	"40"
-	}
 	
 	CSpectatorTargetID
 	{
@@ -900,18 +918,6 @@
 		"wide"	 	"f0"
 		"tall"	 	"50" 
 		"priority"	"40"
-	}
-	
-	CSecondaryTargetID
-	{
-		"fieldName" 	"CSecondaryTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-170"
-		"ypos"		"297"    //"374"
-		"wide"	 	"f0"
-		"tall"	 	"51"      //34
-		"priority"	"35"
 	}
 	
 	BuildingStatus_Spy
