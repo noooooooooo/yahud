@@ -122,7 +122,7 @@
 				
 				if_mvm
 				{
-					"visible"		"0"
+					"visible"		"1"
 				}
 			}
 			
