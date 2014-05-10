@@ -77,7 +77,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HeavyNumbers48"
-		"fgcolor"		"White"
+		"fgcolor"		"ya_Uber"
 	}
 	"ResistIcon"
 	{
