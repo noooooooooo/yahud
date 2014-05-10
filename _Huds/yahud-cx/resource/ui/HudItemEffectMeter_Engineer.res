@@ -52,7 +52,49 @@
 		"brighttext"			"0"
 		"font"					"TFFontSmall"
 	}
-
+	"CountLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"CountLabel"
+		"xpos"					"c117"
+		"ypos"					"382"
+		"zpos"					"2"
+		"wide"					"60"
+		"tall"					"16"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"Revenge"
+		"textAlignment"			"west"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"Medium16"
+		"fgcolor"				"White"
+	}
+	"CountLabelShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"CountLabelShadow"
+		"xpos"					"c118"
+		"ypos"					"383"
+		"zpos"					"1"
+		"wide"					"60"
+		"tall"					"16"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"Revenge"
+		"textAlignment"			"west"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"Medium16"
+		"fgcolor"				"ya_Shadow"
+	}
+	
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
@@ -71,16 +113,16 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}
-
+   
 	"ItemEffectMeterCount"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemEffectMeterCount"
-		"xpos"			        "c-150"	
-		"ypos"			        "379"
+		"xpos"			        "c85"	
+		"ypos"			        "382"
 		"zpos"					"2"
-		"wide"					"50"
-		"tall"					"18"	
+		"wide"					"30"
+		"tall"					"16"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -90,17 +132,17 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"		        "ya_AmmoReserve"
-		"font"				    "Medium18"
+		"font"				    "Medium16"
 	}
     "ItemEffectMeterCountShadow"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemEffectMeterCountShadow"
-		"xpos"			        "c-149"	
-		"ypos"			        "380"
+		"xpos"			        "c86"	
+		"ypos"			        "383"
 		"zpos"					"2"
-		"wide"					"50"
-		"tall"					"18"		
+		"wide"					"30"
+		"tall"					"16"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -110,6 +152,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"		    "ya_Shadow"
-		"font"				"Medium18"
+		"font"				"Medium16"
 	}
 }
