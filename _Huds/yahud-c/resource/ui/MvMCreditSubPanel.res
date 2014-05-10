@@ -130,6 +130,6 @@
 		"ypos"			"13"
 		"wide"			"70"
 		"tall"			"20"
-		"fgcolor"		"White"
+		"fgcolor"		"Blank"
 	}
 }

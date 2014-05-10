@@ -1,9 +1,9 @@
 "Resource/UI/MvMVictoryContainer.res"
 {
-	"Background"
+	"Background"		
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"Background"
+		"fieldName"		"Background"		//fullscreen bg
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-2"
@@ -25,8 +25,9 @@
 		"visible"		"1"
 		
 		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
+		"paintbackground"	"1"
+		"border"			"NoBorder"
+		"BgColor_override"	"ya_HudBG"
 	}
 	
 	"BannerContainer"
@@ -78,7 +79,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BannerTextDropShadow"
-			"font"			"HeavyCaps59"
+			"font"			"Heavy24"
 			"labelText"		"#TF_MVM_Victory_Complete"
 			"textAlignment" "center"
 			"xpos"			"0"

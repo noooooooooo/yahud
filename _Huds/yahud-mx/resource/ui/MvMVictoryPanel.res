@@ -10,9 +10,10 @@
 		"tall"			"230"
 		"visible"		"1"
 		
-		//"PaintBackgroundType"	"0"
-		//"paintbackground"	"0"
-		//"border"		"MainMenuHighlightBorder"
+		"PaintBackgroundType"	"0"
+		"paintbackground"	"0"
+		"border"			"NoBorder"
+		"bgcolor_override"	"ya_HudBG"
 		
 		"StatsBackground"
 		{
@@ -20,19 +21,13 @@
 			"fieldName"		"SplashBackground"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"530"
-			"tall"			"240"
+			"wide"			"0"
+			"tall"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/bg_black"
-
-			"src_corner_height"	"22"				// pixels inside the image
-			"src_corner_width"	"22"
-		
-			"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"visible"		"0"
+			"enabled"		"0"
+			"image"			""
 		}
 		
 		"HeaderContainer"
@@ -63,7 +58,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"HeaderLabel"
-				"font"			"HeavyCaps18"
+				"font"			"Heavy24"
 				"labelText"		"%header%"
 				"textAlignment" "center"
 				"xpos"			"0"
@@ -81,7 +76,7 @@
 			"font"			"HudFontMediumBold"
 			"labelText"		"#TF_PVE_Currency"
 			"textAlignment" "north-west"
-			"xpos"			"80"
+			"xpos"			"91"
 			"ypos"			"80"
 			"wide"			"300"
 			"tall"			"40"

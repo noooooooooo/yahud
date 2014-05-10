@@ -43,7 +43,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SplashLabel"
-			"font"			"HeavyCaps18"
+			"font"			"Heavy24"
 			"labelText"		"Victory!"
 			"textAlignment" "center"
 			"xpos"			"0"

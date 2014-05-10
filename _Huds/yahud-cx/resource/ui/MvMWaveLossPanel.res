@@ -10,7 +10,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
-		"bgcolor_override"		"20 20 20 200"
+		"bgcolor_override"		"20 20 20 0"
 	}
 
 	"PanelBackground"
@@ -24,8 +24,9 @@
 		"visible"		"1"
 		
 		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
+		"paintbackground"	"1"
+		"border"		"NoBorder"
+		"bgcolor_override" "ya_HudBG"
 	}
 	
 	"WaveFailHeaderShadow"
@@ -39,21 +40,21 @@
 		"ypos"			"106"
 		"wide"			"550"
 		"tall"			"30"
-		"fgcolor"		"Black"
+		"fgcolor"		"Blank"
 	}
 	
 	"WaveFailHeader"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HeaderLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"Bold18"
 		"labelText"		"%waveheader%"
 		"textAlignment" "center"
 		"xpos"			"c-275"
 		"ypos"			"105"
 		"wide"			"550"
 		"tall"			"30"
-		"fgcolor"		"Orange"
+		"fgcolor"		"White"
 	}
 	
 	"HeaderDivider"
@@ -65,7 +66,7 @@
 		"wide"			"500"
 		"tall"			"2"
 		"visible"		"1"
-		"bgcolor_override"		"20 20 20 100"
+		"bgcolor_override"		"20 20 20 0"
 	}
 	
 	"SummaryHeader"
@@ -74,19 +75,19 @@
 		"fieldName"		"SummaryHeader"
 		"font"			"HudFontMediumSmallBold"
 		"labelText"		"%summaryheader%"
-		"textAlignment" "west"
+		"textAlignment" "center"
 		"xpos"			"c-250"
-		"ypos"			"135"
-		"wide"			"550"
+		"ypos"			"13200"
+		"wide"			"0"
 		"tall"			"30"
-		"fgcolor"		"Black"
+		"fgcolor"		"Blank"
 	}
 	
 	"CollectionContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CollectionContainer"
-		"xpos"			"190"
+		"xpos"			"220"
 		"ypos"			"160"
 		"wide"			"300"
 		"tall"			"100"
@@ -102,7 +103,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"140"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 		}
 	
 		"CollectedLabel"
@@ -115,7 +116,7 @@
 			"xpos"			"0"
 			"ypos"			"25"
 			"wide"			"120"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"White"
 		}
 		
 		"CollectedCount"
@@ -128,7 +129,7 @@
 			"xpos"			"120"
 			"ypos"			"25"
 			"wide"			"30"
-			"fgcolor"		"CreditsGreen"
+			"fgcolor"		"ya_Plus"
 		}
 		
 		"MissedLabel"
@@ -141,7 +142,7 @@
 			"xpos"			"0"
 			"ypos"			"40"
 			"wide"			"120"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"White"
 		}
 		
 		"MissedCount"
@@ -154,7 +155,7 @@
 			"xpos"			"120"
 			"ypos"			"40"
 			"wide"			"30"
-			"fgcolor"		"RedSolid"
+			"fgcolor"		"Red"
 		}
 		
 		"BonusLabel"
@@ -167,7 +168,7 @@
 			"xpos"			"0"
 			"ypos"			"55"
 			"wide"			"120"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"White"
 		}
 		
 		"BonusCount"
@@ -180,7 +181,7 @@
 			"xpos"			"120"
 			"ypos"			"55"
 			"wide"			"30"
-			"fgcolor"		"CreditsGreen"
+			"fgcolor"		"ya_Plus"
 		}
 	}
 	
@@ -188,7 +189,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"UsageContainer"
-		"xpos"			"390"
+		"xpos"			"420"
 		"ypos"			"160"
 		"wide"			"300"
 		"tall"			"100"
@@ -204,7 +205,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"195"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 		}
 	
 		"YouLabel"
@@ -217,7 +218,7 @@
 			"xpos"			"120"
 			"ypos"			"15"
 			"wide"			"35"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"White"
 		}
 		
 		"TeamLabel"
@@ -230,7 +231,7 @@
 			"xpos"			"175"
 			"ypos"			"15"
 			"wide"			"35"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"White"
 		}
 		
 		"BuybackLabel"
@@ -243,7 +244,7 @@
 			"xpos"			"0"
 			"ypos"			"25"
 			"wide"			"120"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"White"
 		}
 		
 		"BuybackCountYou"
@@ -256,7 +257,7 @@
 			"xpos"			"120"
 			"ypos"			"25"
 			"wide"			"35"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"White"
 		}
 		
 		"BuybackCountTeam"
@@ -269,7 +270,7 @@
 			"xpos"			"175"
 			"ypos"			"25"
 			"wide"			"35"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"White"
 		}
 		
 		"BottleLabel"
@@ -282,7 +283,7 @@
 			"xpos"			"0"
 			"ypos"			"40"
 			"wide"			"120"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"White"
 		}
 		
 		"BottleCountYou"
@@ -295,7 +296,7 @@
 			"xpos"			"120"
 			"ypos"			"40"
 			"wide"			"35"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"White"
 		}
 		
 		"BottleCountTeam"
@@ -308,7 +309,7 @@
 			"xpos"			"175"
 			"ypos"			"40"
 			"wide"			"35"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"White"
 		}
 		
 		"InactiveLabel"
@@ -321,7 +322,7 @@
 			"xpos"			"0"
 			"ypos"			"55"
 			"wide"			"120"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"White"
 		}
 		
 		"InactiveCountYou"
@@ -334,7 +335,7 @@
 			"xpos"			"120"
 			"ypos"			"55"
 			"wide"			"35"
-			"fgcolor"		"RedSolid"
+			"fgcolor"		"Red"
 		}
 		
 		"InactiveCountTeam"
@@ -347,7 +348,7 @@
 			"xpos"			"175"
 			"ypos"			"55"
 			"wide"			"35"
-			"fgcolor"		"RedSolid"
+			"fgcolor"		"Red"
 		}
 	}
 	
@@ -367,19 +368,13 @@
 			"fieldName"		"Background"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"500"
-			"tall"			"150"
+			"wide"			"0"
+			"tall"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../HUD/tournament_panel_black"
-
-			"src_corner_height"	"22"				// pixels inside the image
-			"src_corner_width"	"22"
-		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"visible"		"0"
+			"enabled"		"0"
+			"image"			""
 		}
 		
 		"Header"
@@ -512,7 +507,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_PVE_Vote_MissionRestart"
+		"labelText"		"Vote to restart"	//"#TF_PVE_Vote_MissionRestart"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -529,7 +524,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ContinueButton"
-		"xpos"			"c150"
+		"xpos"			"c130"
 		"ypos"			"410"
 		"zpos"			"1000"
 		"wide"			"100"
@@ -538,7 +533,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#ConfirmButtonText"
+		"labelText"		"Continue"	//"#ConfirmButtonText"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
