@@ -363,6 +363,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"1"
 			
+			
             "defaultFgColor_override"   "Black"
 			"defaultBgColor_override"	"White"
 			"armedBgColor_override"		"ya_Select"
@@ -400,8 +401,9 @@
 		"tall"			"360"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
+		"paintbackground"	"1"
+		"border"		"NoBorder"
+		"BgColor_override"	"White"
 
         "BGHeader"
         {
@@ -900,7 +902,8 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
+		"border"		"NoBorder"
+		"BgColor_override"		"White"
 
 	
 		"Notifications_CloseButton"

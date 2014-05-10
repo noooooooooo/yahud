@@ -148,8 +148,9 @@ Scheme
         
         ////CORE COLORS////
        
-        "White"                "227 227 227 255"
-        "Black"                "18 18 18 255"
+        "White"				"227 227 227 255"
+		"Gray"				"154 154 154 255"
+        "Black"				"18 18 18 255"
 
         "GrayBGDark"           "57 57 57 255"                
         "GrayBGDarkest"        "27 27 27 255"
@@ -5387,12 +5388,12 @@ Scheme
             "bordertype"            "scalable_image"
             "backgroundtype"        "2"
             
-            "image"                    "replay/thumbnails/meter"
+            "image"                    "callout_bubble"
             
-            "src_corner_height"        "32"                // pixels inside the image
-            "src_corner_width"        "32"
-            "draw_corner_width"        "0"                // screen size of the corners ( and sides ), proportional
-            "draw_corner_height"     "0"    
+            "src_corner_height"		"32"                // pixels inside the image
+            "src_corner_width"		"32"
+            "draw_corner_width"		"8"                // screen size of the corners ( and sides ), proportional
+            "draw_corner_height"	"8"    
         }
 
         TrainingResultsBG
