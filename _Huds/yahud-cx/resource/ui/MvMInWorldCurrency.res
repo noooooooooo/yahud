@@ -51,7 +51,7 @@
 		"fieldName"		"CurrencyGood"
 		"font"			"MediumNumbers20"
 		"fgcolor"		"Red"
-		"xpos"			"43"
+		"xpos"			"23"
 		"ypos"			"20"
 		"zpos"			"4"
 		"wide"			"80"
