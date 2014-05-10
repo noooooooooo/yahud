@@ -76,8 +76,9 @@ Scheme
         "ya_PositiveSpecBG"        "18 127 220 255"     //Spectator HUD health effect
         "ya_NegativeSpecBG"        "245 54 64 255"      //
         
-        "ya_NameSpecBG"  		"227 227 227 255"   //Middle BG
-        "ya_NameSpec" 			"18 18 18 255"      //Name font color
+        "ya_NameSpecBG"  		"227 227 227 255"   	//Middle BG
+		"ya_NameSpecLongBG"		"18 18 18 0"   			//Middle and right BG
+        "ya_NameSpec" 			"18 18 18 255"      	//Name font color
 		
         "ya_ClassBG"			"28 28 28 255"		//Class background and charge cover
 		"ya_RespawnBG"			"100 100 100 255"	//BG

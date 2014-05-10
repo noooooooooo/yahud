@@ -52,7 +52,7 @@
 				"border_armed"		""
 				"paintbackground"	"0"
 
-				"FgColor" "White"
+				"FgColor" "ya_Main"
 	            "defaultFgColor_override" "0 0 0 255"		
 				"armedFgColor_override" "Black"
 				"depressedFgColor_override" "0 0 0 255"
@@ -154,10 +154,10 @@
 		"xpos"			"0"	
 		"ypos"			"0"
 		"zpos"			"-11"
-		"wide"			"225"
+		"wide"			"275"
 		"tall"			"480"
 		"fillcolor"		"ya_BoxBG"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 	}
     "BG"
@@ -265,7 +265,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"ya_Main"
 			"auto_wide_tocontents" "1"
 		}
 	}
@@ -301,10 +301,10 @@
 		"border_armed"		""
 		"paintbackground"	"0"
 			
-		"FgColor" "White"			
-		"defaultFgColor_override" "White"		
+		"FgColor" "ya_Main"			
+		"defaultFgColor_override" "ya_Main"		
 		"armedFgColor_override" "ya_Select"
-		"depressedFgColor_override" "White"
+		"depressedFgColor_override" "ya_Main"
 			
 		"image_drawcolor"	"0 0 0 0"
 		"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
@@ -863,10 +863,10 @@
 			"paintbackground"	"1"
             
             "defaultFgColor_override"   "Black"
-			"defaultBgColor_override"	"White"
+			"defaultBgColor_override"	"ya_Main"
 			"armedBgColor_override"		"ya_Select"
-			"armedFgColor_override"		"White"
-			"depressedBgColor_override"	"White"
+			"armedFgColor_override"		"ya_Main"
+			"depressedBgColor_override"	"ya_Main"
 			"depressedFgColor_override"	"Black"
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"
@@ -1083,10 +1083,10 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"FgColor" "White"		
-			"defaultFgColor_override" "White"	
+			"FgColor" "ya_Main"		
+			"defaultFgColor_override" "ya_Main"	
 			"armedFgColor_override" "ya_Select"
-			"depressedFgColor_override" "White"	
+			"depressedFgColor_override" "ya_Main"	
 			
 			"image_drawcolor"	"0 0 0 0"
 			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
@@ -1145,10 +1145,10 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"FgColor" "White"		
-			"defaultFgColor_override" "White"		
+			"FgColor" "ya_Main"		
+			"defaultFgColor_override" "ya_Main"		
 			"armedFgColor_override" "ya_Select"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "ya_Main"
 			
 			"image_drawcolor"	"0 0 0 0"
 			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
@@ -1207,10 +1207,10 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"FgColor"  "White"
-			"defaultFgColor_override"  "White"
+			"FgColor"  "ya_Main"
+			"defaultFgColor_override"  "ya_Main"
 			"armedFgColor_override"   "ya_Select"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "ya_Main"
 			
 			"image_drawcolor"	"0 0 0 0"
 			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
@@ -1270,10 +1270,10 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"FgColor" "White"	
-			"defaultFgColor_override" "White"
+			"FgColor" "ya_Main"	
+			"defaultFgColor_override" "ya_Main"
 			"armedFgColor_override" "ya_Select"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "ya_Main"
 			
 			"image_drawcolor"	"0 0 0 0"
 			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
@@ -1332,10 +1332,10 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 
-			"FgColor" "White"			
-			"defaultFgColor_override" "White"
+			"FgColor" "ya_Main"			
+			"defaultFgColor_override" "ya_Main"
 			"armedFgColor_override" "ya_Select"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "ya_Main"
 			
 			"image_drawcolor"	"0 0 0 0"
 			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
@@ -1457,10 +1457,10 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"FgColor" "White"		
-			"defaultFgColor_override" "White"	
+			"FgColor" "ya_Main"		
+			"defaultFgColor_override" "ya_Main"	
 			"armedFgColor_override" "ya_Select"
-			"depressedFgColor_override" "White"	
+			"depressedFgColor_override" "ya_Main"	
 			
 			"image_drawcolor"	"0 0 0 0"
 			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
@@ -1520,10 +1520,10 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"FgColor" "White"			
-			"defaultFgColor_override" "White"		
+			"FgColor" "ya_Main"			
+			"defaultFgColor_override" "ya_Main"		
 			"armedFgColor_override" "ya_Select"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "ya_Main"
 			
 			"image_drawcolor"	"0 0 0 0"
 			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
@@ -1759,10 +1759,10 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"FgColor" "White"		
-			"defaultFgColor_override" "White"
+			"FgColor" "ya_Main"		
+			"defaultFgColor_override" "ya_Main"
 			"armedFgColor_override" "ya_Select"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "ya_Main"
 			
 			"image_drawcolor"	"0 0 0 0"
 			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
@@ -1821,10 +1821,10 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"FgColor"  "White"	
-			"defaultFgColor_override"  "White"	
+			"FgColor"  "ya_Main"	
+			"defaultFgColor_override"  "ya_Main"	
 			"armedFgColor_override" "ya_Select"
-			"depressedFgColor_override" "White"	
+			"depressedFgColor_override" "ya_Main"	
 			
 			"image_drawcolor"	"0 0 0 0"
 			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
@@ -1883,10 +1883,10 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"FgColor"  "White"	
-			"defaultFgColor_override"  "White"	
+			"FgColor"  "ya_Main"	
+			"defaultFgColor_override"  "ya_Main"	
 			"armedFgColor_override" "ya_Select"
-			"depressedFgColor_override" "White"	
+			"depressedFgColor_override" "ya_Main"	
 			
 			"image_drawcolor"	"0 0 0 0"
 			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
@@ -1947,10 +1947,10 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"FgColor" "White"			
-			"defaultFgColor_override" "White"	
+			"FgColor" "ya_Main"			
+			"defaultFgColor_override" "ya_Main"	
 			"armedFgColor_override" "ya_Select"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "ya_Main"
 			
 			"image_drawcolor"	"0 0 0 0"
 			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
@@ -2010,10 +2010,10 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"FgColor" "White"		
-			"defaultFgColor_override" "White"
+			"FgColor" "ya_Main"		
+			"defaultFgColor_override" "ya_Main"
 			"armedFgColor_override" "ya_Select"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "ya_Main"
 			
 			"image_drawcolor"	"0 0 0 0"
 			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
@@ -2073,10 +2073,10 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"FgColor" "White"			
-			"defaultFgColor_override" "White"	
+			"FgColor" "ya_Main"			
+			"defaultFgColor_override" "ya_Main"	
 			"armedFgColor_override" "ya_Select"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "ya_Main"
 			
 			"image_drawcolor"	"0 0 0 0"
 			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
@@ -2136,10 +2136,10 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"FgColor" "White"			
-			"defaultFgColor_override" "White"	
+			"FgColor" "ya_Main"			
+			"defaultFgColor_override" "ya_Main"	
 			"armedFgColor_override" "ya_Select"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "ya_Main"
 			
 			"image_drawcolor"	"0 0 0 0"
 			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
@@ -2198,10 +2198,10 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"FgColor" "White"			
-			"defaultFgColor_override" "White"	
+			"FgColor" "ya_Main"			
+			"defaultFgColor_override" "ya_Main"	
 			"armedFgColor_override" "ya_Select"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "ya_Main"
 			
 			"image_drawcolor"	"0 0 0 0"
 			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
@@ -2260,10 +2260,10 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"FgColor"  "White"	
-			"defaultFgColor_override"  "White"	
+			"FgColor"  "ya_Main"	
+			"defaultFgColor_override"  "ya_Main"	
 			"armedFgColor_override" "ya_Select"
-			"depressedFgColor_override" "White"	
+			"depressedFgColor_override" "ya_Main"	
 			
 			"image_drawcolor"	"0 0 0 0"
 			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
@@ -2322,10 +2322,10 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"FgColor"  "White"	
-			"defaultFgColor_override"  "White"	
+			"FgColor"  "ya_Main"	
+			"defaultFgColor_override"  "ya_Main"	
 			"armedFgColor_override" "ya_Select"
-			"depressedFgColor_override" "White"	
+			"depressedFgColor_override" "ya_Main"	
 			
 			"image_drawcolor"	"0 0 0 0"
 			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
@@ -2519,10 +2519,10 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"FgColor"  "White"	
-			"defaultFgColor_override"  "White"	
+			"FgColor"  "ya_Main"	
+			"defaultFgColor_override"  "ya_Main"	
 			"armedFgColor_override" "ya_Select"
-			"depressedFgColor_override" "White"	
+			"depressedFgColor_override" "ya_Main"	
 			
 			"image_drawcolor"	"0 0 0 0"
 			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
@@ -2725,10 +2725,10 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"FgColor"  "White"	
-			"defaultFgColor_override"  "White"	
+			"FgColor"  "ya_Main"	
+			"defaultFgColor_override"  "ya_Main"	
 			"armedFgColor_override" "ya_Select"
-			"depressedFgColor_override" "White"	
+			"depressedFgColor_override" "ya_Main"	
 			
 			"image_drawcolor"	"0 0 0 0"
 			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
@@ -2781,10 +2781,10 @@
 		"border_armed"		""
 		"paintbackground"	"0"
 
-		"FgColor" "White"	
-		"defaultFgColor_override" "White"	
+		"FgColor" "ya_Main"	
+		"defaultFgColor_override" "ya_Main"	
 		"armedFgColor_override" "ya_Select"
-		"depressedFgColor_override" "White"
+		"depressedFgColor_override" "ya_Main"
 			
 		"image_drawcolor"	"0 0 0 0"
 		"image_armedcolor" "74 74 74 255" //	"255 255 255 255"

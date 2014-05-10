@@ -70,7 +70,22 @@
 				"visible"			"1"
 				"enabled"			"1"
 			}
-            
+            "LongBG"
+			{
+				"ControlName" "ImagePanel"
+				"fieldName"   "LongBG"
+				"xpos"        "42"
+				"ypos"        "0"
+				"zpos"        "-10"
+				"wide"        "200"
+				"tall"        "16"
+				"autoResize"		"0"
+				"pinCorner"		"0"
+				"fillcolor"		"ya_NameSpecLongBG"
+				"visible"			"1"
+				"enabled"			"1"
+			}
+			
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"

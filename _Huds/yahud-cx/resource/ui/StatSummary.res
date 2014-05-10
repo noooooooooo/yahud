@@ -28,6 +28,7 @@
         "pinCorner"		"0"
         "visible"		"1"
         "enabled"		"1"
+		"fgcolor"		"ya_Main"
     }
     
 	"MainBackground"
@@ -57,10 +58,10 @@
 		"image"			"../console/background_upward_widescreen"
 		"scaleImage"	"1"
 	}    
-    "MainBG"
+    "ya_flBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"MainBG"
+		"fieldName"		"ya_flBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"202"
@@ -68,6 +69,19 @@
 		"tall"			"480"
 		"fillcolor"		"ya_MainBG"
 		"visible"		"1"
+		"enabled"		"1"
+	}
+	"ya_BoxBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ya_BoxBG"
+		"xpos"			"0"	
+		"ypos"			"0"
+		"zpos"			"203"
+		"wide"			"275"
+		"tall"			"480"
+		"fillcolor"		"ya_BoxBG"
+		"visible"		"0"
 		"enabled"		"1"
 	}
     "MainBGequal"
@@ -289,7 +303,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
 		"font"			"Bold16"
-        "fgcolor_override"		"White"
+        "fgcolor_override"		"ya_Main"
 		"labelText"		"%maplabel%"
 		"textAlignment"		"west"
 		"xpos"			"19"
