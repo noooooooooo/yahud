@@ -55,11 +55,11 @@ Scheme
         
         "ya_Health"				"227 227 227 255"    
         "ya_Positive"			"11 150 224 255"    //Buffed HP font color   
-        "ya_Negative"			"227 227 227 255"    //Low HP
+        "ya_Negative"			"224 11 115 255"    //Low HP
         "ya_PositiveBG"			"18 127 220 0"     //HP effects
         "ya_NegativeBG"			"245 54 64 0"      //
 		
-        "ya_Uber"					"148 148 148 255"   
+        "ya_Uber"					"227 227 227 255"   
         "ya_UberReady"         		"224 11 115 255"	//Percentage color when ready
         "ya_UberReadyMeter"			"224 11 115 255"		//Uber meter ready color
         "ya_UberReadyMeterFlash"	"224 11 115 255"
@@ -73,8 +73,8 @@ Scheme
         //// SPEC ////
         
         "ya_HealthSpecBG"          "18 18 18 150"       //
-        "ya_PositiveSpecBG"        "227 227 2227 235"     //Spectator HUD health effect
-        "ya_NegativeSpecBG"        "224 11 115 235"      //
+        "ya_PositiveSpecBG"        "18 18 18 150"     //Spectator HUD health effect
+        "ya_NegativeSpecBG"        "18 18 18 150"     //
         
         "ya_NameSpecBG"  		"18 18 18 150"   		//Middle BG
 		"ya_NameSpecLongBG"		"18 18 18 0"   			//Middle and right BG
@@ -119,9 +119,9 @@ Scheme
         "ya_BoxBG"				"227 227 227 0"   //for main hud & menu bg
 		"ya_AmmoLowBG"			"0 0 0 0"			
 		
-		//// cross COLORS ////
+		//// mx COLORS ////
 		
-		"ya_Shadow"             "18 18 18 255"			//Shadows under numbers
+		"ya_Shadow"             "0 0 0 0"			//Shadows under numbers
 		
 		//// universal ////
 		
