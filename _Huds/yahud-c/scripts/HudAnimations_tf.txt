@@ -83,7 +83,7 @@ event HudHealthBonusPulseStop
     Animate	PlayerStatusHealthValueSpec 	FgColor		"ya_Health"	        Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueTour  	FgColor		"ya_Health"            Accel 0.0 0.0
     
-    Animate	HealthBG 	     BgColor		"Blank"	       Accel 0.0 0.0
+    Animate	HealthBG 	     BgColor		"ya_BoxBG"	       Accel 0.0 0.0
     Animate	HealthBG 	     Alpha		    "255"		           Accel 0.0 0.0
     
 	Animate	TargetHPBG 	     BgColor		"NameHPBG"	       Accel 0.0 0.0
@@ -147,7 +147,7 @@ event HudHealthDyingPulseStop
     Animate	PlayerStatusHealthValueSpec 	FgColor		"ya_Health"	         Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueTour  	FgColor		"ya_Health"             Accel 0.0 0.0
     
-    Animate	HealthBG 	     BgColor		"Blank"	       Accel 0.0 0.0
+    Animate	HealthBG 	     BgColor		"ya_BoxBG"	       Accel 0.0 0.0
     Animate	HealthBG 	     Alpha		    "255"		           Accel 0.0 0.0
     
 	Animate	TargetHPBG 	     BgColor		"NameHPBG"	       Accel 0.0 0.0
@@ -171,9 +171,7 @@ event LowAmmoPulse
 	Animate	AmmoInReserve	FgColor		"ya_AmmoLow"            Accel 0.0 0.0
 	Animate	AmmoNoClip		FgColor		"ya_AmmoLow"	         Accel 0.0 0.0
     
-	Animate	AmmoBG 	                BgColor		"Blank"	        linear 0.0 0.0
-    
-    Animate	AmmoBGBox 	                BgColor		"BoxBGNegative"	        linear 0.0 0.0
+	Animate	AmmoBG 	                BgColor		"ya_AmmoLowBG"	        linear 0.0 0.0
 	
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
@@ -192,9 +190,7 @@ event HudLowAmmoPulseStop
 	Animate	AmmoInReserve	FgColor		"ya_AmmoReserve"    Accel 0.0 0.0
 	Animate	AmmoNoClip		FgColor		"ya_Ammo"	         Accel 0.0 0.0
     
-	Animate	AmmoBG 	                BgColor		"Blank"	        linear 0.0 0.0
-    
-    Animate	AmmoBGBox 	                BgColor		"ya_BoxBG"	        linear 0.0 0.0
+	Animate	AmmoBG 	                BgColor		"ya_BoxBG"	        linear 0.0 0.0
 }
 
 //===========================================
@@ -206,7 +202,6 @@ event HudLowAmmoPulseStop
 event HudMedicCharged
 {
 	Animate	MedicBG 	            BgColor		"ya_UberReadyBG"		linear 0.0 0.0
-    Animate	MedicBGBox 	            BgColor		"BoxBGUber"		linear 0.0 0.0
     
     
     Animate ChargeLabel             FgColor		"ya_UberReady"		    linear 0.0 0.0
@@ -231,8 +226,7 @@ event HudMedicChargedStop
 	StopEvent ChargeLabel 0.0
 	StopEvent ChargeMeter 0.0
 
-    Animate	MedicBG 	            BgColor		"Blank"	       linear 0.0 0.0
-    Animate	MedicBGBox 	            BgColor		"ya_BoxBG"	       linear 0.0 0.0
+    Animate	MedicBG 	            BgColor		"ya_BoxBG"	       linear 0.0 0.0
     
 	Animate	ChargeLabel 	        FgColor		"ya_Uber"		   linear 0.0 0.0001
 	Animate	ChargeMeter 	        FgColor		"White"		   linear 0.0 0.0001
