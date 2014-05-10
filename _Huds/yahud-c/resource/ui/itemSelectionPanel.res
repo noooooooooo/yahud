@@ -118,7 +118,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"MenuLabel"
+		"fgcolor_override"	"Blank"
 	}
 	
 	"TopLine"
