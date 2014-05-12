@@ -77,7 +77,7 @@
 		"ypos"	        "341"		
 		"zpos"			"7"
 		"wide"	        "95" 
-		"tall"	        "42" 
+		"tall"	        "43" 
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"east"			
